@@ -14,6 +14,24 @@ jQuery(document).ready(function ($) {
 
     });
 
+    $( "#contact" ).validate({
+        rules: {
+            human: "required",
+            human_again: {
+                equalTo: "#human"
+            }
+        }
+    });
+
+    $( "#warranty" ).validate({
+        rules: {
+            human: "required",
+            human_again: {
+                equalTo: "#human"
+            }
+        }
+    });
+
     Placeholders.init({
         live: true, //Apply to future and modified elements too
         hideOnFocus: true //Hide the placeholder when the element receives focus

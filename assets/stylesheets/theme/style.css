@@ -14,7 +14,16 @@ body
 
 body.home .ui-tabs .ui-tabs-nav li a { float: left; padding: .5em 1em; text-decoration: none; font-size: 13px;}
 
+.error.clearfix {
+    background: orangered;
+    border: 1px solid red;
+    color: white !important;
+    padding: 10px 10px 0;
+}
 
+.error.clearfix p {
+    color: white;
+}
 
 
 /***** Headings *****/

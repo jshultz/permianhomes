@@ -72,19 +72,39 @@
                                 responsibility.</p>
 
                             <h3>Warranty Request</h3>
-                            <?php echo validation_errors(); ?>
-                            <?=form_open('/site/newcontact', 'class=nice');?>
+
+                            <?php
+                                if ($error != '') {
+                                    echo '<div class="error clearfix" style="display:block"><p>' . $error . '</p></div>';
+                                }
+                            ?>
+
+                            <?=form_open('/site/newcontact', 'class=nice id=warranty');?>
+
                             <?=form_fieldset('');?>
                             <input type="hidden" name="recipient" value="warranty">
-                            <?=form_input('firstname', '', 'class="input-text" placeholder="First Name"'); ?>
-                            <?=form_input('lastname', '', 'class="input-text" placeholder="Last Name"'); ?>
-                            <?=form_input('email', '', 'class="input-text" placeholder="Email Address"'); ?>
-                            <?=form_input('street', '', 'class="input-text" placeholder="Street Address"'); ?>
-                            <?=form_input('city', '', 'class="input-text" placeholder="City"'); ?>
-                            <?=form_input('state', '', 'class="input-text" placeholder="State"'); ?>
-                            <?=form_input('zip', '', 'class="input-text" placeholder="Zip"'); ?>
-                            <?=form_input('telephone', '', 'class="input-text" placeholder="Telephone"'); ?>
+                            <?=form_input('firstname', '', 'class="input-text required" placeholder="First Name"'); ?>
+                            <?=form_input('lastname', '', 'class="input-text required" placeholder="Last Name"'); ?>
+                            <?=form_input('email', '', 'class="input-text required" placeholder="Email Address"'); ?>
+                            <?=form_input('street', '', 'class="input-text required" placeholder="Street Address"'); ?>
+                            <?=form_input('city', '', 'class="input-text required" placeholder="City"'); ?>
+                            <?=form_input('state', '', 'class="input-text required" placeholder="State"'); ?>
+                            <?=form_input('zip', '', 'class="input-text required" placeholder="Zip"'); ?>
+                            <?=form_input('telephone', '', 'class="input-text required" placeholder="Telephone"'); ?>
                             <?=form_textarea('message', '', 'placeholder="Services Requested..."'); ?>
+                            <p>
+                                <label for="human">
+                                    Are You Human (YES)?:
+                                </label><br/>
+                                <input type="text" name="human" id="human" value="<?php echo set_value('human');?>">
+                            </p>
+                            <p>
+                                <label for="human_again">
+                                    Please type the same word again:
+                                </label><br/>
+                                <input type="text" name="human_again" id="human_again" value="<?php echo set_value('human_again');?>">
+                            </p>
+
                             <?=form_submit('mysubmit', 'Submit', 'class="blue button radius"');?>
                             <?=form_fieldset_close();?>
                             <?=form_close();?>
@@ -100,6 +120,12 @@
 	                    <!-- Contact Us -->
                         <div id="tabs-3">
                             <h1>Contact Us</h1>
+
+                            <?php
+                            if ($error != '') {
+                                echo '<div class="error clearfix" style="display:block"><p>' . $error . '</p></div>';
+                            }
+                            ?>
 
                             <section class="clearfix">
                                 <article itemscope="" itemtype="http://schema.org/RealEstateAgent" class="contactus clearfix">
@@ -149,18 +175,37 @@
 	                            Phone 432-362-3436<br/>
 	                            Fax 866-497-6551</p>
                             <?php echo validation_errors(); ?>
-                            <?=form_open('/site/newcontact', 'class=nice');?>
+                            <?php
+                                if ($error != '') {
+                                    echo '<div class="error">' . $error . '</div>';
+                                }
+                            ?>
+                            <?=form_open('/site/newcontact', 'class=nice id=contact');?>
                             <?=form_fieldset('');?>
                             <input type="hidden" name="recipient" value="contactus">
-                            <?=form_input('firstname', '', 'class="input-text" placeholder="First Name"'); ?>
-                            <?=form_input('lastname', '', 'class="input-text" placeholder="Last Name"'); ?>
-                            <?=form_input('email', '', 'class="input-text" placeholder="Email Address"'); ?>
-                            <?=form_input('street', '', 'class="input-text" placeholder="Street Address"'); ?>
-                            <?=form_input('city', '', 'class="input-text" placeholder="City"'); ?>
-                            <?=form_input('state', '', 'class="input-text" placeholder="State"'); ?>
-                            <?=form_input('zip', '', 'class="input-text" placeholder="Zip"'); ?>
-                            <?=form_input('telephone', '', 'class="input-text" placeholder="Telephone"'); ?>
-                            <?=form_textarea('message', '', 'placeholder="Need more information..."'); ?>
+                            <?=form_input('firstname', '', 'class="input-text required" placeholder="First Name"'); ?><br/>
+                            <?=form_input('lastname', '', 'class="input-text required" placeholder="Last Name"'); ?><br/>
+                            <?=form_input('email', '', 'class="input-text required" placeholder="Email Address"'); ?><br/>
+                            <?=form_input('street', '', 'class="input-text required" placeholder="Street Address"'); ?><br/>
+                            <?=form_input('city', '', 'class="input-text required" placeholder="City"'); ?><br/>
+                            <?=form_input('state', '', 'class="input-text required" placeholder="State"'); ?><br/>
+                            <?=form_input('zip', '', 'class="input-text required" placeholder="Zip"'); ?><br/>
+                            <?=form_input('telephone', '', 'class="input-text required" placeholder="Telephone"'); ?><br/>
+                            <?=form_textarea('message', '', 'placeholder="Need more information..."'); ?><br/>
+
+                            <p>
+                                <label for="human">
+                                    Are You Human (YES)?:
+                                </label><br/>
+                                <input type="text" name="human" id="human" value="<?php echo set_value('human');?>">
+                            </p>
+                            <p>
+                                <label for="human_again">
+                                    Please type the same word again:
+                                </label><br/>
+                                <input type="text" name="human_again" id="human_again" value="<?php echo set_value('human_again');?>">
+                            </p>
+
                             <?=form_submit('mysubmit', 'Submit', 'class="blue button radius"');?>
                             <?=form_fieldset_close();?>
                             <?=form_close();?>

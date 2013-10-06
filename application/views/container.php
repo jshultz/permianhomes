@@ -31,6 +31,7 @@ $this->load->view('footer');
 <script language="javascript" type="text/javascript" src="<?php echo base_url();?>assets/js/jquery.tweet.js"></script>
 <script language="javascript" type="text/javascript" src="<?php echo base_url();?>assets/js/jqueryScripts.js"></script>
 <script language="javascript" type="text/javascript" src="<?php echo base_url();?>assets/js/placeholder.min.js"></script>
+<script language="javascript" type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.js"></script>
 <script language="javascript" type="text/javascript" src="<?php echo base_url();?>assets/js/app.js"></script>
 
 <script type="text/javascript">
