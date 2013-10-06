@@ -1,0 +1,12 @@
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+$route["home"] = "pages/index/1/1";
+$route["real_estate/past_properties"] = "pages/index/1/22";
+$route["about/thank_you"] = "pages/index/1/21";
+$route["about"] = "pages/index/1/7";
+$route["video"] = "pages/index/1/24";
+$route["design_center"] = "pages/index/1/23";
+$route["about/finally_home"] = "pages/index/1/20";
+$route["advantages"] = "pages/index/1/14";
+$route["search"] = "pages/index/1/19";
+$route["real_estate"] = "pages/index/1/17";
+$route["real_estate/property"] = "pages/index/1/18";
