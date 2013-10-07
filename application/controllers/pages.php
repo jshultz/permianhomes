@@ -65,7 +65,6 @@
 			$data['sidebar']       = 'sidebars/permian_sidebar';
 
             $data['error'] = $this->session->userdata('form_error');
-            var_dump($this->session->userdata('form_error'));
 
 			$this->load->view('container', $data);
 		}
