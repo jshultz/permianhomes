@@ -75,10 +75,20 @@
                 <img src="/assets/images/site-images/kaete_hawkins.jpg">
             <aside>
                 <strong><span itemprop="name">Kaete Hawkins</span></strong><br/>
-                Assistant Sales Representative<br/>
+                Sales Manager<br/>
                 432.260.4017<br/> <a href="mailto:kaete@permianhomes.com">kaete@permianhomes.com</a>
             </aside>
                 </div>
+        </li>
+        <li><div itemscope="" itemtype="http://schema.org/RealEstateAgent">
+                <meta itemprop="image" content="http://permianhomes.com/assets/images/site-images/kaete_hawkins.jpg">
+                <img src="http://dummyimage.com/51x69&text=Photo Coming Soon" alt="" />
+                <aside>
+                    <strong><span itemprop="name">Angie Flores</span></strong><br/>
+                    Assistant Sales Representative<br/>
+                    Cell: 432.631.5580<br/> <a href="mailto:angie@permianhomes.com">angie@permianhomes.com</a>
+                </aside>
+            </div>
         </li>
 
     </ul>

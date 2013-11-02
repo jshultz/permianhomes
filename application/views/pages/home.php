@@ -1,7 +1,7 @@
 <div id="subHeader" class="clearFix"> <!-- begin: subheader -->
 
     <div id="bannerLeftWrapper">  <!-- begin: bannerLeftWrapper -->
-        <h2><a href="#">Welcome to Permian Homes</a></h2>
+        <h2><a href="#">Be Proud of Your Home</a></h2>
 
         <p>&nbsp;</p>
 

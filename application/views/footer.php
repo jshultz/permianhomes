@@ -6,7 +6,7 @@
 
 		<div id="footerContent"> <!-- begin: footerContent -->
 
-			<p id="copyRight"><a href="http://www.hud.gov/offices/fheo/"><img src="/assets/images/theme/equal_housing_logo.gif"></a> Permian real Estate | All Rights Reserved | <a href="http://openskymedia.com">Website Design by Open Sky Media, LLC.</a> </p>
+			<p id="copyRight"><a href="http://www.hud.gov/offices/fheo/"><img src="/assets/images/theme/equal_housing_logo.gif"></a> Permian Real Estate | All Rights Reserved | <a href="http://openskymedia.com">Website Design by Open Sky Media, LLC.</a> </p>
 
 			<h2 id="footerLogo"><a href="#"><span>Permian Homes</span></a></h2>
 

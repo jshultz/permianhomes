@@ -145,7 +145,7 @@ body { background: #FFFFFF; 	border-top: 2px solid #406E7B; }
 }
 h1#logo
 {
-	width: 312px;
+	width: 202px;
 	height: 60px;
 	margin: 0px;
 	padding: 0px;
@@ -160,9 +160,9 @@ h1#logo
 h1#logo a
 {
 	display: block;
-	width: 302px;
+	width: 191px;
 	height: 50px;
-	background: url(/assets/images/theme/Permian_Homes_Real_Estate.png) no-repeat left top;
+	background: url(/assets/images/theme/Permian-Homes-Texas-Real-Estate.jpg) no-repeat left top;
     margin: 5px;
 }
 #subHeader
@@ -211,14 +211,14 @@ h1#logo a
 {
 	position: absolute;
 	right: 15px;
-	width: 302px;
+	width: 192px;
 	height: 50px;
-	background: url(/assets/images/theme/Permian_Homes_Real_Estate.png) no-repeat left top;
+	background: url(/assets/images/theme/Permian-Homes-Texas-Real-Estate.jpg) no-repeat left top;
 }
 #footerLogo a
 {
 	display: block;
-	width: 302px;
+	width: 210px;
 	height: 50px;
 }
 /*End: Page Structure and Layout */
