@@ -1,6 +1,6 @@
 <?php
 /**
- * Created by JetBrains PhpStorm.
+* Created by JetBrains PhpStorm.
  * User: jason
  * Date: 11/17/12
  * Time: 9:50 AM
@@ -171,14 +171,13 @@ echo '';
 
     <p align="left"><strong>Exteriors</strong></p>
     <ul>
-        <li>Low maintenance exteriors</li>
+        <li>Low maintenance brick and EIFS exteriors</li>
         <li>Architectural grade 30 year shingles</li>
         <li>Large, dual paned, Low-E, 366 vinyl windows</li>
         <li>Insulated fiberglass entry door with deadbolt lock</li>
         <li>Decorative security lighting</li>
         <li>Weatherproof exterior outlets and hose bibs</li>
         <li>Privacy fence around back and side yards</li>
-        <li>Water Conserving Xeriscaped Front Yards</li>
         <li>Large covered patios and porches</li>
     </ul>
     <p><strong>Interiors</strong></p>
@@ -190,7 +189,7 @@ echo '';
         <li>Energy saving compact florescent light (CFL) bulbs</li>
         <li>Tray ceilings with 9' and 10' volume ceilings throughout</li>
         <li>Decorative crown molding in living areas</li>
-        <li>Maintenance free Granite Countertops</li>
+        <li>Maintenance free granite countertops everywhere</li>
         <li>Undermount Sinks</li>
         <li>Recessed lighting in tray ceilings</li>
         <li>Decorative orange peel textured walls and ceilings with rounded corners</li>
@@ -300,8 +299,8 @@ echo '';
 
         <article itemscope="" itemtype="http://schema.org/RealEstateAgent" class="contactus clearfix">
 
-            <meta itemprop="image" content="http://permianhomes.com/assets/images/site-images/kaete_hawkins.jpg">
-            <img src="http://dummyimage.com/102x138&text=Photo Coming Soon" alt=""/>
+            <meta itemprop="image" content="http://permianhomes.com/assets/images/site-images/angie_flores.jpg">
+            <img src="/assets/images/site-images/angie_flores.jpg" alt=""/>
             <aside>
                 <p><strong><span itemprop="name">Angie Flores</span></strong><br/>
                     Assistant Sales Representative<br/>
