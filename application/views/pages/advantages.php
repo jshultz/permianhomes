@@ -49,7 +49,7 @@ echo '';
 <div class="panes">
 <!-- The Advantage -->
 <div id="tabs-1">
-    <h1>Permian's Philosophy is simple : We focus on each customer to build one dream at a time</h1>
+    <h1>Be Proud of Your Home</h1>
     <ul>
         <li>
             We build homes focused on high quality and energy efficiency, all at a fair price. From 16 inch spacing between studs, to Optima blown-in upgraded insulation, to energy star 14.5 SEER air conditioners, Permian offers homes with you and your pocket book in mind.
@@ -77,9 +77,9 @@ echo '';
             We provide excellent customer care after move in. Permian is recognized as a builder of choice and carries a 95% customer satisfaction rating for customers in the Permian Basin.
         </li>
     </ul>
-    <p><a href="/assets/pdfs/Permian_Homes_Insert_FINAL.pdf">Does your Builder Pass? Take the Test</a></p>
+    <p><a class="button" style="color: white;" target="_blank" href="/assets/pdfs/Permian_Homes_Insert_FINAL.pdf">Does your Builder Pass? Take the Test!</a></p>
 
-    <p><a href="http://permianomes.com/blog">Testimonials</a></p>
+    <p><a class="button" style="color: white;" href="http://permianhomes.com/blog">Testimonials</a></p>
 
 </div>
 <!-- Building Green -->
