@@ -112,7 +112,7 @@
 		                <h3><a href="/real_estate/#tabs-4">Welcome to Daybreak - A Place to Grow </a></h3>
 		                <img src="/assets/images/site-images/floorplan/Daniela_20Rendering_20A_ezr.jpg">
 
-		                <p class="center"><strong>New Single Family Homes from the $180's</strong></p>
+		                <p class="center"><strong>New Single Family Homes from the $190's</strong></p>
 
 		                <p class="entry">Situated across the street from the Midland Country Club, Daybreak Estates is Permian's newest development. This attractive community offers many included upgrades, large spacious lots, and lavish amenities with plenty of space for room to grow!</p>
 
