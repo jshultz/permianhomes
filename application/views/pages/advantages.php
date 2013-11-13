@@ -1,6 +1,6 @@
 <?php
 /**
- * Created by JetBrains PhpStorm.
+* Created by JetBrains PhpStorm.
  * User: jason
  * Date: 11/17/12
  * Time: 9:50 AM
@@ -49,7 +49,7 @@ echo '';
 <div class="panes">
 <!-- The Advantage -->
 <div id="tabs-1">
-    <h1>Permian's Philosophy is simple : We focus on each customer to build one dream at a time</h1>
+    <h1>Be Proud of Your Home</h1>
     <ul>
         <li>
             We build homes focused on high quality and energy efficiency, all at a fair price. From 16 inch spacing between studs, to Optima blown-in upgraded insulation, to energy star 14.5 SEER air conditioners, Permian offers homes with you and your pocket book in mind.
@@ -77,9 +77,9 @@ echo '';
             We provide excellent customer care after move in. Permian is recognized as a builder of choice and carries a 95% customer satisfaction rating for customers in the Permian Basin.
         </li>
     </ul>
-    <p><a href="/assets/pdfs/Permian_Homes_Insert_FINAL.pdf">Does your Builder Pass? Take the Test</a></p>
+    <p><a class="button" style="color: white;" target="_blank" href="/assets/pdfs/Permian_Homes_Insert_FINAL.pdf">Take the Test!</a></p>
 
-    <p><a href="http://permianomes.com/blog">Testimonials</a></p>
+    <p><a class="button" style="color: white;" href="http://permianhomes.com/blog">Testimonials</a></p>
 
 </div>
 <!-- Building Green -->
@@ -171,14 +171,13 @@ echo '';
 
     <p align="left"><strong>Exteriors</strong></p>
     <ul>
-        <li>Low maintenance exteriors</li>
+        <li>Low maintenance brick and EIFS exteriors</li>
         <li>Architectural grade 30 year shingles</li>
         <li>Large, dual paned, Low-E, 366 vinyl windows</li>
         <li>Insulated fiberglass entry door with deadbolt lock</li>
         <li>Decorative security lighting</li>
         <li>Weatherproof exterior outlets and hose bibs</li>
         <li>Privacy fence around back and side yards</li>
-        <li>Water Conserving Xeriscaped Front Yards</li>
         <li>Large covered patios and porches</li>
     </ul>
     <p><strong>Interiors</strong></p>
@@ -190,7 +189,7 @@ echo '';
         <li>Energy saving compact florescent light (CFL) bulbs</li>
         <li>Tray ceilings with 9' and 10' volume ceilings throughout</li>
         <li>Decorative crown molding in living areas</li>
-        <li>Maintenance free Granite Countertops</li>
+        <li>Maintenance free granite countertops everywhere</li>
         <li>Undermount Sinks</li>
         <li>Recessed lighting in tray ceilings</li>
         <li>Decorative orange peel textured walls and ceilings with rounded corners</li>
@@ -300,8 +299,8 @@ echo '';
 
         <article itemscope="" itemtype="http://schema.org/RealEstateAgent" class="contactus clearfix">
 
-            <meta itemprop="image" content="http://permianhomes.com/assets/images/site-images/kaete_hawkins.jpg">
-            <img src="http://dummyimage.com/102x138&text=Photo Coming Soon" alt=""/>
+            <meta itemprop="image" content="http://permianhomes.com/assets/images/site-images/angie_flores.jpg">
+            <img src="/assets/images/site-images/angie_flores.jpg" alt=""/>
             <aside>
                 <p><strong><span itemprop="name">Angie Flores</span></strong><br/>
                     Assistant Sales Representative<br/>

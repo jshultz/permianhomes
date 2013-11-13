@@ -49,3 +49,6 @@
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s);
   })();
 </script>
+
+<link rel="shortcut icon" href="<?php echo base_url();?>assets/images/theme/favicon.ico" type="image/x-icon">
+<link rel="icon" href="<?php echo base_url();?>assets/images/theme/favicon.ico" type="image/x-icon">

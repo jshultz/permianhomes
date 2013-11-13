@@ -81,8 +81,8 @@
                 </div>
         </li>
         <li><div itemscope="" itemtype="http://schema.org/RealEstateAgent">
-                <meta itemprop="image" content="http://permianhomes.com/assets/images/site-images/kaete_hawkins.jpg">
-                <img src="http://dummyimage.com/51x69&text=Photo Coming Soon" alt="" />
+                <meta itemprop="image" content="http://permianhomes.com/assets/images/site-images/angie_flores.jpg">
+                <img src="/assets/images/site-images/angie_flores.jpg" alt="" />
                 <aside>
                     <strong><span itemprop="name">Angie Flores</span></strong><br/>
                     Assistant Sales Representative<br/>
