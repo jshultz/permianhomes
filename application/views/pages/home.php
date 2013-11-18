@@ -64,18 +64,34 @@
                 <ul class="tabs clearFix">
 
                     <li>
+                        <a href="#firstTab"><span>Daybreak</span></a>
+                    </li>
+
+                    <li>
                         <a href="#thirdTab"><span>Old Course Estates</span></a>
                     </li>
                     <li>
                         <a href="#secondTab"><span>Desert Ridge</span></a>
                     </li>
-	                <li>
-		                <a href="#firstTab"><span>Daybreak</span></a>
-	                </li>
+
 
                 </ul>
 
                 <div class="panes">
+
+                    <!-- Daybreak -->
+                    <div id="firstTab" class="tabcontainer">
+                        <h3><a href="/real_estate/#tabs-4">Welcome to Daybreak - A Place to Grow </a></h3>
+                        <img src="/assets/images/site-images/floorplan/Daniela_20Rendering_20A_ezr.jpg">
+
+                        <p class="center"><strong>New Single Family Homes from the $190's</strong></p>
+
+                        <p class="entry">Situated across the street from the Midland Country Club, Daybreak Estates is Permian's newest development. This attractive community offers many included upgrades, large spacious lots, and lavish amenities with plenty of space for room to grow!</p>
+
+                        <p class="readMoreHolder">
+                            <a href="/real_estate/#tabs-4"><span>Read More</span></a>
+                        </p>
+                    </div>
 
                     <!-- Old Course Estates -->
                     <div id="thirdTab" class="tabcontainer">
@@ -106,20 +122,6 @@
                             <a href="/real_estate/#tabs-1"><span>Read More</span></a>
                         </p>
                     </div>
-
-	                <!-- Daybreak -->
-	                <div id="firstTab" class="tabcontainer">
-		                <h3><a href="/real_estate/#tabs-4">Welcome to Daybreak - A Place to Grow </a></h3>
-		                <img src="/assets/images/site-images/floorplan/Daniela_20Rendering_20A_ezr.jpg">
-
-		                <p class="center"><strong>New Single Family Homes from the $190's</strong></p>
-
-		                <p class="entry">Situated across the street from the Midland Country Club, Daybreak Estates is Permian's newest development. This attractive community offers many included upgrades, large spacious lots, and lavish amenities with plenty of space for room to grow!</p>
-
-		                <p class="readMoreHolder">
-			                <a href="/real_estate/#tabs-4"><span>Read More</span></a>
-		                </p>
-	                </div>
 
                 </div>
 
@@ -308,9 +310,6 @@
 	    <p><strong><a href="http://permianhomes.com/blog/happy-veterans-day/">Happy Veteran's Day!</a></strong></p>
 
 	    <p><strong><a href="http://permianhomes.com/blog/beauty-in-the-details-dreams-of-field-owner-and-permian-homes-contractor-brian-field/">Beauty in the Details: Dreams of Field owner and Permian Homes Contractor Brian Field</a></strong></p>
-
-	    <p><strong><a href="http://permianhomes.com/blog/custom-home-owners-chris-and-angelique-vore/">Custom Home Owners: Chris and Angelique Vore</a></strong></p>
-
 
     </div>
 

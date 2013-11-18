@@ -221,8 +221,6 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
                     <!--            <aside class="floatleft">-->
                     <!---->
                     <!--            </aside>-->
-
-                    <img class="center" src="/assets/images/site-images/floorplan/Daybreak.png">
                 </section>
 
 	            <!-- Isabella -->
