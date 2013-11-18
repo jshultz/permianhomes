@@ -85,6 +85,7 @@
                 <div class="entry" itemprop="description"><!--begin: entry-->
                   
                   <p><?php echo $row->description; ?></p>
+	                <a class="button" href="/real_estate">Calculate My Payment</a>
                 </div>
               </div> 
               <?php 

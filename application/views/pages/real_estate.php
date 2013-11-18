@@ -43,7 +43,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 	        <div id="tabs-2" class="pane">
 		        <h1>Welcome to Old Course Estates &ndash; Affordable Luxury</h1>
 		        <section>
-			        <img src="/assets/images/site-images/OldCourseEstates.jpg">
+			        <img src="/assets/images/site-images/IMG_5443a.png">
 
 			        <p><strong>New Townhomes from the $180's</strong></p>
 		        </section>
@@ -207,7 +207,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
                 <h1>Daybreak Estates &ndash; A Place to Grow</h1>
 
                 <section>
-                    <img width="350px" height="172px" src="/assets/images/site-images/floorplan/DSC_0008.JPG">
+                    <img src="/assets/images/site-images/DSC_0003.png">
 
                 </section>
 
@@ -444,6 +444,8 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
                             }
 
                             ?>
+
+	                        <a class="button" href="/real_estate">Calculate My Payment</a>
                     </p>
                 </div>
 

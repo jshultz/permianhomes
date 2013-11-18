@@ -82,7 +82,7 @@
                     <!-- Daybreak -->
                     <div id="firstTab" class="tabcontainer">
                         <h3><a href="/real_estate/#tabs-4">Welcome to Daybreak - A Place to Grow </a></h3>
-                        <img src="/assets/images/site-images/floorplan/Daniela_20Rendering_20A_ezr.jpg">
+                        <img src="/assets/images/site-images/DSC_0003.png">
 
                         <p class="center"><strong>New Single Family Homes from the $190's</strong></p>
 
@@ -96,7 +96,7 @@
                     <!-- Old Course Estates -->
                     <div id="thirdTab" class="tabcontainer">
                         <h3><a href="/real_estate/#tabs-2">Welcome to Old Course Estates &ndash; Affordable Luxury</a></h3>
-                        <img src="/assets/images/site-images/OldCourseEstates.jpg">
+                        <img src="/assets/images/site-images/IMG_5443a.png">
 
                         <p class="center"><strong>New Townhomes from the $180's</strong></p>
 

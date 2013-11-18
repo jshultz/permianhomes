@@ -10,7 +10,10 @@
 <div id="insideSearchSection">
     <gcse:searchbox-only></gcse:searchbox-only>
 </div>
-
+<br/>
+<p><a class="button" style="color: white;" target="_blank" href="/assets/pdfs/Permian_Homes_Insert_FINAL.pdf">Take the Test!</a>
+	<br/>
+	<a class="button" style="color: white;" href="http://permianhomes.com/blog">Testimonials</a></p>
 
 
 <ul id="widgetHolder">  <!-- begin: widgetHolder -->
