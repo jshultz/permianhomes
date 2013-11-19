@@ -77,9 +77,7 @@ echo '';
             We provide excellent customer care after move in. Permian is recognized as a builder of choice and carries a 95% customer satisfaction rating for customers in the Permian Basin.
         </li>
     </ul>
-    <p><a class="button" style="color: white;" target="_blank" href="/assets/pdfs/Permian_Homes_Insert_FINAL.pdf">Take the Test!</a></p>
 
-    <p><a class="button" style="color: white;" href="http://permianhomes.com/blog">Testimonials</a></p>
 
 </div>
 <!-- Building Green -->

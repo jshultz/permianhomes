@@ -70,14 +70,13 @@
 
 	            <h2>Permian's Preferred Lender</h2>
 
-				<a href="http://buildersfinancial.com"><img src="/assets/images/site-images/builders-financial-logo.png"></a>
+				<a style="display: block; background-color: #808080; width: 418px" href="http://buildersfinancial.com"><img src="/assets/images/site-images/builders-financial-logo.png"></a>
 
                 <p>&nbsp;</p>
 
 	            <h2>Use Our Mortgage Calculator</h2>
 
-	            <p>Are you curious about what your monthly payment might be? Use our complimentary mortgage calculator to get
-		            an idea of what your monthly payments might be. <strong>Do not use commas in the loan amount.</strong></p>
+	            <p>Are you curious on what your monthly payment might be? Use our complimentary mortgage calculator to get an idea. <strong>Do Not Use Commas in the Loan Amount.</strong></p>
 
 	            <div id="mortgage-calc">
 		            <form>
@@ -132,7 +131,24 @@
 					            <label>Enter the loan amount:</label>
 					            <div class="input-prepend">
 						            <span class="add-on">$</span>
-						            <input class="span3" id="amount" type="text" placeholder="Loan Amount">
+						            <?php
+						                if (isset($_GET['price']) && (strlen($_GET['price']) > 0)) {
+
+							                $price = str_replace(",","",$_GET["price"]);
+
+							                echo '<input class="span3" id="amount" type="text" value="' . $price . '" placeholder="Loan Amount">';
+
+						                } elseif (isset($_POST['price']) && (strlen($_POST['price']) > 0)) {
+
+							                $price = str_replace(",","",$_POST["price"]);
+
+							                echo '<input class="span3" id="amount" type="text" value="' . $price . '" placeholder="Loan Amount">';
+
+						                } else {
+							                echo '<input class="span3" id="amount" type="text" value="" placeholder="Loan Amount">';
+						                }
+						            ?>
+
 					            </div>
 				            </div>
 

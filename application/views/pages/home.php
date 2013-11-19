@@ -307,6 +307,8 @@
     <div id="home-widget-flickr" class="home-widget">
         <h2><a href="http://permianhomes.com/blog/">In The News</a> </h2>
 
+	    <p><strong><a href="http://permianhomes.com/blog/homeowners-michael-and-mel/">Meet Homeowners Michael and Mel</a></strong></p>
+
 	    <p><strong><a href="http://permianhomes.com/blog/happy-veterans-day/">Happy Veteran's Day!</a></strong></p>
 
 	    <p><strong><a href="http://permianhomes.com/blog/beauty-in-the-details-dreams-of-field-owner-and-permian-homes-contractor-brian-field/">Beauty in the Details: Dreams of Field owner and Permian Homes Contractor Brian Field</a></strong></p>
