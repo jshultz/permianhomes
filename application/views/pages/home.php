@@ -84,7 +84,7 @@
                         <h3><a href="/real_estate/#tabs-4">Welcome to Daybreak - A Place to Grow </a></h3>
                         <img src="/assets/images/site-images/DSC_0003.png">
 
-                        <p class="center"><strong>New Single Family Homes from the $190's</strong></p>
+                        <p class="center"><strong>New Single Family Homes from the $200's</strong></p>
 
                         <p class="entry">Situated across the street from the Midland Country Club, Daybreak Estates is Permian's newest development. This attractive community offers many included upgrades, large spacious lots, and lavish amenities with plenty of space for room to grow!</p>
 
@@ -307,9 +307,9 @@
     <div id="home-widget-flickr" class="home-widget">
         <h2><a href="http://permianhomes.com/blog/">In The News</a> </h2>
 
-	    <p><strong><a href="http://permianhomes.com/blog/homeowners-michael-and-mel/">Meet Homeowners Michael and Mel</a></strong></p>
+        <p><strong><a href="http://permianhomes.com/blog/permian-homes-and-operation-finally-home-welcome-home-the-busby-family/">Welcome Home Busby Family!</a></strong></p>
 
-	    <p><strong><a href="http://permianhomes.com/blog/happy-veterans-day/">Happy Veteran's Day!</a></strong></p>
+	    <p><strong><a href="http://permianhomes.com/blog/homeowners-michael-and-mel/">Meet Homeowners Michael and Mel</a></strong></p>
 
 	    <p><strong><a href="http://permianhomes.com/blog/beauty-in-the-details-dreams-of-field-owner-and-permian-homes-contractor-brian-field/">Beauty in the Details: Dreams of Field owner and Permian Homes Contractor Brian Field</a></strong></p>
 

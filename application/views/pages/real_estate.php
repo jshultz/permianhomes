@@ -211,7 +211,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 
                 </section>
 
-                <p><strong>New Single Family Homes from the $190's</strong></p>
+                <p><strong>New Single Family Homes from the $200's</strong></p>
 
                 <p class="entry">Situated across the street from the Midland Country Club, Daybreak Estates is Permian's newest
                     development. This attractive community offers many included upgrades, large spacious lots, and lavish
