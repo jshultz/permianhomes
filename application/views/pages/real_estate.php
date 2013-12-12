@@ -337,7 +337,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 	            <!-- Francesca -->
 	            <section class="floorplan clearfix">
 		            <section class="floatleft photo">
-			            <img src="/assets/images/site-images/floorplan/Francesca_Rendering_400.jpg">
+			            <img src="/assets/images/site-images/floorplan/Francesca_Elevation_B.jpg">
 			            <a style="margin-left: 35px" class="clearfix button" target="_blank" href="/assets/pdfs/Permian_Homes_Daybreak_Brochure_Floorplan_6.pdf">Download
 				            Floor
 				            Plan</a>
