@@ -307,7 +307,7 @@
     <div id="home-widget-flickr" class="home-widget">
         <h2><a href="http://permianhomes.com/blog/">In The News</a> </h2>
 
-        <p><strong><a href="http://permianhomes.com/blog/meet-the-ellsworths-2nd-time-permian-home-owners/">Meet the Ellsworth’s, 2nd Time Permian Home Owners</a></strong></p>
+        <p><strong><a href="http://permianhomes.com/blog/meet-the-ellsworths-2nd-time-permian-home-owners/">Meet the Ellsworth's, 2nd Time Permian Home Owners</a></strong></p>
 
         <p><strong><a href="http://permianhomes.com/blog/permian-homes-and-operation-finally-home-welcome-home-the-busby-family/">Welcome Home Busby Family!</a></strong></p>
 
