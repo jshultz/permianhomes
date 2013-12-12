@@ -27,7 +27,7 @@ $this->load->view('footer');
 <!--<script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>-->
 <script src="http://cdn.jquerytools.org/1.2.7/full/jquery.tools.min.js"></script>
 
-<script language="javascript" type="text/javascript" src="<?php echo base_url();?>assets/js/pngfix.js"></script>
+<script language="javascript" type="text/javascrinopept" src="<?php echo base_url();?>assets/js/pngfix.js"></script>
 <script language="javascript" type="text/javascript" src="<?php echo base_url();?>assets/js/jquery.tweet.js"></script>
 <script language="javascript" type="text/javascript" src="<?php echo base_url();?>assets/js/jqueryScripts.js"></script>
 <script language="javascript" type="text/javascript" src="<?php echo base_url();?>assets/js/placeholder.min.js"></script>

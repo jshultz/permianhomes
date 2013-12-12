@@ -214,20 +214,34 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
                 <p><strong>New Single Family Homes from the $200's</strong></p>
 
                 <p class="entry">Situated across the street from the Midland Country Club, Daybreak Estates is Permian's newest
-                    development. This attractive community offers many included upgrades, large spacious lots, and lavish
-                    amenities with plenty of space for room to grow!</p>
+                    development. This attractive community offers many included upgrades, large spacious lots, lavish amenities, and community parks all with plenty of space for room to grow!</p>
 
-                <section class="clearfix" style="width: 100%; display: block">
-                    <!--            <aside class="floatleft">-->
-                    <!---->
-                    <!--            </aside>-->
-                </section>
+	            <section class="clearfix" style="width: 100%; display: block">
+
+		            <aside class="floatleft clearfix">
+			            <h3 style="margin-bottom: 0; padding-bottom: 0;">Sales Center</h3>
+
+			            <p style="margin-top: 5px; ">
+				            6001 San Tea Way<br/>
+				            Midland, TX 79707</p>
+
+			            <p>Sales Center Open Monday &ndash; Saturday 10-6pm, Closed Sunday</p>
+		            </aside>
+		            <div class="floatright clearfix">
+			            <a class=" button" href="/assets/pdfs/Daybreak_Phase_1_Sales_Rendering.pdf" target="_blank">
+				            Download Site Plan</a>
+			            <br>
+			            <a class="button" target="_blank" href="/assets/pdfs/Permian_Homes_Daybreak_Brochure.pdf">Download
+				            Brochure</a>
+		            </div>
+
+	            </section>
 
 	            <!-- Isabella -->
 	            <section class="floorplan clearfix">
 		            <section class="floatleft photo">
 			            <img src="/assets/images/site-images/floorplan/Isabella_Rendering_400.jpg">
-			            <a style="margin-left: 35px" class="clearfix button" target="_blank" href="/assets/pdfs/Isabella.pdf">Download
+			            <a style="margin-left: 35px" class="clearfix button" target="_blank" href="/assets/pdfs/Permian_Homes_Daybreak_Brochure_Floorplan_1.pdf">Download
 				            Floor
 				            Plan</a>
 		            </section>
@@ -237,6 +251,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 
 			            <p>3 Bedroom / 2 Bathroom<br/>
 				            1750 sq.ft. Living / 2460 sq. ft. Total<br/>
+				            Priced at $209,990
 			            </p>
 
 		            </section>
@@ -246,7 +261,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 
 		            <section class="floatleft photo">
 			            <img src="/assets/images/site-images/floorplan/Daniela_20Rendering_20A_ezr.jpg">
-			            <a style="margin-left: 35px" class="clearfix button" target="_blank" href="/assets/pdfs/Daniela.pdf">Download
+			            <a style="margin-left: 35px" class="clearfix button" target="_blank" href="/assets/pdfs/Permian_Homes_Daybreak_Brochure_Floorplan_2.pdf">Download
 				            Floor
 				            Plan</a>
 		            </section>
@@ -258,6 +273,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 
 			            <p>3 Bedroom / 2 Bathroom<br/>
 				            1894 sq.ft. Living / 2584 sq. ft. Total<br/>
+				            Priced at $220,990
 			            </p>
 
 		            </section>
@@ -265,8 +281,8 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 	            <!-- Mirella -->
 	            <section class="floorplan clearfix">
 		            <section class="floatleft photo">
-			            <img src="/assets/images/site-images/floorplan/Mirella_Rendering_400.jpg">
-			            <a style="margin-left: 35px" class="clearfix button" target="_blank" href="/assets/pdfs/Mirella.pdf">Download
+			            <img src="/assets/images/site-images/floorplan/MirellaB.jpg" width="399">
+			            <a style="margin-left: 35px" class="clearfix button" target="_blank" href="/assets/pdfs/Permian_Homes_Daybreak_Brochure_Floorplan_3.pdf">Download
 				            Floor
 				            Plan</a>
 		            </section>
@@ -275,6 +291,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 
 			            <p>4 Bedroom / 2 Bathroom<br/>
 				            2005 sq.ft. Living / 2680 sq. ft. Total<br/>
+				            Priced at $230,990
 			            </p>
 
 		            </section>
@@ -282,8 +299,8 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 	            <!-- Erminia -->
 	            <section class="floorplan clearfix">
 		            <section class="floatleft photo">
-			            <img src="/assets/images/site-images/floorplan/Erminia_20Rendering_20A_ezr.jpg">
-			            <a style="margin-left: 35px" class="clearfix button" target="_blank" href="/assets/pdfs/Ermina.pdf">Download
+			            <img src="/assets/images/site-images/floorplan/Erminia_B.jpg" width="399">
+			            <a style="margin-left: 35px" class="clearfix button" target="_blank" href="/assets/pdfs/Permian_Homes_Daybreak_Brochure_Floorplan_4.pdf">Download
 				            Floor
 				            Plan</a>
 		            </section>
@@ -292,7 +309,8 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 			            <h3>The Erminia</h3>
 
 			            <p>4 Bedroom / 2 Bathroom<br/>
-				            2020 sq.ft. Living / 2680 sq. ft. Total<br/>
+				            2022 sq.ft. Living / 2680 sq. ft. Total<br/>
+				            Priced at $232,990
 			            </p>
 
 		            </section>
@@ -301,7 +319,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 	            <section class="floorplan clearfix">
 		            <section class="floatleft photo">
 			            <img src="/assets/images/site-images/floorplan/Fabiana_Rendering_400.jpg">
-			            <a style="margin-left: 35px" class="clearfix button" target="_blank" href="/assets/pdfs/Fabiana.pdf">Download
+			            <a style="margin-left: 35px" class="clearfix button" target="_blank" href="/assets/pdfs/Permian_Homes_Daybreak_Brochure_Floorplan_5.pdf">Download
 				            Floor
 				            Plan</a>
 		            </section>
@@ -311,6 +329,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 
 			            <p>3 Bedroom / 2 Bathroom<br/>
 				            2300 sq.ft. Living / 3186 sq. ft. Total<br/>
+				            Priced at $248,990
 			            </p>
 
 		            </section>
@@ -319,7 +338,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 	            <section class="floorplan clearfix">
 		            <section class="floatleft photo">
 			            <img src="/assets/images/site-images/floorplan/Francesca_Rendering_400.jpg">
-			            <a style="margin-left: 35px" class="clearfix button" target="_blank" href="/assets/pdfs/Francesca.pdf">Download
+			            <a style="margin-left: 35px" class="clearfix button" target="_blank" href="/assets/pdfs/Permian_Homes_Daybreak_Brochure_Floorplan_6.pdf">Download
 				            Floor
 				            Plan</a>
 		            </section>
@@ -327,7 +346,8 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 			            <h3>The Francesca</h3>
 
 			            <p>4 Bedroom / 2 Bathroom<br/>
-				            2260 sq.ft. Living / 2994 sq. ft. Total<br/>
+				            2460 sq.ft. Living / 3254 sq. ft. Total<br/>
+				            Priced at $262,990
 			            </p>
 
 		            </section>
@@ -336,7 +356,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 	            <section class="floorplan clearfix">
 		            <section class="floatleft photo">
 			            <img src="/assets/images/site-images/floorplan/Gabriella_Rendering_400.JPG">
-			            <a style="margin-left: 35px" class="clearfix button" target="_blank" href="/assets/pdfs/Gabriella.pdf">Download
+			            <a style="margin-left: 35px" class="clearfix button" target="_blank" href="/assets/pdfs/Permian_Homes_Daybreak_Brochure_Floorplan_7.pdf">Download
 				            Floor
 				            Plan</a>
 		            </section>
@@ -344,7 +364,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 			            <h3>The Gabriella</h3>
 
 			            <p>4 Bedroom / 3 Bathroom<br/>
-				            2771 sq.ft. Living / 3596 sq. ft. Total<br/>
+				            <br/>
 			            </p>
 
 		            </section>
