@@ -222,7 +222,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 			            <h3 style="margin-bottom: 0; padding-bottom: 0;">Sales Center</h3>
 
 			            <p style="margin-top: 5px; ">
-				            6001 San Tea Way<br/>
+				            6001 Sun Tea Way<br/>
 				            Midland, TX 79707</p>
 
 			            <p>Sales Center Open Monday &ndash; Saturday 10-6pm, Closed Sunday</p>
