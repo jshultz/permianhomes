@@ -11,6 +11,8 @@
             <p><strong>Permian Homes</strong> is dedicated to offering quality homes and lasting value for our
                 customers. Our philosophy is simple: <em><a href="/advantages/">We focus on each customer to build one
                     dream at a time.</a></em></p>
+
+            <a style="background-color: red" class="clearfix button red" target="_blank" href="/assets/pdfs/Permian-Homes-Builders-Financial-Flyer-web.pdf">Save $1,500</a>
         </div>
     </div>
     <!-- end: bannerLeftWrapper -->
