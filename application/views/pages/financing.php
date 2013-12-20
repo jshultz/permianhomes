@@ -73,7 +73,7 @@
 				<a style="display: block; background-color: #808080; width: 418px" href="http://buildersfinancial.com"><img src="/assets/images/site-images/builders-financial-logo.png"></a>
 
                 <p>&nbsp;</p>
-                <p><a style="background-color: red; color: white; border: #000000;" class="clearfix button red" target="_blank" href="/assets/pdfs/Permian-Homes-Builders-Financial-Flyer-web.pdf">Save $1,500</a>
+                <p><a style="background-color: red; color: white; border-color: #000000;" class="clearfix button red" target="_blank" href="/assets/pdfs/Permian-Homes-Builders-Financial-Flyer-web.pdf">Save $1,500</a>
                 </p>
 
 	            <h2>Use Our Mortgage Calculator</h2>
