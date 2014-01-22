@@ -290,7 +290,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 			            <h3>The Mirella</h3>
 
 			            <p>4 Bedroom / 2 Bathroom<br/>
-				            2005 sq.ft. Living / 2680 sq. ft. Total<br/>
+				            2004 sq.ft. Living / 2680 sq. ft. Total<br/>
 				            Priced at $230,990
 			            </p>
 
@@ -309,7 +309,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 			            <h3>The Erminia</h3>
 
 			            <p>4 Bedroom / 2 Bathroom<br/>
-				            2022 sq.ft. Living / 2680 sq. ft. Total<br/>
+				            2020 sq.ft. Living / 2680 sq. ft. Total<br/>
 				            Priced at $232,990
 			            </p>
 
@@ -328,7 +328,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 			            <h3>The Fabiana</h3>
 
 			            <p>3 Bedroom / 2 Bathroom<br/>
-				            2300 sq.ft. Living / 3186 sq. ft. Total<br/>
+				            2273 sq.ft. Living / 3186 sq. ft. Total<br/>
 				            Priced at $248,990
 			            </p>
 
@@ -346,7 +346,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 			            <h3>The Francesca</h3>
 
 			            <p>4 Bedroom / 2 Bathroom<br/>
-				            2460 sq.ft. Living / 3254 sq. ft. Total<br/>
+				            2426 sq.ft. Living / 3254 sq. ft. Total<br/>
 				            Priced at $262,990
 			            </p>
 
@@ -364,7 +364,8 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 			            <h3>The Gabriella</h3>
 
 			            <p>4 Bedroom / 3 Bathroom<br/>
-				            <br/>
+                            3247 sq.ft. Living / 4110 sq. ft. Total<br/>
+                            Priced at $294,990
 			            </p>
 
 		            </section>
