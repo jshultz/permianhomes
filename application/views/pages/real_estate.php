@@ -231,7 +231,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 			            <a class=" button" href="/assets/pdfs/Daybreak_Phase_1_Sales_Rendering.pdf" target="_blank">
 				            Download Site Plan</a>
 			            <br>
-			            <a class="button" target="_blank" href="/assets/pdfs/Permian_Homes_Daybreak_Brochure.pdf">Download
+			            <a class="button" target="_blank" href="/assets/pdfs/Permian_Homes_Daybreak_Brochure_FINALweb.pdf">Download
 				            Brochure</a>
 		            </div>
 
@@ -241,7 +241,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 	            <section class="floorplan clearfix">
 		            <section class="floatleft photo">
 			            <img src="/assets/images/site-images/floorplan/Isabella_Rendering_400.jpg">
-			            <a style="margin-left: 35px" class="clearfix button" target="_blank" href="/assets/pdfs/Permian_Homes_Daybreak_Brochure_Floorplan_1.pdf">Download
+			            <a style="margin-left: 35px" class="clearfix button" target="_blank" href="/assets/pdfs/Permian_Homes_Daybreak_Brochure_FINALweb_4.pdf">Download
 				            Floor
 				            Plan</a>
 		            </section>
@@ -261,7 +261,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 
 		            <section class="floatleft photo">
 			            <img src="/assets/images/site-images/floorplan/Daniela_20Rendering_20A_ezr.jpg">
-			            <a style="margin-left: 35px" class="clearfix button" target="_blank" href="/assets/pdfs/Permian_Homes_Daybreak_Brochure_Floorplan_2.pdf">Download
+			            <a style="margin-left: 35px" class="clearfix button" target="_blank" href="/assets/pdfs/Permian_Homes_Daybreak_Brochure_FINALweb_5.pdf">Download
 				            Floor
 				            Plan</a>
 		            </section>
@@ -282,7 +282,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 	            <section class="floorplan clearfix">
 		            <section class="floatleft photo">
 			            <img src="/assets/images/site-images/floorplan/MirellaB.jpg" width="399">
-			            <a style="margin-left: 35px" class="clearfix button" target="_blank" href="/assets/pdfs/Permian_Homes_Daybreak_Brochure_Floorplan_3.pdf">Download
+			            <a style="margin-left: 35px" class="clearfix button" target="_blank" href="/assets/pdfs/Permian_Homes_Daybreak_Brochure_FINALweb_6.pdf">Download
 				            Floor
 				            Plan</a>
 		            </section>
@@ -300,7 +300,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 	            <section class="floorplan clearfix">
 		            <section class="floatleft photo">
 			            <img src="/assets/images/site-images/floorplan/Erminia_B.jpg" width="399">
-			            <a style="margin-left: 35px" class="clearfix button" target="_blank" href="/assets/pdfs/Permian_Homes_Daybreak_Brochure_Floorplan_4.pdf">Download
+			            <a style="margin-left: 35px" class="clearfix button" target="_blank" href="/assets/pdfs/Permian_Homes_Daybreak_Brochure_FINALweb_7.pdf">Download
 				            Floor
 				            Plan</a>
 		            </section>
@@ -319,7 +319,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 	            <section class="floorplan clearfix">
 		            <section class="floatleft photo">
 			            <img src="/assets/images/site-images/floorplan/Fabiana_Rendering_400.jpg">
-			            <a style="margin-left: 35px" class="clearfix button" target="_blank" href="/assets/pdfs/Permian_Homes_Daybreak_Brochure_Floorplan_5.pdf">Download
+			            <a style="margin-left: 35px" class="clearfix button" target="_blank" href="/assets/pdfs/Permian_Homes_Daybreak_Brochure_FINALweb_8.pdf">Download
 				            Floor
 				            Plan</a>
 		            </section>
@@ -338,7 +338,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 	            <section class="floorplan clearfix">
 		            <section class="floatleft photo">
 			            <img src="/assets/images/site-images/floorplan/Francesca_Elevation_B.jpg">
-			            <a style="margin-left: 35px" class="clearfix button" target="_blank" href="/assets/pdfs/Permian_Homes_Daybreak_Brochure_Floorplan_6.pdf">Download
+			            <a style="margin-left: 35px" class="clearfix button" target="_blank" href="/assets/pdfs/Permian_Homes_Daybreak_Brochure_FINALweb_9.pdf">Download
 				            Floor
 				            Plan</a>
 		            </section>
@@ -356,7 +356,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 	            <section class="floorplan clearfix">
 		            <section class="floatleft photo">
 			            <img src="/assets/images/site-images/floorplan/Gabriella_Rendering_400.JPG">
-			            <a style="margin-left: 35px" class="clearfix button" target="_blank" href="/assets/pdfs/Permian_Homes_Daybreak_Brochure_Floorplan_7.pdf">Download
+			            <a style="margin-left: 35px" class="clearfix button" target="_blank" href="/assets/pdfs/Permian_Homes_Daybreak_Brochure_FINALweb_10.pdf">Download
 				            Floor
 				            Plan</a>
 		            </section>
