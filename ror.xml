@@ -21,7 +21,7 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>http://permianhomes.com/about/</link>
+     <link>http://permianhomes.com/advantages/</link>
      <title>Permian Homes: New Home Builder Construction in Midland and </title>
      <description>Permian Homes New Custom Home Construction Builder in Odessa and Midland Texas.</description>
      <ror:updatePeriod>daily</ror:updatePeriod>
@@ -37,7 +37,7 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>http://permianhomes.com/advantages/</link>
+     <link>http://permianhomes.com/financing/</link>
      <title>Permian Homes: New Home Builder Construction in Midland and </title>
      <description>Permian Homes New Custom Home Construction Builder in Odessa and Midland Texas.</description>
      <ror:updatePeriod>daily</ror:updatePeriod>
@@ -53,7 +53,15 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>http://permianhomes.com/pages/index/1/18/16</link>
+     <link>http://permianhomes.com/assets/pdfs/Permian-Homes-Builders-Financial-Flyer-web.pdf</link>
+     <title></title>
+     
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://permianhomes.com/pages/index/1/18/25</link>
      <title>Permian Homes: New Home Builder Construction in Midland and </title>
      <description>Permian Homes New Custom Home Construction Builder in Odessa and Midland Texas.</description>
      <ror:updatePeriod>daily</ror:updatePeriod>
@@ -61,7 +69,7 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>http://permianhomes.com/pages/index/1/18/20</link>
+     <link>http://permianhomes.com/pages/index/1/18/26</link>
      <title>Permian Homes: New Home Builder Construction in Midland and </title>
      <description>Permian Homes New Custom Home Construction Builder in Odessa and Midland Texas.</description>
      <ror:updatePeriod>daily</ror:updatePeriod>
@@ -74,6 +82,38 @@
      <description>Just another WordPress site </description>
      <ror:updatePeriod>daily</ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://permianhomes.com/blog/looking-forward-to-2014/</link>
+     <title>Looking forward to 2014 | Permian Homes: New Home Builder Construction</title>
+     <description>Just another WordPress site </description>
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://permianhomes.com/blog/permian-homes-and-operation-finally-home-welcome-home-the-busby-family/</link>
+     <title>Permian Homes and Operation Finally Home Welcome Home the Busby Family! | Permian Homes: New Home Builder Construction</title>
+     <description>Just another WordPress site </description>
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://permianhomes.com/blog/homeowners-michael-and-mel/</link>
+     <title>Homeowners: Michael and Mel | Permian Homes: New Home Builder Construction</title>
+     <description>Just another WordPress site </description>
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://permianhomes.com/assets/pdfs/Permian_Homes_Insert_FINAL.pdf</link>
+     <title></title>
+     
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -149,6 +189,14 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
+     <link>http://permianhomes.com/pages/index/1/18/16</link>
+     <title>Permian Homes: New Home Builder Construction in Midland and </title>
+     <description>Permian Homes New Custom Home Construction Builder in Odessa and Midland Texas.</description>
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
      <link>http://permianhomes.com/pages/index/1/18/17</link>
      <title>Permian Homes: New Home Builder Construction in Midland and </title>
      <description>Permian Homes New Custom Home Construction Builder in Odessa and Midland Texas.</description>
@@ -173,7 +221,47 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
+     <link>http://permianhomes.com/pages/index/1/18/20</link>
+     <title>Permian Homes: New Home Builder Construction in Midland and </title>
+     <description>Permian Homes New Custom Home Construction Builder in Odessa and Midland Texas.</description>
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://permianhomes.com/pages/index/1/18/21</link>
+     <title>Permian Homes: New Home Builder Construction in Midland and </title>
+     <description>Permian Homes New Custom Home Construction Builder in Odessa and Midland Texas.</description>
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://permianhomes.com/pages/index/1/18/23</link>
+     <title>Permian Homes: New Home Builder Construction in Midland and </title>
+     <description>Permian Homes New Custom Home Construction Builder in Odessa and Midland Texas.</description>
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://permianhomes.com/pages/index/1/18/24</link>
+     <title>Permian Homes: New Home Builder Construction in Midland and </title>
+     <description>Permian Homes New Custom Home Construction Builder in Odessa and Midland Texas.</description>
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
      <link>http://permianhomes.com/assets/pdfs/OldCourseEstatesSite.pdf</link>
+     <title></title>
+     
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://permianhomes.com/assets/pdfs/old-course-2013.pdf</link>
      <title></title>
      
      <ror:updatePeriod>daily</ror:updatePeriod>
@@ -205,7 +293,7 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>http://permianhomes.com/assets/pdfs/Isabella.pdf</link>
+     <link>http://permianhomes.com/assets/pdfs/Daybreak_Phase_1_Sales_Rendering.pdf</link>
      <title></title>
      
      <ror:updatePeriod>daily</ror:updatePeriod>
@@ -213,7 +301,7 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>http://permianhomes.com/assets/pdfs/Daniela.pdf</link>
+     <link>http://permianhomes.com/assets/pdfs/Permian_Homes_Daybreak_Brochure_FINALweb.pdf</link>
      <title></title>
      
      <ror:updatePeriod>daily</ror:updatePeriod>
@@ -221,7 +309,7 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>http://permianhomes.com/assets/pdfs/Mirella.pdf</link>
+     <link>http://permianhomes.com/assets/pdfs/Permian_Homes_Daybreak_Brochure_FINALweb_4.pdf</link>
      <title></title>
      
      <ror:updatePeriod>daily</ror:updatePeriod>
@@ -229,7 +317,7 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>http://permianhomes.com/assets/pdfs/Ermina.pdf</link>
+     <link>http://permianhomes.com/assets/pdfs/Permian_Homes_Daybreak_Brochure_FINALweb_5.pdf</link>
      <title></title>
      
      <ror:updatePeriod>daily</ror:updatePeriod>
@@ -237,7 +325,7 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>http://permianhomes.com/assets/pdfs/Fabiana.pdf</link>
+     <link>http://permianhomes.com/assets/pdfs/Permian_Homes_Daybreak_Brochure_FINALweb_6.pdf</link>
      <title></title>
      
      <ror:updatePeriod>daily</ror:updatePeriod>
@@ -245,7 +333,7 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>http://permianhomes.com/assets/pdfs/Francesca.pdf</link>
+     <link>http://permianhomes.com/assets/pdfs/Permian_Homes_Daybreak_Brochure_FINALweb_7.pdf</link>
      <title></title>
      
      <ror:updatePeriod>daily</ror:updatePeriod>
@@ -253,9 +341,177 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>http://permianhomes.com/assets/pdfs/Gabriella.pdf</link>
+     <link>http://permianhomes.com/assets/pdfs/Permian_Homes_Daybreak_Brochure_FINALweb_8.pdf</link>
      <title></title>
      
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://permianhomes.com/assets/pdfs/Permian_Homes_Daybreak_Brochure_FINALweb_9.pdf</link>
+     <title></title>
+     
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://permianhomes.com/assets/pdfs/Permian_Homes_Daybreak_Brochure_FINALweb_10.pdf</link>
+     <title></title>
+     
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://permianhomes.com/financing?price=232,990</link>
+     <title>Permian Homes: New Home Builder Construction in Midland and </title>
+     <description>Permian Homes New Custom Home Construction Builder in Odessa and Midland Texas.</description>
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://permianhomes.com/financing?price=269,990</link>
+     <title>Permian Homes: New Home Builder Construction in Midland and </title>
+     <description>Permian Homes New Custom Home Construction Builder in Odessa and Midland Texas.</description>
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://permianhomes.com/financing?price=259,990</link>
+     <title>Permian Homes: New Home Builder Construction in Midland and </title>
+     <description>Permian Homes New Custom Home Construction Builder in Odessa and Midland Texas.</description>
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://permianhomes.com/financing?price=175,000</link>
+     <title>Permian Homes: New Home Builder Construction in Midland and </title>
+     <description>Permian Homes New Custom Home Construction Builder in Odessa and Midland Texas.</description>
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://permianhomes.com/financing?price=255,000</link>
+     <title>Permian Homes: New Home Builder Construction in Midland and </title>
+     <description>Permian Homes New Custom Home Construction Builder in Odessa and Midland Texas.</description>
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://permianhomes.com/financing?price=249,000</link>
+     <title>Permian Homes: New Home Builder Construction in Midland and </title>
+     <description>Permian Homes New Custom Home Construction Builder in Odessa and Midland Texas.</description>
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://permianhomes.com/financing?price=169,665</link>
+     <title>Permian Homes: New Home Builder Construction in Midland and </title>
+     <description>Permian Homes New Custom Home Construction Builder in Odessa and Midland Texas.</description>
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://permianhomes.com/financing?price=183,100</link>
+     <title>Permian Homes: New Home Builder Construction in Midland and </title>
+     <description>Permian Homes New Custom Home Construction Builder in Odessa and Midland Texas.</description>
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://permianhomes.com/financing?price=279,990</link>
+     <title>Permian Homes: New Home Builder Construction in Midland and </title>
+     <description>Permian Homes New Custom Home Construction Builder in Odessa and Midland Texas.</description>
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://permianhomes.com/financing?price=219,515</link>
+     <title>Permian Homes: New Home Builder Construction in Midland and </title>
+     <description>Permian Homes New Custom Home Construction Builder in Odessa and Midland Texas.</description>
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://permianhomes.com/financing?price=191,215</link>
+     <title>Permian Homes: New Home Builder Construction in Midland and </title>
+     <description>Permian Homes New Custom Home Construction Builder in Odessa and Midland Texas.</description>
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://permianhomes.com/financing?price=258,990</link>
+     <title>Permian Homes: New Home Builder Construction in Midland and </title>
+     <description>Permian Homes New Custom Home Construction Builder in Odessa and Midland Texas.</description>
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://permianhomes.com/financing?price=272,990</link>
+     <title>Permian Homes: New Home Builder Construction in Midland and </title>
+     <description>Permian Homes New Custom Home Construction Builder in Odessa and Midland Texas.</description>
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://permianhomes.com/financing?price=289,990</link>
+     <title>Permian Homes: New Home Builder Construction in Midland and </title>
+     <description>Permian Homes New Custom Home Construction Builder in Odessa and Midland Texas.</description>
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://permianhomes.com/financing?price=237,990</link>
+     <title>Permian Homes: New Home Builder Construction in Midland and </title>
+     <description>Permian Homes New Custom Home Construction Builder in Odessa and Midland Texas.</description>
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://permianhomes.com/financing?price=187,215</link>
+     <title>Permian Homes: New Home Builder Construction in Midland and </title>
+     <description>Permian Homes New Custom Home Construction Builder in Odessa and Midland Texas.</description>
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://permianhomes.com/financing?price=200,410</link>
+     <title>Permian Homes: New Home Builder Construction in Midland and </title>
+     <description>Permian Homes New Custom Home Construction Builder in Odessa and Midland Texas.</description>
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://permianhomes.com/financing?price=249,990</link>
+     <title>Permian Homes: New Home Builder Construction in Midland and </title>
+     <description>Permian Homes New Custom Home Construction Builder in Odessa and Midland Texas.</description>
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://permianhomes.com/financing?price=223,515</link>
+     <title>Permian Homes: New Home Builder Construction in Midland and </title>
+     <description>Permian Homes New Custom Home Construction Builder in Odessa and Midland Texas.</description>
      <ror:updatePeriod>daily</ror:updatePeriod>
      <ror:sortOrder>2</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
@@ -271,14 +527,6 @@
 <item>
      <link>http://permianhomes.com/blog/about/</link>
      <title>About | Permian Homes: New Home Builder Construction</title>
-     <description>Just another WordPress site </description>
-     <ror:updatePeriod>daily</ror:updatePeriod>
-     <ror:sortOrder>2</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>http://permianhomes.com/blog/old-course-estates-breaking-ground-and-ready-to-sell/</link>
-     <title>Old Course Estates, Breaking Ground and Ready To Sell! | Permian Homes: New Home Builder Construction</title>
      <description>Just another WordPress site </description>
      <ror:updatePeriod>daily</ror:updatePeriod>
      <ror:sortOrder>2</ror:sortOrder>
@@ -309,6 +557,14 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
+     <link>http://permianhomes.com/blog/tag/custom-homes/</link>
+     <title>Permian Homes: New Home Builder Construction</title>
+     <description>Just another WordPress site </description>
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
      <link>http://permianhomes.com/blog/tag/golf-course/</link>
      <title>Permian Homes: New Home Builder Construction</title>
      <description>Just another WordPress site </description>
@@ -326,14 +582,6 @@
 </item>
 <item>
      <link>http://permianhomes.com/blog/tag/home-builder/</link>
-     <title>Permian Homes: New Home Builder Construction</title>
-     <description>Just another WordPress site </description>
-     <ror:updatePeriod>daily</ror:updatePeriod>
-     <ror:sortOrder>2</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>http://permianhomes.com/blog/tag/homebuilder/</link>
      <title>Permian Homes: New Home Builder Construction</title>
      <description>Just another WordPress site </description>
      <ror:updatePeriod>daily</ror:updatePeriod>
@@ -381,6 +629,14 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
+     <link>http://permianhomes.com/blog/tag/single-family-homes/</link>
+     <title>Permian Homes: New Home Builder Construction</title>
+     <description>Just another WordPress site </description>
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
      <link>http://permianhomes.com/blog/tag/townhomes/</link>
      <title>Permian Homes: New Home Builder Construction</title>
      <description>Just another WordPress site </description>
@@ -397,8 +653,8 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>http://permianhomes.com/blog/david-martin-permian-homes-owner-and-vp-of-land-acquisition/</link>
-     <title>David Martin: Permian Homes Owner and VP of Land Acquisition  | Permian Homes: New Home Builder Construction</title>
+     <link>http://permianhomes.com/blog/merry-christmas-from-our-family-to-yours/</link>
+     <title>Merry Christmas from Our Family to Yours! | Permian Homes: New Home Builder Construction</title>
      <description>Just another WordPress site </description>
      <ror:updatePeriod>daily</ror:updatePeriod>
      <ror:sortOrder>2</ror:sortOrder>
@@ -413,8 +669,24 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>http://permianhomes.com/blog/beauty-in-the-details-dreams-of-field-owner-and-permian-homes-contractor-brian-field/</link>
-     <title>Beauty in the Details: Dreams of Field owner and Permian Homes Contractor Brian Field | Permian Homes: New Home Builder Construction</title>
+     <link>http://permianhomes.com/blog/category/permian-homes-homeowners/</link>
+     <title>Permian Homes: New Home Builder Construction</title>
+     <description>Just another WordPress site </description>
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://permianhomes.com/blog/tag/homebuilder/</link>
+     <title>Permian Homes: New Home Builder Construction</title>
+     <description>Just another WordPress site </description>
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://permianhomes.com/blog/exciting-news-about-daybreak-estates/</link>
+     <title>Exciting News About Daybreak Estates!  | Permian Homes: New Home Builder Construction</title>
      <description>Just another WordPress site </description>
      <ror:updatePeriod>daily</ror:updatePeriod>
      <ror:sortOrder>2</ror:sortOrder>
@@ -429,16 +701,80 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>http://permianhomes.com/blog/homeowners-michael-and-mel/</link>
-     <title>Homeowners: Michael and Mel | Permian Homes: New Home Builder Construction</title>
+     <link>http://permianhomes.com/blog/category/uncategorized/</link>
+     <title>Permian Homes: New Home Builder Construction</title>
      <description>Just another WordPress site </description>
      <ror:updatePeriod>daily</ror:updatePeriod>
      <ror:sortOrder>2</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>http://permianhomes.com/blog/category/permian-homes-homeowners/</link>
+     <link>http://permianhomes.com/blog/meet-the-ellsworths-2nd-time-permian-home-owners/</link>
+     <title>Meet the Ellsworth&amp;#8217;s, 2nd Time Permian Home Owners | Permian Homes: New Home Builder Construction</title>
+     <description>Just another WordPress site </description>
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://permianhomes.com/blog/category/permian-home-employees/</link>
      <title>Permian Homes: New Home Builder Construction</title>
+     <description>Just another WordPress site </description>
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://permianhomes.com/blog/tag/operation-finally-home/</link>
+     <title>Permian Homes: New Home Builder Construction</title>
+     <description>Just another WordPress site </description>
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://permianhomes.com/blog/happy-veterans-day/</link>
+     <title>Happy Veteran&amp;#8217;s Day! | Permian Homes: New Home Builder Construction</title>
+     <description>Just another WordPress site </description>
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://permianhomes.com/blog/a-moment-of-gratitude/</link>
+     <title>A Moment of Gratitude  | Permian Homes: New Home Builder Construction</title>
+     <description>Just another WordPress site </description>
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://permianhomes.com/blog/custom-home-owners-chris-and-angelique-vore/</link>
+     <title>Custom Home Owners: Chris and Angelique Vore | Permian Homes: New Home Builder Construction</title>
+     <description>Just another WordPress site </description>
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://permianhomes.com/blog/old-course-estates-breaking-ground-and-ready-to-sell/</link>
+     <title>Old Course Estates, Breaking Ground and Ready To Sell! | Permian Homes: New Home Builder Construction</title>
+     <description>Just another WordPress site </description>
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://permianhomes.com/blog/david-martin-permian-homes-owner-and-vp-of-land-acquisition/</link>
+     <title>David Martin: Permian Homes Owner and VP of Land Acquisition  | Permian Homes: New Home Builder Construction</title>
+     <description>Just another WordPress site </description>
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://permianhomes.com/blog/page/2/</link>
+     <title>Permian Homes: New Home Builder Construction | Just another WordPress site | Page 2</title>
      <description>Just another WordPress site </description>
      <ror:updatePeriod>daily</ror:updatePeriod>
      <ror:sortOrder>2</ror:sortOrder>
@@ -450,6 +786,158 @@
      <description>Just another WordPress site </description>
      <ror:updatePeriod>daily</ror:updatePeriod>
      <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://permianhomes.com/blog/looking-forward-to-2014/feed/</link>
+     <title></title>
+     
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://permianhomes.com/blog/permian-homes-and-operation-finally-home-welcome-home-the-busby-family/feed/</link>
+     <title></title>
+     
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://permianhomes.com/blog/homeowners-michael-and-mel/feed/</link>
+     <title></title>
+     
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://permianhomes.com/blog/author/sunny/page/2/</link>
+     <title>Permian Homes: New Home Builder Construction | Page 2</title>
+     <description>Just another WordPress site </description>
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>3</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://permianhomes.com/blog/tag/home-builder/page/2/</link>
+     <title>Permian Homes: New Home Builder Construction | Page 2</title>
+     <description>Just another WordPress site </description>
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>3</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://permianhomes.com/blog/tag/midland/page/2/</link>
+     <title>Permian Homes: New Home Builder Construction | Page 2</title>
+     <description>Just another WordPress site </description>
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>3</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://permianhomes.com/blog/beauty-in-the-details-dreams-of-field-owner-and-permian-homes-contractor-brian-field/</link>
+     <title>Beauty in the Details: Dreams of Field owner and Permian Homes Contractor Brian Field | Permian Homes: New Home Builder Construction</title>
+     <description>Just another WordPress site </description>
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>3</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://permianhomes.com/blog/tag/odessa/page/2/</link>
+     <title>Permian Homes: New Home Builder Construction | Page 2</title>
+     <description>Just another WordPress site </description>
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>3</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://permianhomes.com/blog/tag/permian-basin/page/2/</link>
+     <title>Permian Homes: New Home Builder Construction | Page 2</title>
+     <description>Just another WordPress site </description>
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>3</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://permianhomes.com/blog/tag/permian-homes/page/2/</link>
+     <title>Permian Homes: New Home Builder Construction | Page 2</title>
+     <description>Just another WordPress site </description>
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>3</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://permianhomes.com/blog/merry-christmas-from-our-family-to-yours/feed/</link>
+     <title></title>
+     
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>3</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://permianhomes.com/blog/tag/homebuilder/page/2/</link>
+     <title>Permian Homes: New Home Builder Construction | Page 2</title>
+     <description>Just another WordPress site </description>
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>3</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://permianhomes.com/blog/exciting-news-about-daybreak-estates/permian-homes-daybreak-brochure/</link>
+     <title>Permian Homes Daybreak Brochure | Permian Homes: New Home Builder Construction</title>
+     <description>Just another WordPress site </description>
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>3</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://permianhomes.com/blog/exciting-news-about-daybreak-estates/daybreak-pricing-sheet/</link>
+     <title>Daybreak Pricing Sheet | Permian Homes: New Home Builder Construction</title>
+     <description>Just another WordPress site </description>
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>3</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://permianhomes.com/blog/exciting-news-about-daybreak-estates/feed/</link>
+     <title></title>
+     
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>3</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://permianhomes.com/blog/meet-the-ellsworths-2nd-time-permian-home-owners/feed/</link>
+     <title></title>
+     
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>3</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://permianhomes.com/blog/happy-veterans-day/feed/</link>
+     <title></title>
+     
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>3</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://permianhomes.com/blog/a-moment-of-gratitude/feed/</link>
+     <title></title>
+     
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>3</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://permianhomes.com/blog/custom-home-owners-chris-and-angelique-vore/feed/</link>
+     <title></title>
+     
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>3</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -469,27 +957,35 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>http://permianhomes.com/blog/beauty-in-the-details-dreams-of-field-owner-and-permian-homes-contractor-brian-field/feed/</link>
-     <title></title>
-     
-     <ror:updatePeriod>daily</ror:updatePeriod>
-     <ror:sortOrder>3</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>http://permianhomes.com/blog/homeowners-michael-and-mel/feed/</link>
-     <title></title>
-     
-     <ror:updatePeriod>daily</ror:updatePeriod>
-     <ror:sortOrder>3</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
      <link>http://permianhomes.com/blog/permian-homes-president-dave-cook/feed/</link>
      <title></title>
      
      <ror:updatePeriod>daily</ror:updatePeriod>
      <ror:sortOrder>3</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://permianhomes.com/blog/beauty-in-the-details-dreams-of-field-owner-and-permian-homes-contractor-brian-field/feed/</link>
+     <title></title>
+     
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>4</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://permianhomes.com/blog/wp-content/uploads/2013/12/Permian-Homes-Daybreak-Brochure.pdf</link>
+     <title></title>
+     
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>4</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://permianhomes.com/blog/wp-content/uploads/2013/12/Daybreak-Pricing-Sheet.pdf</link>
+     <title></title>
+     
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>4</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 </channel>
