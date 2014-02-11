@@ -66,7 +66,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 				        <p>Sales Center Open Monday &ndash; Saturday 10-6pm, Closed Sunday</p>
 			        </aside>
 			        <div class="floatright clearfix">
-				        <a class=" button" href="/assets/pdfs/OldCourseEstatesSite.pdf" target="_blank">
+				        <a class=" button" href="/assets/pdfs/OldCourseIllustration-24x36.pdf" target="_blank">
 					        Download Site Plan</a>
 				        <br>
 				        <a class="button" target="_blank" href="/assets/pdfs/old-course-2013.pdf">Download
