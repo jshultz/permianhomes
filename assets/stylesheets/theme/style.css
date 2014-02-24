@@ -175,14 +175,13 @@ h1#logo a
 #bannerLeftWrapper
 {
 	float: left;
-	width: 330px;
+	width: 400px;
 	padding-left: 15px;
 }
 #subBannerLeft
 {
 	margin-top: 5px;
-	background: url(/assets/images/theme/listingBg.jpg) no-repeat left top;
-	padding-top: 25px;
+    padding-top: 15px;
 	padding-bottom: 10px;
 }
 #homeContentWrapper
@@ -230,7 +229,8 @@ h1#logo a
     display: block;
     float: left;
 }
-.finally_home #featureHolder .scrollable {
+.finally_home #featureHolder .scrollable,
+.panes #featureSlide .scrollable {
     width: 400px;
 }
 #featureHolder
@@ -239,9 +239,9 @@ h1#logo a
 	z-index: 3;
 	margin-top: -25px;
 	float: right;
-	width: 582px;
+	width: 530px;
     height: 268px;
-	background: url(/assets/images/theme/featureBg.png) no-repeat left top;
+	background-color: #fffacd;
 	padding: 8px 0px 0px 7px;
 }
 #featureHolder #featureMask
@@ -337,22 +337,34 @@ h1#logo a
 	color: #eeeeee;
 }
 
-#featureHolder .scrollable {
+#featureHolder .scrollable,
+.panes #featureSlide .scrollable {
     /* required settings */
     position:relative;
     overflow:hidden;
-    width: 558px;
+    width: 524px;
     height:258px;
 }
 
-#featureHolder .scrollable .items {
+.panes #featureSlide .scrollable {
+    width: 450px;
+}
+
+#featureHolder .scrollable .items,
+.panes #featureSlide .scrollable .items {
     /* this cannot be too large */
     width:20000em;
     position:absolute;
 }
 
-#featureHolder .items div {
+#featureHolder .items div,
+.panes #featureSlide .scrollable .items div {
     float:left;
+}
+
+.panes #featureSlide .scrollable .items img {
+    width: 566px;
+    height: 258px;
 }
 
 .navi {
@@ -378,7 +390,7 @@ h1#logo a
 	min-height: 340px;
 	float: left;
 	width: 230px;
-	margin-right: 15px;
+	margin-right: 10px;
 }
 
 #postColumnLeft a {
@@ -391,9 +403,9 @@ h1#logo a
 /*Begin: Homepage Right Container*/
 #homeContentRight
 {
-	float: right;
-	width: 500px;
-	margin-right: 15px;
+    float: left;
+    width: 960px;
+    padding-left: 15px;
 }
 /*--Tabs*/
 /*End: Homepage Right Container*/
@@ -1926,6 +1938,7 @@ ul.tabs {
 
 /* single tab */
 #postColumnLeft ul.tabs li,
+#subBannerLeft ul.tabs li,
 .entry ul.tabs li{
     float:left;
     text-indent:0;
@@ -1936,6 +1949,7 @@ ul.tabs {
 }
 
 #postColumnLeft ul.tabs li a,
+#subBannerLeft ul.tabs li a,
 .entry ul.tabs li a
 {
     float:left;

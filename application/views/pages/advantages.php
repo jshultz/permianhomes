@@ -43,7 +43,8 @@ echo '';
     <li><a href="#tabs-3">Made In America</a></li>
     <li><a href="#tabs-4">Added Features</a></li>
     <li><a href="#tabs-5">Warranty</a></li>
-    <li><a href="#tabs-6">Contact Us</a></li>
+    <li><a href="#tabs-6">Design Center</a></li>
+    <li><a href="#tabs-7">Contact Us</a></li>
 </ul>
 
 <div class="panes">
@@ -163,8 +164,6 @@ echo '';
 <div id="tabs-4">
     <h1>Added Features</h1>
 
-
-
     <p><img border="0" alt="" src="/assets/images/site-images/Now_You_re_Living.jpg"></p>
 
     <p align="left"><strong>Exteriors</strong></p>
@@ -259,8 +258,44 @@ echo '';
     <?= form_close(); ?>
 
 </div>
-<!-- Contact Us -->
+<!-- Design Center -->
 <div id="tabs-6">
+    <h1>Design Center</h1>
+
+    <span id="featureSlide" style="display: block">
+
+        <div class="scrollable" id="scrollable" style="display: block;">
+
+            <div class="items" style="display: block;">
+                <img src="/assets/images/design_center/IMG_4246.JPG">
+                <img src="/assets/images/design_center/IMG_4250.JPG">
+                <img src="/assets/images/design_center/IMG_4260.JPG">
+                <img src="/assets/images/design_center/IMG_4274.JPG">
+                <img src="/assets/images/design_center/IMG_4275.JPG">
+                <img src="/assets/images/design_center/IMG_4279.JPG">
+                <img src="/assets/images/design_center/IMG_4284.JPG">
+                <img src="/assets/images/design_center/IMG_4312.JPG">
+                <img src="/assets/images/design_center/IMG_4317.JPG">
+                <img src="/assets/images/design_center/IMG_4323.JPG">
+                <img src="/assets/images/design_center/IMG_4325.JPG">
+            </div>
+
+        </div>
+    </span>
+
+
+
+        <p>
+            Permian is dedicated to making a great experience for our customers. We provide many different options and choices for you to personalize your home. We recognize that each customer has different needs and allow customization to everyone. Permian is one of the only builders in the area to have a spacious design center. When purchasing a Permian Home, each customer will meet with their personal design center consultant to assist in the selection of cabinets, counter tops, appliances, lighting, plumbing fixtures, hardware, and so much more. Permian Homes focuses on its core philosophy of <strong>Building One Dream at a Time.</strong></p>
+        <p>
+            <strong>Design Center Address</strong><br>
+            13020 HWY 191 Suite A<br>
+            Midland, TX 79707</p>
+
+
+</div>
+<!-- Contact Us -->
+<div id="tabs-7">
     <h1>Contact Us</h1>
 
     <?php

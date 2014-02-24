@@ -45,13 +45,13 @@
 | the active record class
 */
 
-$active_group = 'live';
+$active_group = 'develop';
 $active_record = TRUE;
 
 $db['develop']['hostname'] = 'localhost';
-$db['develop']['username'] = 'opensky_permian';
-$db['develop']['password'] = 'Permian2012';
-$db['develop']['database'] = 'opensky_permian';
+$db['develop']['username'] = 'root';
+$db['develop']['password'] = 'vagrant';
+$db['develop']['database'] = 'permianr_permian';
 $db['develop']['dbdriver'] = 'mysql';
 $db['develop']['dbprefix'] = '';
 $db['develop']['pconnect'] = TRUE;

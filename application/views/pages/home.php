@@ -1,66 +1,8 @@
 <div id="subHeader" class="clearFix"> <!-- begin: subheader -->
 
     <div id="bannerLeftWrapper">  <!-- begin: bannerLeftWrapper -->
-        <h2><a href="#">Be Proud of Your Home</a></h2>
-
-        <p>&nbsp;</p>
 
         <div id="subBannerLeft">
-            <h2><a href="/advantages/">The Advantage</a></h2>
-
-            <p><strong>Permian Homes</strong> is dedicated to offering quality homes and lasting value for our
-                customers. Our philosophy is simple: <em><a href="/advantages/">We focus on each customer to build one
-                    dream at a time.</a></em></p>
-
-            <a style="background-color: red" class="clearfix button red" target="_blank" href="/assets/pdfs/Permian-Homes-Builders-Financial-Flyer-web.pdf">Save $1,500</a>
-        </div>
-    </div>
-    <!-- end: bannerLeftWrapper -->
-
-    <div id="featureHolder"> <!-- begin: featureHolder -->
-
-        <div id="featureMask">
-            <div id="featureSlide">
-
-                <div class="scrollable" id="scrollable">
-
-                    <div class="items">
-                        <img src="/assets/images/slides/Chris%20House-5-Star-2776.jpg">
-                        <img src="/assets/images/slides/2.jpg">
-                        <img src="/assets/images/slides/3.jpg">
-                        <img src="/assets/images/slides/DSC_0013.jpg">
-                        <img src="/assets/images/slides/Chris-House-5-Star-2805.jpg">
-                        <img src="/assets/images/slides/Chris-House-5-Star-2885.jpg">
-                        <img src="/assets/images/slides/5.jpg">
-                        <img src="/assets/images/slides/7.jpg">
-                        <img src="/assets/images/slides/8.jpg">
-                        <img src="/assets/images/slides/DSC_0005.JPG">
-                        <img src="/assets/images/slides/Model_Pictures_003.JPG">
-                        <img src="/assets/images/slides/Model_Pictures_013.JPG">
-                        <img src="/assets/images/slides/Chris%20House-5-Star-2851.jpg">
-
-                    </div>
-
-                </div>
-
-
-            </div>
-        </div>
-
-
-    </div>
-    <!-- end: featureHolder -->
-
-</div>
-<!-- end: subheader -->
-
-<div id="homeContentWrapper" class="clearFix"> <!-- begin: homeContentWrapper -->
-
-    <div id="homeContentLeft" class="clearFix"> <!-- begin: homeContentLeft -->
-
-        <div id="postColumnLeft"> <!-- begin: postColumnLeft -->
-            <h2>Current Communities</h2>
-
             <div id="homeTabs"> <!-- begin: homeTabs -->
 
                 <ul class="tabs clearFix">
@@ -129,22 +71,53 @@
 
             </div>
             <!-- end: homeTabs -->
-
-
-
-
         </div>
-        <!-- end: postColumnLeft -->
+    </div>
+    <!-- end: bannerLeftWrapper -->
+
+    <div id="featureHolder"> <!-- begin: featureHolder -->
+
+        <div id="featureMask">
+            <div id="featureSlide">
+
+                <div class="scrollable" id="scrollable">
+
+                    <div class="items">
+                        <img src="/assets/images/slides/Chris%20House-5-Star-2776.jpg">
+                        <img src="/assets/images/slides/2.jpg">
+                        <img src="/assets/images/slides/3.jpg">
+                        <img src="/assets/images/slides/DSC_0013.jpg">
+                        <img src="/assets/images/slides/Chris-House-5-Star-2805.jpg">
+                        <img src="/assets/images/slides/Chris-House-5-Star-2885.jpg">
+                        <img src="/assets/images/slides/5.jpg">
+                        <img src="/assets/images/slides/7.jpg">
+                        <img src="/assets/images/slides/8.jpg">
+                        <img src="/assets/images/slides/DSC_0005.JPG">
+                        <img src="/assets/images/slides/Model_Pictures_003.JPG">
+                        <img src="/assets/images/slides/Model_Pictures_013.JPG">
+                        <img src="/assets/images/slides/Chris%20House-5-Star-2851.jpg">
+
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+
 
     </div>
-    <!-- end: homeContentLeft -->
+    <!-- end: featureHolder -->
+
+</div>
+<!-- end: subheader -->
+
+<div id="homeContentWrapper" class="clearFix"> <!-- begin: homeContentWrapper -->
+
+
 
     <div id="homeContentRight">
         <!-- begin: homeContentRight -->
-
-        <div id="homeSearchSection">
-            <gcse:searchbox-only></gcse:searchbox-only>
-        </div>
 
         <h2>Featured Homes</h2>
 
@@ -308,6 +281,8 @@
     <!-- Testimonials -->
     <div id="home-widget-flickr" class="home-widget">
         <h2><a href="http://permianhomes.com/blog/">In The News</a> </h2>
+
+        <p><strong><a href="http://www.newswest9.com/story/24792349/companies-volunteers-help-give-amputee-a-repaired-home">Companies, Volunteers Help Give Amputee a Repaired Home</a> </strong></p>
 
         <p><strong><a href="http://permianhomes.com/blog/looking-forward-to-2014/">Looking forward to 2014...</a></strong></p>
 
