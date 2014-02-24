@@ -25,7 +25,7 @@
                     
                 </p>
                   <div itemprop="image" class="image">
-                      <img width="566px" height="258px;"  src="<?php echo $row->fullsize; ?>">
+                      <img width="566px"  src="<?php echo $row->fullsize; ?>">
                       <?php
                       if ($row->reduced == '1') {
                           echo '<img class="ribbon" alt="" src="/assets/images/theme/ribbon-reduced.png"/>';
