@@ -398,6 +398,33 @@ h1#logo a
     color: #2D535E;
     font-weight: bold;
 }
+
+ul.communities {
+    list-style: none;
+    width: 247px;
+    margin-left: 75px;
+    margin-top:20px;
+}
+ul.communities li img {
+    width: 100px;
+    position: absolute;
+    top: -12px;
+    left: -109px;
+}
+#subBannerLeft ul.communities li {
+    height: 75px;
+    vertical-align: middle;
+    position: relative;
+}
+#subBannerLeft ul.communities a {
+    text-decoration: none;
+    color: #000000;
+}
+#subBannerLeft ul.communities a span {
+    font-size: 15px;
+}
+
+
 /*End: Hompage Left Container*/
 
 /*Begin: Homepage Right Container*/

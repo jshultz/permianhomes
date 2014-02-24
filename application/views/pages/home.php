@@ -5,69 +5,35 @@
         <div id="subBannerLeft">
             <div id="homeTabs"> <!-- begin: homeTabs -->
 
-                <ul class="tabs clearFix">
+                <ul class="communities clearFix">
 
                     <li>
-                        <a href="#firstTab"><span>Daybreak</span></a>
+                        <a href="/real_estate/#tabs-4">
+                            <img src="/assets/images/site-images/DSC_0003.png">
+                            <span class="propety">Daybreak</span> |
+                            <span class="town">Midland</span> |
+                            <span class="price">$200s</span>
+                        </a>
                     </li>
 
                     <li>
-                        <a href="#thirdTab"><span>Old Course Estates</span></a>
+                        <a href="/real_estate/#tabs-2">
+                            <img src="/assets/images/site-images/IMG_5443a.png">
+                            <span class="property">Old Course Estates</span> |
+                            <span class="town">Odessa</span> |
+                            <span class="price">$170s</span>
+                        </a>
                     </li>
                     <li>
-                        <a href="#secondTab"><span>Desert Ridge</span></a>
+                        <a href="/real_estate/#tabs-1">
+                            <img src="/assets/images/site-images/floorplan/desert-ridge-townhomes.jpg">
+                            <span class="property">Desert Ridge</span> |
+                            <span class="town">Odessa</span> |
+                            <span class="price">$150s</span>
+                        </a>
                     </li>
-
 
                 </ul>
-
-                <div class="panes">
-
-                    <!-- Daybreak -->
-                    <div id="firstTab" class="tabcontainer">
-                        <h3><a href="/real_estate/#tabs-4">Welcome to Daybreak - A Place to Grow </a></h3>
-                        <img src="/assets/images/site-images/DSC_0003.png">
-
-                        <p class="center"><strong>New Single Family Homes from the $200's</strong></p>
-
-                        <p class="entry">Situated across the street from the Midland Country Club, Daybreak Estates is Permian's newest development. This attractive community offers many included upgrades, large spacious lots, lavish amenities, and community parks all with plenty of space for room to grow!</p>
-
-                        <p class="readMoreHolder">
-                            <a href="/real_estate/#tabs-4"><span>Read More</span></a>
-                        </p>
-                    </div>
-
-                    <!-- Old Course Estates -->
-                    <div id="thirdTab" class="tabcontainer">
-                        <h3><a href="/real_estate/#tabs-2">Welcome to Old Course Estates &ndash; Affordable Luxury</a></h3>
-                        <img src="/assets/images/site-images/IMG_5443a.png">
-
-                        <p class="center"><strong>New Townhomes from the $180's</strong></p>
-
-                        <p class="entry"> Old Course Estates is a master planned community located by Odessa Country Club and the 18th hole of the golf course!  These luxurious townhomes include many upgrades and amenities to bring you maintenance free living and affordable luxury.</p>
-
-                        <p class="readMoreHolder">
-                            <a href="/real_estate/#tabs-2"><span>Read More</span></a>
-                        </p>
-                    </div>
-
-                    <!-- Desert Ridge -->
-                    <div id="secondTab" class="tabcontainer">
-                        <h3><a href="/real_estate/#tabs-1">Welcome to Desert Ridge Townhomes</a></h3>
-                        <img src="/assets/images/site-images/floorplan/desert-ridge-townhomes.jpg">
-
-                        <p class="center"><strong>New Townhomes from the $140's</strong></p>
-
-                        <p class="entry">Situated near Odessa's premier shopping zone, this beautiful community offers
-                            luxurious single story and two story townhomes with low maintenance living for less than
-                            rent!</p>
-
-                        <p class="readMoreHolder">
-                            <a href="/real_estate/#tabs-1"><span>Read More</span></a>
-                        </p>
-                    </div>
-
-                </div>
 
             </div>
             <!-- end: homeTabs -->
