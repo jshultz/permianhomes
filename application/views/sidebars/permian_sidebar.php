@@ -18,7 +18,7 @@
 
     <li class="clearFix widget widget_recent_entries">
 
-        <h3 class="widgettitle">Recent Listings</h3>
+        <h3 class="widgettitle">Available Homes</h3>
 
         <ul>
 
@@ -27,6 +27,8 @@
             if ((isset($locations)) && (count($locations) >= 1)) {
                 foreach ($locations->result() as $row) {
 
+                    if ($row->sold != '1') {
+
                     ?>
 
                     <li>
@@ -34,6 +36,7 @@
                     </li>
 
                     <?php
+                    }
 
                 }
             }

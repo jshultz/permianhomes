@@ -28,6 +28,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
     <li><a href="#tabs-6">East Pointe</a></li>
     <li><a href="#tabs-5">North Park</a></li>
     <li><a href="#tabs-4">Parks Legado</a></li>
+    <li><a href="#tabs-3">Renaissance Estates</a></li>
 
 
 </ul>
@@ -561,6 +562,40 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 
 </div>
 
+<!-- Renaissance Estates -->
+<div id="tabs-3" class="clearfix">
+    <h1>Renaissance Estates &ndash; A Place to Grow</h1>
+    <img src="/assets/images/site-images/floorplan/renaissance-sold-out.jpg">
+
+    <p><strong>New Single Family Homes from the $200's</strong></p>
+
+    <p>Renaissance Estates, by Permian Homes, is a planned community nestled near Mission Golf Course and Odessa
+        Country
+        Club. This attractive community offers many included upgrades, large spacious lots, and lavish amenities!
+        These
+        beautiful homes offer large lots and plenty of space for room to grow!</p>
+
+
+    <section class="clearfix">
+        <aside class="floatleft">
+            <h3 style="margin-bottom: 0; padding-bottom: 0;">Sales Center</h3>
+
+            <p style="margin-top: 5px; ">
+                3408 Bastrop<br/>
+                Odessa, TX 79765</p>
+
+            <p>Sales Center Open Monday &ndash; Saturday 10-6pm, Closed Sunday</p>
+        </aside>
+
+
+    </section>
+
+
+
+
+
+</div>
+
 </div>
 
 
@@ -597,6 +632,8 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
         foreach ($locations->result() as $row) {
 
             if ($row->featured != '1' || $row->featured == '1') {
+
+                if ($row->sold == '1') {
                 ?>
 
                 <div class="archiveListItem clearfix">
@@ -655,6 +692,8 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
                 </div>
 
                 <?php
+
+                }
             }
 
         }

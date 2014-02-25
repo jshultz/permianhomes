@@ -16,6 +16,8 @@
       if ((isset($location)) && (count($location) >= 1)) {
             foreach ($location->result() as $row) {
 
+                if ($row->sold != '1') {
+
           ?>
               <div class="entryWrapper" id="post-1"  itemscope itemtype="http://schema.org/Product"> <!--begin: entryWrapper-->
                   <h2 class="postTitle" itemprop="name"><?php echo $row->location_name; ?></h2>
@@ -88,7 +90,9 @@
 	                <a class="button" href="/financing?price=<?php echo $row->sale_price; ?>"">Calculate My Payment</a>
                 </div>
               </div> 
-              <?php 
+              <?php
+
+                }
               
             }
           } else {

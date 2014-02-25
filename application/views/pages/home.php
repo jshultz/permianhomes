@@ -248,7 +248,7 @@
     <div id="home-widget-flickr" class="home-widget">
         <h2><a href="http://permianhomes.com/blog/">In The News</a> </h2>
 
-        <p><strong><a href="http://www.newswest9.com/story/24792349/companies-volunteers-help-give-amputee-a-repaired-home">Companies, Volunteers Help Give Amputee a Repaired Home</a> </strong></p>
+        <p><strong><a target="_blank" href="http://www.newswest9.com/story/24792349/companies-volunteers-help-give-amputee-a-repaired-home">Companies, Volunteers Help Give Amputee a Repaired Home</a> </strong></p>
 
         <p><strong><a href="http://permianhomes.com/blog/looking-forward-to-2014/">Looking forward to 2014...</a></strong></p>
 
