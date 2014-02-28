@@ -3,6 +3,8 @@
     <div id="bannerLeftWrapper">  <!-- begin: bannerLeftWrapper -->
 
         <div id="subBannerLeft">
+
+            <h2>Current Communities</h2>
             <div id="homeTabs"> <!-- begin: homeTabs -->
 
                 <ul class="communities clearFix">
@@ -19,14 +21,14 @@
                     <li>
                         <a href="/real_estate/#tabs-2">
                             <img src="/assets/images/site-images/IMG_5443a.png">
-                            <span class="property">Old Course Estates</span> |
+                            <span class="property">Old Course</span> |
                             <span class="town">Odessa</span> |
                             <span class="price">$170s</span>
                         </a>
                     </li>
                     <li>
                         <a href="/real_estate/#tabs-1">
-                            <img src="/assets/images/site-images/floorplan/desert-ridge-townhomes.jpg">
+                            <img src="/assets/images/site-images/Model-Pictures-079.v01.JPG">
                             <span class="property">Desert Ridge</span> |
                             <span class="town">Odessa</span> |
                             <span class="price">$150s</span>
@@ -50,9 +52,15 @@
 
                     <div class="items">
                         <img src="/assets/images/slides/Chris%20House-5-Star-2776.jpg">
+                        <img src="/assets/images/site-images/162.jpg">
+                        <img src="/assets/images/slides/Model-Pictures-015.JPG">
+                        <img src="/assets/images/slides/Model-Pictures-052.JPG">
                         <img src="/assets/images/slides/2.jpg">
                         <img src="/assets/images/slides/3.jpg">
                         <img src="/assets/images/slides/DSC_0013.jpg">
+                        <img src="/assets/images/slides/coffer-ceiling-7311-don.jpg">
+                        <img src="/assets/images/slides/IMG_5570.JPG">
+                        <img src="/assets/images/slides/IMG_5615.JPG">
                         <img src="/assets/images/slides/Chris-House-5-Star-2805.jpg">
                         <img src="/assets/images/slides/Chris-House-5-Star-2885.jpg">
                         <img src="/assets/images/slides/5.jpg">
@@ -188,10 +196,10 @@
         <p>We're available on the following social media networks.</p>
 
         <ul class="social">
-            <li><a href="https://www.facebook.com/pages/Permian-Homes/227849413954947"><img
+            <li><a target="_blank" href="https://www.facebook.com/pages/Permian-Homes/227849413954947"><img
                     src="/assets/images/icons/faceBook_48x48.png"></a></li>
-            <li><a href="https://twitter.com/PermianHomes"><img src="/assets/images/icons/twitter_box_blue.png"></a></li>
-            <li><a href="http://pinterest.com/permianhomes/"><img src="/assets/images/icons/pinterest-icon.png"></a></li>
+            <li><a target="_blank" href="https://twitter.com/PermianHomes"><img src="/assets/images/icons/twitter_box_blue.png"></a></li>
+            <li><a target="_blank" href="http://pinterest.com/permianhomes/"><img src="/assets/images/icons/pinterest-icon.png"></a></li>
         </ul>
 
 
@@ -242,7 +250,7 @@
 	    </div>
 
 
-        <p class="readmore"><a href="http://permianhomes.com/blog/"><span>Blog and Testimonials</span></a></p>
+        <p class="readmore"><a target="_blank" href="http://permianhomes.com/blog/"><span>Blog and Testimonials</span></a></p>
     </div>
     <!-- Testimonials -->
     <div id="home-widget-flickr" class="home-widget">
@@ -250,11 +258,11 @@
 
         <p><strong><a target="_blank" href="http://www.newswest9.com/story/24792349/companies-volunteers-help-give-amputee-a-repaired-home">Companies, Volunteers Help Give Amputee a Repaired Home</a> </strong></p>
 
-        <p><strong><a href="http://permianhomes.com/blog/looking-forward-to-2014/">Looking forward to 2014...</a></strong></p>
+        <p><strong><a target="_blank" href="http://permianhomes.com/blog/looking-forward-to-2014/">Looking forward to 2014...</a></strong></p>
 
-        <p><strong><a href="http://permianhomes.com/blog/permian-homes-and-operation-finally-home-welcome-home-the-busby-family/">Welcome Home Busby Family!</a></strong></p>
+        <p><strong><a target="_blank" href="http://permianhomes.com/blog/permian-homes-and-operation-finally-home-welcome-home-the-busby-family/">Welcome Home Busby Family!</a></strong></p>
 
-	    <p><strong><a href="http://permianhomes.com/blog/homeowners-michael-and-mel/">Meet Homeowners Michael and Mel</a></strong></p>
+	    <p><strong><a target="_blank" href="http://permianhomes.com/blog/homeowners-michael-and-mel/">Meet Homeowners Michael and Mel</a></strong></p>
 
     </div>
 

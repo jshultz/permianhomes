@@ -13,6 +13,7 @@
 
 			</ul>
 		</nav>
+        <span class="tel">Call Us: <tel>432-362-3436</tel>!</span>
 
 	</div>  <!-- end: header -->
 

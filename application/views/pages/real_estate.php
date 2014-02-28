@@ -436,7 +436,8 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 
                             ?>
 
-	                        <a class="button" href="/financing?price=<?php echo $row->sale_price; ?>">Calculate My Payment</a>
+	                        <a class="button" href="/financing?price=<?php echo $row->sale_price; ?>">Calculate My Payment</a><br/>
+                            <a class="button" href="/contact-us">Contact Us</a>
                     </p>
                 </div>
 

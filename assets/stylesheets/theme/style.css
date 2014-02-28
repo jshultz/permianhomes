@@ -143,6 +143,16 @@ body { background: #FFFFFF; 	border-top: 2px solid #406E7B; }
 	margin: 0pt auto;
 	z-index: 2;
 }
+
+#header > span.tel {
+    position: absolute;
+    right: 53px;
+    bottom: 35px;
+    color: #fff;
+    font-style: italic;
+}
+
+
 h1#logo
 {
     width: 297px;
@@ -241,8 +251,9 @@ h1#logo a
 	float: right;
 	width: 530px;
     height: 235px;
-	background-color: #fffacd;
+	background-color: #FFFFFF;
 	padding: 8px 0px 0px 7px;
+    box-shadow: 4px 4px 7px #888888;
 }
 #featureHolder #featureMask
 {
@@ -409,6 +420,7 @@ ul.communities li img {
     position: absolute;
     top: -12px;
     left: -109px;
+    border: 3px solid #FFFFFF;
 }
 #subBannerLeft ul.communities li {
     height: 75px;
