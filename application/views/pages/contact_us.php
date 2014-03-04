@@ -11,70 +11,16 @@
     <div id="insideRightContent"> <!--begin: insideRightContent-->
 
         <div class="entryWrapper">
+
+            <h2 class="postTitle">Contact Us</h2>
             <section class="entry">
 
                 <ul class="tabs clearfix">
-                    <li><a href="#tabs-5">Warranty</a></li>
                     <li><a href="#tabs-7">Contact Us</a></li>
+                    <li><a href="#tabs-5">Warranty</a></li>
                 </ul>
 
                 <div class="panes">
-                    <!-- Warranty -->
-                    <div id="tabs-5">
-                        <h1>The Permian Homes Warranty</h1>
-
-                        <p>At Permian Homes, we realize that with new home construction there will be items that
-                            naturally occur and require minor adjustments and corrections. In the event that you should
-                            experience these occurrences, an extensive warranty is provided for each home. This warranty
-                            consists of a one-year limited warranty on all components of your home, a two-year limited
-                            warranty on the Plumbing, HVAC, and Electrical systems of your home, and a ten-year warranty
-                            covering the structural components in your home.</p>
-
-                        <p>In addition to this warranty package, we provide you with the Permian Homes Customer Care
-                            Manual. This manual contains information on specific components of your home, the
-                            occurrences that Permian will warrant, and supplemental details on maintenance and homeowner
-                            responsibility.</p>
-
-                        <h3>Warranty Request</h3>
-
-                        <?php
-                        if ($error != '') {
-                            echo '<div class="error clearfix" style="display:block"><p>' . $error . '</p></div>';
-                        }
-                        ?>
-
-                        <?= form_open('/site/newcontact', 'class=nice id=warranty'); ?>
-
-                        <?= form_fieldset(''); ?>
-                        <input type="hidden" name="recipient" value="warranty">
-                        <?= form_input('firstname', '', 'class="input-text required" placeholder="First Name"'); ?>
-                        <?= form_input('lastname', '', 'class="input-text required" placeholder="Last Name"'); ?>
-                        <?= form_input('email', '', 'class="input-text required" placeholder="Email Address"'); ?>
-                        <?= form_input('street', '', 'class="input-text required" placeholder="Street Address"'); ?>
-                        <?= form_input('city', '', 'class="input-text required" placeholder="City"'); ?>
-                        <?= form_input('state', '', 'class="input-text required" placeholder="State"'); ?>
-                        <?= form_input('zip', '', 'class="input-text required" placeholder="Zip"'); ?>
-                        <?= form_input('telephone', '', 'class="input-text required" placeholder="Telephone"'); ?>
-                        <?= form_textarea('message', '', 'placeholder="Services Requested..."'); ?>
-                        <p>
-                            <label for="human">
-                                Are You Human (YES)?:
-                            </label><br/>
-                            <input type="text" name="human" id="human" value="<?php echo set_value('human'); ?>">
-                        </p>
-
-                        <p>
-                            <label for="human_again">
-                                Please type the same word again:
-                            </label><br/>
-                            <input type="text" name="human_again" id="human_again" value="<?php echo set_value('human_again'); ?>">
-                        </p>
-
-                        <?= form_submit('mysubmit', 'Submit', 'class="blue button radius"'); ?>
-                        <?= form_fieldset_close(); ?>
-                        <?= form_close(); ?>
-
-                    </div>
 
                     <!-- Contact Us -->
                     <div id="tabs-7">
@@ -184,6 +130,65 @@
 
 
                     </div>
+
+                    <!-- Warranty -->
+                    <div id="tabs-5">
+                        <h1>The Permian Homes Warranty</h1>
+
+                        <p>At Permian Homes, we realize that with new home construction there will be items that
+                            naturally occur and require minor adjustments and corrections. In the event that you should
+                            experience these occurrences, an extensive warranty is provided for each home. This warranty
+                            consists of a one-year limited warranty on all components of your home, a two-year limited
+                            warranty on the Plumbing, HVAC, and Electrical systems of your home, and a ten-year warranty
+                            covering the structural components in your home.</p>
+
+                        <p>In addition to this warranty package, we provide you with the Permian Homes Customer Care
+                            Manual. This manual contains information on specific components of your home, the
+                            occurrences that Permian will warrant, and supplemental details on maintenance and homeowner
+                            responsibility.</p>
+
+                        <h3>Warranty Request</h3>
+
+                        <?php
+                        if ($error != '') {
+                            echo '<div class="error clearfix" style="display:block"><p>' . $error . '</p></div>';
+                        }
+                        ?>
+
+                        <?= form_open('/site/newcontact', 'class=nice id=warranty'); ?>
+
+                        <?= form_fieldset(''); ?>
+                        <input type="hidden" name="recipient" value="warranty">
+                        <?= form_input('firstname', '', 'class="input-text required" placeholder="First Name"'); ?>
+                        <?= form_input('lastname', '', 'class="input-text required" placeholder="Last Name"'); ?>
+                        <?= form_input('email', '', 'class="input-text required" placeholder="Email Address"'); ?>
+                        <?= form_input('street', '', 'class="input-text required" placeholder="Street Address"'); ?>
+                        <?= form_input('city', '', 'class="input-text required" placeholder="City"'); ?>
+                        <?= form_input('state', '', 'class="input-text required" placeholder="State"'); ?>
+                        <?= form_input('zip', '', 'class="input-text required" placeholder="Zip"'); ?>
+                        <?= form_input('telephone', '', 'class="input-text required" placeholder="Telephone"'); ?>
+                        <?= form_textarea('message', '', 'placeholder="Services Requested..."'); ?>
+                        <p>
+                            <label for="human">
+                                Are You Human (YES)?:
+                            </label><br/>
+                            <input type="text" name="human" id="human" value="<?php echo set_value('human'); ?>">
+                        </p>
+
+                        <p>
+                            <label for="human_again">
+                                Please type the same word again:
+                            </label><br/>
+                            <input type="text" name="human_again" id="human_again" value="<?php echo set_value('human_again'); ?>">
+                        </p>
+
+                        <?= form_submit('mysubmit', 'Submit', 'class="blue button radius"'); ?>
+                        <?= form_fieldset_close(); ?>
+                        <?= form_close(); ?>
+
+                    </div>
+
+
                 </div>
 
 

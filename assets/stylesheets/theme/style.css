@@ -247,7 +247,7 @@ h1#logo a
 {
 	position: relative;
 	z-index: 3;
-	margin-top: -25px;
+	margin-top: 25px;
 	float: right;
 	width: 530px;
     height: 235px;
@@ -785,8 +785,11 @@ ul.communities li img {
 #subBannerLeft h2 { padding: 5px 0px 8px; }
 #subBannerLeft h2, #subBannerLeft h2 a
 {
-	font: 16px Verdana, Arial, Helvetica, sans-serif;
-	color: #34798c;
+    font: 16px Verdana, Arial, Helvetica, sans-serif;
+    color: #34798c;
+    font-size: 1.5em;
+    color: #000;
+    letter-spacing: -1px;
 }
 #subBannerLeft h2 a:hover { color: #666666; }
 #subBannerLeft p
@@ -1838,6 +1841,14 @@ section .floorplan .photo {
     display:none;
 }
 
+/* -----------------------------------------
+   Real Estate
+----------------------------------------- */
+
+
+body.real_estate #tabwrap > ul > li > a {
+    padding: 0 40px;
+}
 /* -----------------------------------------
    Clearfix
 ----------------------------------------- */

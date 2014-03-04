@@ -166,17 +166,16 @@
                 <div class="scrollable" id="scrollable" style="display: block;">
 
                     <div class="items" style="display: block;">
-                        <img src="/assets/images/design_center/IMG_4246.JPG">
+
                         <img src="/assets/images/design_center/IMG_4250.JPG">
                         <img src="/assets/images/design_center/IMG_4260.JPG">
                         <img src="/assets/images/design_center/IMG_4274.JPG">
                         <img src="/assets/images/design_center/IMG_4275.JPG">
                         <img src="/assets/images/design_center/IMG_4279.JPG">
-                        <img src="/assets/images/design_center/IMG_4284.JPG">
                         <img src="/assets/images/design_center/IMG_4312.JPG">
                         <img src="/assets/images/design_center/IMG_4317.JPG">
                         <img src="/assets/images/slides/2.jpg">
-                        <img src="/assets/images/design_center/IMG_4325.JPG">
+
                     </div>
 
                 </div>

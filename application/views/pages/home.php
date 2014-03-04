@@ -57,11 +57,9 @@
                         <img src="/assets/images/slides/Model-Pictures-052.JPG">
                         <img src="/assets/images/slides/2.jpg">
                         <img src="/assets/images/slides/3.jpg">
-                        <img src="/assets/images/slides/DSC_0013.jpg">
                         <img src="/assets/images/slides/coffer-ceiling-7311-don.jpg">
                         <img src="/assets/images/slides/IMG_5570.JPG">
                         <img src="/assets/images/slides/IMG_5615.JPG">
-                        <img src="/assets/images/slides/Chris-House-5-Star-2805.jpg">
                         <img src="/assets/images/slides/Chris-House-5-Star-2885.jpg">
                         <img src="/assets/images/slides/5.jpg">
                         <img src="/assets/images/slides/7.jpg">

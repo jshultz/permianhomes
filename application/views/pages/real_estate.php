@@ -45,7 +45,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 		        <section>
 			        <img src="/assets/images/site-images/IMG_5443a.png">
 
-			        <p><strong>New Townhomes from the $180's</strong></p>
+			        <h2>New Townhomes from the $170s</h2>
 		        </section>
 
 		        <p class="entry">
@@ -60,8 +60,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 				        <h3 style="margin-bottom: 0; padding-bottom: 0;">Sales Center</h3>
 
 				        <p style="margin-top: 5px; ">
-					        3408 Bastrop<br/>
-					        Odessa, TX 79765</p>
+                            1405 Old Course Road,<br/> Odessa, TX 79765</p>
 
 				        <p>Sales Center Open Monday &ndash; Saturday 10-6pm, Closed Sunday</p>
 			        </aside>
@@ -137,14 +136,14 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 	        <!-- Desert Ridge Townhomes -->
 	        <div id="tabs-1" class="pane">
 
-		        <h1>Desert Ridge Townhomes</h1>
+		        <h1>Desert Ridge</h1>
 
 		        <section>
 			        <img src="/assets/images/site-images/floorplan/desert-ridge-townhomes.jpg">
 
 		        </section>
 
-		        <p><strong>New Townhomes from the $140's</strong></p>
+		        <h2>New Townhomes from the $140s</h2>
 
 		        <p class="entry">Situated near Odessa's premier shopping zone, this beautiful community offers
 			        luxurious single story and two story townhomes with low maintenance living for less than
@@ -449,10 +448,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
         }
     }
     ?>
-    <div class="entry">
-        <p><a class="underline" href="/real_estate/past_properties"><strong>See our Previous Communities</strong></a>
-        </p>
-    </div>
+
 </div>
 <!--begin: entryWrapper-->
 
