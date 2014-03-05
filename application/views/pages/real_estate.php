@@ -417,7 +417,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
                     </p>
 
                     <div class="entry">
-                        <p><?php echo cutString($row->description); ?></p>
+                        <p><?php echo $row->description ?></p>
                     </div>
 
                     <p class="unitAndPrice">

@@ -2134,7 +2134,8 @@ a.floatright {
     display: block;
 }
 
-a.button {
+a.button,
+.entry p a.button {
 	padding: 5px 10px;
 	display: block;
 	color: white;
