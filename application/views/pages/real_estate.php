@@ -35,7 +35,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
         <div id="odessa" class="pane">
         <ul class="tabs clearfix">
 	        <li><a href="#tabs-2">Old Course Estates</a></li>
-	        <li><a href="#tabs-1">Desert Ridge Townhomes</a></li>
+	        <li><a href="#tabs-1">Desert Ridge</a></li>
 
         </ul>
 
@@ -68,11 +68,30 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 				        <a class=" button" href="/assets/pdfs/OldCourseIllustration-24x36.pdf" target="_blank">
 					        Download Site Plan</a>
 				        <br>
-				        <a class="button" target="_blank" href="/assets/pdfs/old-course-2013.pdf">Download
+				        <a class="button" target="_blank" href="/assets/pdfs/OC-Brochure-3-4-14.pdf">Download
 					        Brochure</a>
 			        </div>
 
 		        </section>
+
+                <!-- Kyler -->
+                <section class="floorplan clearfix">
+                    <section class="floatleft photo">
+                        <img src="/assets/images/site-images/floorplan/tate.png">
+                        <a style="margin-left: 35px" class="clearfix button" target="_blank" href="/assets/pdfs/Kyler.pdf">Download
+                            Floor
+                            Plan</a>
+                    </section>
+                    <section class="details">
+
+                        <h3>The Kyler</h3>
+
+                        <p>3 Bedroom / 2.5 Bathrooms<br/>
+                            1,515 sq.ft. Living / 2,164 sq. ft. Total<br/>
+                            Priced at $179,990</p>
+
+                    </section>
+                </section>
 
 		        <!-- Tate -->
 		        <section class="floorplan clearfix">
@@ -92,6 +111,26 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 
 			        </section>
 		        </section>
+
+                <!-- Cohen -->
+                <section class="floorplan clearfix">
+                    <section class="floatleft photo">
+                        <img src="/assets/images/site-images/floorplan/tate.png">
+                        <a style="margin-left: 35px" class="clearfix button" target="_blank" href="/assets/pdfs/Cohen.pdf">Download
+                            Floor
+                            Plan</a>
+                    </section>
+                    <section class="details">
+
+                        <h3>The Cohen</h3>
+
+                        <p>3 Bedroom / 2.5 Bathrooms<br/>
+                            1,857 sq.ft. Living / 2,440 sq. ft. Total<br/>
+                            Priced at $199,990</p>
+
+                    </section>
+                </section>
+
 		        <!-- Cara -->
 		        <section class="floorplan clearfix">
 
@@ -108,8 +147,8 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 				        <h3>The Cara</h3>
 
 				        <p>4 Bedroom / 2.5 Bathroom<br/>
-					        1915 sq.ft. Living / 2515 sq. ft. Total<br/>
-					        Priced at $210,990</p>
+					        1,915 sq.ft. Living / 2,515 sq. ft. Total<br/>
+					        Priced at 208,990</p>
 
 			        </section>
 		        </section>
@@ -125,7 +164,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 				        <h3>The Callie</h3>
 
 				        <p>4 Bedroom / 2.5 Bathroom<br/>
-					        2006 sq.ft. Living / 2613 sq. ft. Total<br/>
+					        2,006 sq.ft. Living / 2,613 sq. ft. Total<br/>
 					        Priced at $218,990</p>
 
 			        </section>
@@ -436,7 +475,6 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
                             ?>
 
 	                        <a class="button" href="/financing?price=<?php echo $row->sale_price; ?>">Calculate My Payment</a><br/>
-                            <a class="button" href="/contact-us">Contact Us</a>
                     </p>
                 </div>
 

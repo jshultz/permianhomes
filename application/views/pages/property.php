@@ -87,8 +87,7 @@
                 <div class="entry" itemprop="description"><!--begin: entry-->
                   
                   <p><?php echo $row->description; ?></p>
-	                <a class="button" href="/financing?price=<?php echo $row->sale_price; ?>"">Calculate My Payment</a><br/>
-                    <a class="button" href="/contact-us">Contact Us</a>
+	                <a class="button" href="/financing?price=<?php echo $row->sale_price; ?>"">Calculate My Payment</a>
                 </div>
               </div> 
               <?php
