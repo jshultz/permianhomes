@@ -77,7 +77,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
                 <!-- Kyler -->
                 <section class="floorplan clearfix">
                     <section class="floatleft photo">
-                        <img src="/assets/images/site-images/floorplan/tate.png">
+                        <img src="/assets/images/site-images/oldcourse/067.JPG">
                         <a style="margin-left: 35px" class="clearfix button" target="_blank" href="/assets/pdfs/Kyler.pdf">Download
                             Floor
                             Plan</a>
@@ -96,7 +96,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 		        <!-- Tate -->
 		        <section class="floorplan clearfix">
 			        <section class="floatleft photo">
-				        <img src="/assets/images/site-images/floorplan/tate.png">
+				        <img src="/assets/images/site-images/oldcourse/062.JPG">
 				        <a style="margin-left: 35px" class="clearfix button" target="_blank" href="/assets/pdfs/Tate.pdf">Download
 					        Floor
 					        Plan</a>
@@ -115,7 +115,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
                 <!-- Cohen -->
                 <section class="floorplan clearfix">
                     <section class="floatleft photo">
-                        <img src="/assets/images/site-images/floorplan/tate.png">
+                        <img src="/assets/images/site-images/oldcourse/065.JPG">
                         <a style="margin-left: 35px" class="clearfix button" target="_blank" href="/assets/pdfs/Cohen.pdf">Download
                             Floor
                             Plan</a>
@@ -135,7 +135,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 		        <section class="floorplan clearfix">
 
 			        <section class="floatleft photo">
-				        <img src="/assets/images/site-images/floorplan/cara.png">
+				        <img src="/assets/images/site-images/oldcourse/067.JPG">
 				        <a style="margin-left: 35px" class="clearfix button" target="_blank" href="/assets/pdfs/Cara.pdf">Download
 					        Floor
 					        Plan</a>
@@ -152,10 +152,11 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 
 			        </section>
 		        </section>
-		        <!-- Callie -->
+
+                <!-- Callie -->
 		        <section class="floorplan clearfix">
 			        <section class="floatleft photo">
-				        <img src="/assets/images/site-images/floorplan/callie.png">
+				        <img src="/assets/images/site-images/oldcourse/074.JPG">
 				        <a style="margin-left: 35px" class="clearfix button" target="_blank" href="/assets/pdfs/Callie.pdf">Download
 					        Floor
 					        Plan</a>

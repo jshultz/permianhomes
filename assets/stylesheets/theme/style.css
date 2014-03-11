@@ -1818,12 +1818,13 @@ section .floorplan .details {
 }
 
 section .floorplan img {
-    width:220px;
+    width: 120px;
 }
 
 section .floorplan .photo {
 	width: 220px;
 	float: left;
+    text-align: center;
 }
 
 /* -----------------------------------------
