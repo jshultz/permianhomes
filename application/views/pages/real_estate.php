@@ -41,7 +41,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 
 	        <!-- Old Course Estates -->
 	        <div id="tabs-2" class="pane">
-		        <h1>Welcome to Old Course Estates &ndash; Affordable Luxury</h1>
+		        <h1>Old Course Estates &ndash; Affordable Luxury</h1>
 		        <section>
 			        <img src="/assets/images/site-images/IMG_5443a.png">
 
@@ -156,7 +156,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
                 <!-- Callie -->
 		        <section class="floorplan clearfix">
 			        <section class="floatleft photo">
-				        <img src="/assets/images/site-images/oldcourse/074.JPG">
+				        <img src="/assets/images/site-images/oldcourse/IMG_5452-542x360.png">
 				        <a style="margin-left: 35px" class="clearfix button" target="_blank" href="/assets/pdfs/Callie.pdf">Download
 					        Floor
 					        Plan</a>
@@ -176,14 +176,14 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 	        <!-- Desert Ridge Townhomes -->
 	        <div id="tabs-1" class="pane">
 
-		        <h1>Desert Ridge</h1>
+		        <h1>Desert Ridge &mdash; Maintenance Free Living</h1>
 
 		        <section>
 			        <img src="/assets/images/site-images/floorplan/desert-ridge-townhomes.jpg">
 
 		        </section>
 
-		        <h2>New Townhomes from the $140s</h2>
+		        <h2>New Townhomes from the $150s</h2>
 
 		        <p class="entry">Situated near Odessa's premier shopping zone, this beautiful community offers
 			        luxurious single story and two story townhomes with low maintenance living for less than
@@ -218,7 +218,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 
                 </section>
 
-                <p><strong>New Single Family Homes from the $200's</strong></p>
+	            <h2>New Single Family Homes from the $200's</h2>
 
                 <p class="entry">Situated across the street from the Midland Country Club, Daybreak Estates is Permian's newest
                     development. This attractive community offers many included upgrades, large spacious lots, lavish amenities, and community parks all with plenty of space for room to grow!</p>

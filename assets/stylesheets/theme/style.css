@@ -1630,11 +1630,13 @@ li.has-flyout.hover ul {
 .postThumb
 {
 	position: relative;
-	background: url(/assets/images/theme/imageThumbBG.jpg);
+	/* background: url(/assets/images/theme/imageThumbBG.jpg); */
 	width: 228px;
-	height: 118px;
+	height: 154px;
 	margin-bottom: 10px;
 	overflow: hidden;
+	border: 1px solid #dedede;
+	box-shadow: #666666 0px 3px 3px;
 }
 .modRightThumb
 {
