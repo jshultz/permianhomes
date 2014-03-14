@@ -51,7 +51,7 @@
                 <div class="scrollable" id="scrollable">
 
                     <div class="items">
-                        <img src="/assets/images/slides/Chris-House-5-Star-2776.png">
+                        <img src="/assets/images/slides/Chris%20House-5-Star-2776.jpg">
                         <img src="/assets/images/site-images/162.jpg">
                         <img src="/assets/images/slides/Model-Pictures-015.JPG">
                         <img src="/assets/images/slides/Model-Pictures-052.JPG">
@@ -210,67 +210,37 @@
 		    <div id="quotes">
 			    <div class="textItem">
 
-				    <img height="150px;" src="/assets/images/testimonials/9.jpg">
+				    <img src="/assets/images/testimonials/9.jpg">
 
 
 			    </div>
 			    <div class="textItem">
 
-				    <img src="http://permianhomes.com/blog/wp-content/uploads/2013/06/03edited-150x150.jpg">
+				    <img src="/assets/images/testimonials/10.jpg">
 
 
 			    </div>
 			    <div class="textItem">
 
-				    <img height="150px;" src="/assets/images/testimonials/10.jpg">
+				    <img src="/assets/images/testimonials/13.jpg">
 
 
 			    </div>
 			    <div class="textItem">
 
-				    <img src="http://permianhomes.com/blog/wp-content/uploads/2013/06/4edited-150x150.jpg">
+				    <img src="/assets/images/testimonials/12.jpg">
 
 
 			    </div>
 			    <div class="textItem">
 
-				    <img height="150px;" src="/assets/images/testimonials/13.jpg">
+				    <img src="/assets/images/testimonials/15.jpg">
 
 
 			    </div>
 			    <div class="textItem">
 
-				    <img src="http://permianhomes.com/blog/wp-content/uploads/2013/08/Chris-House-5-Star-1edited-150x150.jpg">
-
-
-			    </div>
-			    <div class="textItem">
-
-				    <img height="150px;" src="/assets/images/testimonials/12.jpg">
-
-
-			    </div>
-			    <div class="textItem">
-
-				    <img src="http://permianhomes.com/blog/wp-content/uploads/2013/12/Christmasphoto1_edited-1-150x150.jpg">
-
-
-			    </div>
-			    <div class="textItem">
-
-				    <img height="150px;" src="/assets/images/testimonials/15.jpg">
-
-
-			    </div>
-			    <div class="textItem">
-
-				    <img src="http://permianhomes.com/blog/wp-content/uploads/2013/12/Ellsworth1-150x150.jpg">
-
-
-			    </div>
-			    <div class="textItem">
-
-				    <img height="150px;" src="/assets/images/testimonials/14.jpg">
+				    <img src="/assets/images/testimonials/14.jpg">
 
 
 			    </div>
