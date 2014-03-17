@@ -22,11 +22,6 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://permianhomes.com/design_center/</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
   <loc>http://permianhomes.com/financing/</loc>
   <changefreq>daily</changefreq>
   <priority>0.80</priority>
@@ -37,18 +32,27 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://permianhomes.com/assets/pdfs/Permian-Homes-Builders-Financial-Flyer-web.pdf</loc>
-  <lastmod>2013-12-20T13:57:10+00:00</lastmod>
+  <loc>http://permianhomes.com/contact_us/</loc>
   <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://permianhomes.com/pages/index/1/18/25</loc>
+  <loc>http://permianhomes.com/pages/index/1/18/20</loc>
   <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://permianhomes.com/pages/index/1/18/26</loc>
+  <loc>http://permianhomes.com/pages/index/1/18/27</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://permianhomes.com/pages/index/1/18/28</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://permianhomes.com/pages/index/1/18/32</loc>
   <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
@@ -79,123 +83,70 @@
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://permianhomes.com/pages/index/1/18/9</loc>
+  <loc>http://permianhomes.com/pages/index/1/18/25</loc>
   <changefreq>daily</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://permianhomes.com/pages/index/1/18/6</loc>
+  <loc>http://permianhomes.com/pages/index/1/18/29</loc>
   <changefreq>daily</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://permianhomes.com/pages/index/1/18/5</loc>
+  <loc>http://permianhomes.com/pages/index/1/18/30</loc>
   <changefreq>daily</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://permianhomes.com/pages/index/1/18/10</loc>
+  <loc>http://permianhomes.com/pages/index/1/18/31</loc>
   <changefreq>daily</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://permianhomes.com/pages/index/1/18/8</loc>
+  <loc>http://permianhomes.com/assets/pdfs/OldCourseIllustration-24x36.pdf</loc>
+  <lastmod>2014-02-11T23:03:26+00:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://permianhomes.com/pages/index/1/18/11</loc>
+  <loc>http://permianhomes.com/assets/pdfs/OC-Brochure-3-4-14.pdf</loc>
+  <lastmod>2014-03-05T04:15:42+00:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://permianhomes.com/pages/index/1/18/13</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://permianhomes.com/pages/index/1/18/14</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://permianhomes.com/pages/index/1/18/15</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://permianhomes.com/pages/index/1/18/16</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://permianhomes.com/pages/index/1/18/17</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://permianhomes.com/pages/index/1/18/18</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://permianhomes.com/pages/index/1/18/19</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://permianhomes.com/pages/index/1/18/20</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://permianhomes.com/pages/index/1/18/21</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://permianhomes.com/pages/index/1/18/23</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://permianhomes.com/pages/index/1/18/24</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://permianhomes.com/assets/pdfs/OldCourseEstatesSite.pdf</loc>
-  <lastmod>2013-04-20T20:30:18+00:00</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://permianhomes.com/assets/pdfs/old-course-2013.pdf</loc>
-  <lastmod>2013-08-09T03:29:42+00:00</lastmod>
+  <loc>http://permianhomes.com/assets/pdfs/Kyler.pdf</loc>
+  <lastmod>2014-03-05T04:15:42+00:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://permianhomes.com/assets/pdfs/Tate.pdf</loc>
-  <lastmod>2013-04-20T20:30:18+00:00</lastmod>
+  <lastmod>2014-03-05T04:15:42+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://permianhomes.com/assets/pdfs/Cohen.pdf</loc>
+  <lastmod>2014-03-05T04:15:42+00:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://permianhomes.com/assets/pdfs/Cara.pdf</loc>
-  <lastmod>2013-04-20T20:30:18+00:00</lastmod>
+  <lastmod>2014-03-05T04:15:42+00:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://permianhomes.com/assets/pdfs/Callie.pdf</loc>
-  <lastmod>2013-04-20T20:30:18+00:00</lastmod>
+  <lastmod>2014-03-05T04:15:42+00:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://permianhomes.com/assets/pdfs/Daybreak_Phase_1_Sales_Rendering.pdf</loc>
-  <lastmod>2013-12-12T15:46:56+00:00</lastmod>
+  <loc>http://permianhomes.com/assets/pdfs/Daybreak-Phase-1-Sales-Rendering.pdf</loc>
+  <lastmod>2014-02-15T01:24:21+00:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.64</priority>
 </url>
@@ -248,87 +199,7 @@
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://permianhomes.com/financing?price=232,990</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://permianhomes.com/financing?price=269,990</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://permianhomes.com/financing?price=259,990</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://permianhomes.com/financing?price=175,000</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://permianhomes.com/financing?price=255,000</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://permianhomes.com/financing?price=249,000</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://permianhomes.com/financing?price=169,665</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://permianhomes.com/financing?price=183,100</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://permianhomes.com/financing?price=279,990</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://permianhomes.com/financing?price=219,515</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://permianhomes.com/financing?price=191,215</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://permianhomes.com/financing?price=258,990</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://permianhomes.com/financing?price=272,990</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
   <loc>http://permianhomes.com/financing?price=289,990</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://permianhomes.com/financing?price=237,990</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://permianhomes.com/financing?price=187,215</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://permianhomes.com/financing?price=200,410</loc>
   <changefreq>daily</changefreq>
   <priority>0.64</priority>
 </url>
@@ -338,17 +209,42 @@
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://permianhomes.com/financing?price=223,515</loc>
+  <loc>http://permianhomes.com/financing?price=232,515</loc>
   <changefreq>daily</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://permianhomes.com/real_estate/past_properties</loc>
+  <loc>http://permianhomes.com/financing?price=199,990</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://permianhomes.com/financing?price=221,740</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://permianhomes.com/financing?price=221,940</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://permianhomes.com/financing?price=216,240&#60;p</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://permianhomes.com/financing?price=242,990</loc>
   <changefreq>daily</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://permianhomes.com/blog/about/</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://permianhomes.com/blog/permian-homes-in-the-news/</loc>
   <changefreq>daily</changefreq>
   <priority>0.64</priority>
 </url>
@@ -363,22 +259,17 @@
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://permianhomes.com/blog/tag/country-club/</loc>
+  <loc>http://permianhomes.com/blog/category/permian-home-employees/</loc>
   <changefreq>daily</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://permianhomes.com/blog/tag/custom-homes/</loc>
+  <loc>http://permianhomes.com/blog/category/permian-homes-contractros/</loc>
   <changefreq>daily</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://permianhomes.com/blog/tag/golf-course/</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://permianhomes.com/blog/tag/hoa/</loc>
+  <loc>http://permianhomes.com/blog/category/permian-homes-employees/</loc>
   <changefreq>daily</changefreq>
   <priority>0.64</priority>
 </url>
@@ -388,7 +279,7 @@
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://permianhomes.com/blog/tag/homeowner-association/</loc>
+  <loc>http://permianhomes.com/blog/tag/homebuilder/</loc>
   <changefreq>daily</changefreq>
   <priority>0.64</priority>
 </url>
@@ -413,6 +304,31 @@
   <priority>0.64</priority>
 </url>
 <url>
+  <loc>http://permianhomes.com/blog/tag/country-club/</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://permianhomes.com/blog/tag/custom-homes/</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://permianhomes.com/blog/tag/golf-course/</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://permianhomes.com/blog/tag/hoa/</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://permianhomes.com/blog/tag/homeowner-association/</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
   <loc>http://permianhomes.com/blog/tag/single-family-homes/</loc>
   <changefreq>daily</changefreq>
   <priority>0.64</priority>
@@ -433,17 +349,7 @@
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://permianhomes.com/blog/category/permian-homes-employees/</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
   <loc>http://permianhomes.com/blog/category/permian-homes-homeowners/</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://permianhomes.com/blog/tag/homebuilder/</loc>
   <changefreq>daily</changefreq>
   <priority>0.64</priority>
 </url>
@@ -453,22 +359,7 @@
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://permianhomes.com/blog/category/permian-homes-contractros/</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
   <loc>http://permianhomes.com/blog/category/uncategorized/</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://permianhomes.com/blog/meet-the-ellsworths-2nd-time-permian-home-owners/</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://permianhomes.com/blog/category/permian-home-employees/</loc>
   <changefreq>daily</changefreq>
   <priority>0.64</priority>
 </url>
@@ -531,7 +422,18 @@
   <priority>0.64</priority>
 </url>
 <url>
+  <loc>http://permianhomes.com/blog/permian-homes-in-the-news/feed/</loc>
+  <lastmod>2013-12-23T14:32:26+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
   <loc>http://permianhomes.com/blog/author/sunny/page/2/</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://permianhomes.com/blog/beauty-in-the-details-dreams-of-field-owner-and-permian-homes-contractor-brian-field/</loc>
   <changefreq>daily</changefreq>
   <priority>0.51</priority>
 </url>
@@ -541,12 +443,12 @@
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://permianhomes.com/blog/tag/midland/page/2/</loc>
+  <loc>http://permianhomes.com/blog/tag/homebuilder/page/2/</loc>
   <changefreq>daily</changefreq>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://permianhomes.com/blog/beauty-in-the-details-dreams-of-field-owner-and-permian-homes-contractor-brian-field/</loc>
+  <loc>http://permianhomes.com/blog/tag/midland/page/2/</loc>
   <changefreq>daily</changefreq>
   <priority>0.51</priority>
 </url>
@@ -572,11 +474,6 @@
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://permianhomes.com/blog/tag/homebuilder/page/2/</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.51</priority>
-</url>
-<url>
   <loc>http://permianhomes.com/blog/exciting-news-about-daybreak-estates/permian-homes-daybreak-brochure/</loc>
   <changefreq>daily</changefreq>
   <priority>0.51</priority>
@@ -588,12 +485,6 @@
 </url>
 <url>
   <loc>http://permianhomes.com/blog/exciting-news-about-daybreak-estates/feed/</loc>
-  <lastmod>2013-12-23T14:32:26+00:00</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>http://permianhomes.com/blog/meet-the-ellsworths-2nd-time-permian-home-owners/feed/</loc>
   <lastmod>2013-12-23T14:32:26+00:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.51</priority>
