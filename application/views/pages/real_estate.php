@@ -66,6 +66,10 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
                         </p>
 
 				        <p>Sales Center Open Monday &ndash; Saturday 10-6pm, Closed Sunday</p>
+
+                        <div class="clearfix" style="margin-top: 5px">
+                            <a href="https://www.google.com/maps/place/31%C2%B053'32.8%22N+102%C2%B017'26.5%22W/@31.892444,-102.290688,15z/data=!3m1!4b1!4m2!3m1!1s0x0:0x0"><img src="/assets/images/site-images/old-course-map.png"></a>
+                        </div>
 			        </aside>
 			        <div class="floatright clearfix">
 				        <a class=" button" href="/assets/pdfs/OldCourseIllustration-24x36.pdf" target="_blank">
@@ -192,10 +196,13 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
                     <h3 style="margin-bottom: 0; padding-bottom: 0;">Sales Center</h3>
 
                     <p style="margin-top: 5px; ">
-                        <a class="map" href="https://www.google.com/maps/place/31%C2%B054'23.6%22N+102%C2%B021'25.9%22W/@31.906556,-102.3572,15z/data=!3m1!4b1!4m2!3m1!1s0x0:0x0">1201 Canyon Drive,<br/> Odessa, TX</a>
+                        <a href="https://www.google.com/maps/place/31%C2%B054'23.6%22N+102%C2%B021'25.9%22W/@31.906556,-102.3572,15z/data=!3m1!4b1!4m2!3m1!1s0x0:0x0">1201 Canyon Drive,<br/> Odessa, TX</a>
                     </p>
 
                     <p>Sales Center Open Monday &ndash; Saturday 10-6pm, Closed Sunday</p>
+                    <div class="clearfix" style="margin-top: 5px">
+                        <a class="map" href="https://www.google.com/maps/place/31%C2%B054'23.6%22N+102%C2%B021'25.9%22W/@31.906556,-102.3572,15z/data=!3m1!4b1!4m2!3m1!1s0x0:0x0"><img src="/assets/images/site-images/desert-ridge-map.png"></a>
+                    </div>
                 </aside>
 
 		        <h2>New Townhomes from the $150s</h2>
@@ -244,11 +251,18 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 			            <h3 style="margin-bottom: 0; padding-bottom: 0;">Sales Center</h3>
 
 			            <p style="margin-top: 5px; ">
-                            <a href="https://www.google.com/maps/place/32%C2%B003'49.2%22N+102%C2%B005'06.3%22W/@32.063662,-102.085076,15z/data=!3m1!4b1!4m2!3m1!1s0x0:0x0" class="map"></a>
+                            <a href="https://www.google.com/maps/place/32%C2%B003'49.2%22N+102%C2%B005'06.3%22W/@32.063662,-102.085076,15z/data=!3m1!4b1!4m2!3m1!1s0x0:0x0" class="map">
                             6001 Sun Tea Way<br/>
                             Midland, TX 79707</p>
+                        </a>
 
 			            <p>Sales Center Open Monday &ndash; Saturday 10-6pm, Closed Sunday</p>
+
+                        <div style="margin-top: 5px;" class="clearfix">
+                            <a href="https://www.google.com/maps/place/32%C2%B003'49.2%22N+102%C2%B005'06.3%22W/@32.063662,-102.085076,15z/data=!3m1!4b1!4m2!3m1!1s0x0:0x0">
+                                <img src="/assets/images/site-images/daybreak-map.png">
+                            </a>
+                        </div>
 		            </aside>
 		            <div class="floatright clearfix">
 			            <a class=" button" href="/assets/pdfs/Daybreak-Phase-1-Sales-Rendering.pdf" target="_blank">
@@ -259,6 +273,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 		            </div>
 
 	            </section>
+
 
 	            <!-- Isabella -->
 	            <section class="floorplan clearfix">
