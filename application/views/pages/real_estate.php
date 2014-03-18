@@ -187,10 +187,17 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 
 
 
+
 		        <section>
 			        <img src="/assets/images/site-images/floorplan/desert-ridge-townhomes.jpg">
 
 		        </section>
+
+                <h2>New Townhomes from the $150s</h2>
+
+                <p class="entry">Situated near Odessa's premier shopping zone, this beautiful community offers
+                    luxurious single story and two story townhomes with low maintenance living for less than
+                    rent!</p>
 
                 <aside class="clearfix">
                     <h3 style="margin-bottom: 0; padding-bottom: 0;">Sales Center</h3>
@@ -205,18 +212,8 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
                     </div>
                 </aside>
 
-		        <h2>New Townhomes from the $150s</h2>
-
-		        <p class="entry">Situated near Odessa's premier shopping zone, this beautiful community offers
-			        luxurious single story and two story townhomes with low maintenance living for less than
-			        rent!</p>
-
 		        <section class="clearfix" style="width: 100%; display: block">
 			        <img class="center" src="/assets/images/site-images/Desert-Ridge.JPG">
-		        </section>
-
-		        <section class="clearfix" style="width: 100%; display: block">
-			        <img class="center" src="/assets/images/site-images/coming-soon.jpg">
 		        </section>
 
 	        </div>

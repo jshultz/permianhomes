@@ -45,36 +45,52 @@
         <div class="panes">
         <!-- The Advantage -->
         <div id="tabs-1">
+            <h1>Be Proud of Your Home</h1>
+            <p>When building a home
+                for your family, you
+                should be proud to call it
+                yours. Does your builder
+                make you proud? If they
+                don't, they haven't done
+                their job.<br/><br/>
+
+                At Permian Homes, we
+                want you to love the home
+                we build for you. Trust us
+                to build it and . . .</p>
+            <a class="button" href="/assets/pdfs/Permian-Homes-Builders-Financial-Flyer-web.pdf">Download The Advantage Brochure</a>
+            <br/>
+            <ul>
+                <li>
+                    We build homes focused on high quality and energy efficiency, all at a fair price. From 16 inch spacing between studs, to Optima blown-in upgraded insulation, to energy star 14.5 SEER air conditioners, Permian offers homes with you and your pocket book in mind.
+                </li>
+                <li>
+                    We are locally owned and operated and use the same local trade partners to consistently build quality homes and value for our customers.
+                </li>
+                <li>
+                    We live in the communities we build and pride ourselves in our homes.  More than 75% of Permian employees live in a Permian home.
+                </li>
+                <li>
+                    We partner with local architects to create large open floor plans with beautiful details in the home to make our homes take your breath away.
+                </li>
+                <li>
+                    We are engaged with the customer on the construction of their homes. From weekly status updates to many onsite meetings, Permian is dedicated to making a great experience for our customers.
+                </li>
+                <li>
+                    We provide many different options and choices for you to personalize your home. We recognize that each customer has different needs and allow customization to everyone. Permian is one of the only builders in the area to have a design center and allow each customer to personalize their home from laying out phone and cable outlets, to designing closets and flex space just how they want them!
+                </li>
+                <li>
+                    We provide an extensive warranty. Permian Offers a warranty Package to keep your mind at ease (<a
+                        href="#tabs-5">more information</a> ).
+                </li>
+                <li>
+                    We provide excellent customer care after move in. Permian is recognized as a builder of choice and carries a 95% customer satisfaction rating for customers in the Permian Basin.
+                </li>
+            </ul>
+
 
             <object data="/assets/pdfs/Permian_Homes_Insert_FINAL.pdf" type="application/pdf" width="100%" height="800px">
-                <h1>Be Proud of Your Home</h1>
-                <ul>
-                    <li>
-                        We build homes focused on high quality and energy efficiency, all at a fair price. From 16 inch spacing between studs, to Optima blown-in upgraded insulation, to energy star 14.5 SEER air conditioners, Permian offers homes with you and your pocket book in mind.
-                    </li>
-                    <li>
-                        We are locally owned and operated and use the same local trade partners to consistently build quality homes and value for our customers.
-                    </li>
-                    <li>
-                        We live in the communities we build and pride ourselves in our homes.  More than 75% of Permian employees live in a Permian home.
-                    </li>
-                    <li>
-                        We partner with local architects to create large open floor plans with beautiful details in the home to make our homes take your breath away.
-                    </li>
-                    <li>
-                        We are engaged with the customer on the construction of their homes. From weekly status updates to many onsite meetings, Permian is dedicated to making a great experience for our customers.
-                    </li>
-                    <li>
-                        We provide many different options and choices for you to personalize your home. We recognize that each customer has different needs and allow customization to everyone. Permian is one of the only builders in the area to have a design center and allow each customer to personalize their home from laying out phone and cable outlets, to designing closets and flex space just how they want them!
-                    </li>
-                    <li>
-                        We provide an extensive warranty. Permian Offers a warranty Package to keep your mind at ease (<a
-                            href="#tabs-5">more information</a> ).
-                    </li>
-                    <li>
-                        We provide excellent customer care after move in. Permian is recognized as a builder of choice and carries a 95% customer satisfaction rating for customers in the Permian Basin.
-                    </li>
-                </ul>
+
             </object>
 
 
