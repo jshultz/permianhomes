@@ -213,7 +213,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
                 </aside>
 
 		        <section class="clearfix" style="width: 100%; display: block">
-			        <img class="center" src="/assets/images/site-images/Desert-Ridge.JPG">
+			        <img class="center" src="/assets/images/site-images/coming-soon.jpg">
 		        </section>
 
 	        </div>
@@ -286,7 +286,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 
 			            <p>3 Bedroom / 2 Bathroom<br/>
 				            1750 sq.ft. Living / 2460 sq. ft. Total<br/>
-				            Priced at $209,990
+				            Priced at $211,990
 			            </p>
 
 		            </section>
@@ -308,7 +308,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 
 			            <p>3 Bedroom / 2 Bathroom<br/>
 				            1894 sq.ft. Living / 2584 sq. ft. Total<br/>
-				            Priced at $220,990
+				            Priced at $222,990
 			            </p>
 
 		            </section>
@@ -326,7 +326,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 
 			            <p>4 Bedroom / 2 Bathroom<br/>
 				            2004 sq.ft. Living / 2680 sq. ft. Total<br/>
-				            Priced at $230,990
+				            Priced at $232,990
 			            </p>
 
 		            </section>
@@ -345,7 +345,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 
 			            <p>4 Bedroom / 2 Bathroom<br/>
 				            2020 sq.ft. Living / 2680 sq. ft. Total<br/>
-				            Priced at $232,990
+				            Priced at $234,990
 			            </p>
 
 		            </section>
@@ -364,7 +364,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 
 			            <p>3 Bedroom / 2 Bathroom<br/>
 				            2273 sq.ft. Living / 3186 sq. ft. Total<br/>
-				            Priced at $248,990
+				            Priced at $250,990
 			            </p>
 
 		            </section>
