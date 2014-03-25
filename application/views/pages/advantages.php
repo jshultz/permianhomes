@@ -47,14 +47,10 @@
         <div id="tabs-1">
             <h1>Be Proud of Your Home</h1>
 
-            <a href="/assets/pdfs/Permian_Homes_Insert_FINAL.pdf" target="_blank"><img src="/assets/images/site-images/take-the-test.png"></a>
+            <a href="/assets/pdfs/Permian_Homes_Insert_FINAL.pdf" target="_blank"><img src="/assets/images/site-images/advantage-quiz.png"></a>
 
-            <a class="button" href="/assets/pdfs/Permian-Homes-Builders-Financial-Flyer-web.pdf">Download The Advantage Brochure</a>
+            <a class="button" target="_blank" href="/assets/pdfs/Permian_Homes_Insert_FINAL.pdf">Download The Advantage Brochure</a>
             <br/>
-
-
-
-
 
         </div>
         <!-- Building Green -->
