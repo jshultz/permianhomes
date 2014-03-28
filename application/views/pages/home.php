@@ -51,6 +51,15 @@
                 <div class="scrollable" id="scrollable">
 
                     <div class="items">
+	                    <img src="/assets/images/slides/Chris-House-5-Star-1.png">
+	                    <img src="/assets/images/slides/Bathroom.png">
+	                    <img src="/assets/images/slides/Chris-House-5-Star-2907.png">
+	                    <img src="/assets/images/slides/David-Internet-1535.png">
+	                    <img src="/assets/images/slides/Living-Room.png">
+	                    <img src="/assets/images/slides/Model-5---7929.png">
+	                    <img src="/assets/images/slides/Model-5---7936.png">
+	                    <img src="/assets/images/slides/Model-5---7943.png">
+	                    <img src="/assets/images/slides/Model-5---7947.png">
                         <img src="/assets/images/slides/Chris%20House-5-Star-2776.jpg">
                         <img src="/assets/images/site-images/162.jpg">
                         <img src="/assets/images/slides/Model-Pictures-015.JPG">

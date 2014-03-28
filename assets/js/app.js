@@ -25,9 +25,9 @@ jQuery(document).ready(function ($) {
 
     $( "#warranty" ).validate({
         rules: {
-            human: "required",
-            human_again: {
-                equalTo: "#human"
+            human2: "required",
+            human_again2: {
+                equalTo: "#human2"
             }
         }
     });

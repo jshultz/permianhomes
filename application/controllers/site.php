@@ -25,8 +25,15 @@ class Site extends CI_Controller
         $this->form_validation->set_rules('telephone', 'Telephone', 'required|trim');
         $this->form_validation->set_rules('message', 'Your Message', 'required|trim');
 
-        $this->form_validation->set_rules('human', 'Are You Human?', 'trim|required');
-        $this->form_validation->set_rules('human_again', 'Please type the same word again', 'trim|required|matches[human]');
+	    if ($this->input->post('recipient') == 'warranty') {
+		    $this->form_validation->set_rules('human2', 'Are You Human?', 'trim|required');
+		    $this->form_validation->set_rules('human_again2', 'Please type the same word again', 'trim|required|matches[human2]');
+	    } else {
+		    $this->form_validation->set_rules('human', 'Are You Human?', 'trim|required');
+		    $this->form_validation->set_rules('human_again', 'Please type the same word again', 'trim|required|matches[human]');
+	    }
+
+
 
         if ($this->form_validation->run() == FALSE)
         {
@@ -37,7 +44,7 @@ class Site extends CI_Controller
             $this->session->set_userdata($newdata);
 
             if ($this->input->post('recipient') == 'warranty') {
-                redirect('/about#tabs-2');
+                redirect('/contact_us/#tabs-5');
             } else {
                 redirect('/about#tabs-3');
             }

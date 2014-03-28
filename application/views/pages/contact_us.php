@@ -169,17 +169,17 @@
                         <?= form_input('telephone', '', 'class="input-text required" placeholder="Telephone"'); ?>
                         <?= form_textarea('message', '', 'placeholder="Services Requested..."'); ?>
                         <p>
-                            <label for="human">
+                            <label for="human2">
                                 Are You Human (YES)?:
                             </label><br/>
-                            <input type="text" name="human" id="human" value="<?php echo set_value('human'); ?>">
+                            <input type="text" name="human2" id="human2" value="<?php echo set_value('human'); ?>">
                         </p>
 
                         <p>
-                            <label for="human_again">
+                            <label for="human_again2">
                                 Please type the same word again:
                             </label><br/>
-                            <input type="text" name="human_again" id="human_again" value="<?php echo set_value('human_again'); ?>">
+                            <input type="text" name="human_again2" id="human_again2" value="<?php echo set_value('human_again'); ?>">
                         </p>
 
                         <?= form_submit('mysubmit', 'Submit', 'class="blue button radius"'); ?>
