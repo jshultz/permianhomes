@@ -249,7 +249,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 
 			            <p style="margin-top: 5px; ">
                             <a target="_blank" href="http://l.jshultz.co/1p5bLic" class="map">
-                            6001 Sun Tea Way<br/>
+                            6101 Sun Tea Way<br/>
                             Midland, TX 79707</p>
                         </a>
 
