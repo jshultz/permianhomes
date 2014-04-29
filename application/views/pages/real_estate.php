@@ -363,8 +363,8 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 			            <h3>The Fabiana</h3>
 
 			            <p>3 Bedroom / 2 Bathroom<br/>
-				            2273 sq.ft. Living / 3186 sq. ft. Total<br/>
-				            Priced at $250,990
+				            2300 sq.ft. Living / 3150 sq. ft. Total<br/>
+				            Priced at $252,990
 			            </p>
 
 		            </section>
