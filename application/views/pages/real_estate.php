@@ -132,7 +132,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
                         <h3>The Cohen</h3>
 
                         <p>3 Bedroom / 2.5 Bathrooms<br/>
-                            1,857 sq.ft. Living / 2,440 sq. ft. Total<br/>
+                            1,852 sq.ft. Living / 2,407 sq. ft. Total<br/>
                             Priced at $199,990</p>
 
                     </section>

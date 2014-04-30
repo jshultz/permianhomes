@@ -72,9 +72,6 @@
                     Demilec foamed sealed penetrations with Certain-Teeds Optima blow in upgraded insulation
                 </li>
                 <li>
-                    Tyvex House Wrap
-                </li>
-                <li>
                     LP&#39;s Radiant Barrier foil roof decking that helps control home temperatures
                 </li>
                 <li>
