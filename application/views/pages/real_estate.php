@@ -286,7 +286,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 
 			            <p>3 Bedroom / 2 Bathroom<br/>
 				            1750 sq.ft. Living / 2460 sq. ft. Total<br/>
-				            Priced at $211,990
+				            Priced at $213,990
 			            </p>
 
 		            </section>
@@ -308,7 +308,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 
 			            <p>3 Bedroom / 2 Bathroom<br/>
 				            1894 sq.ft. Living / 2584 sq. ft. Total<br/>
-				            Priced at $222,990
+				            Priced at $224,990
 			            </p>
 
 		            </section>
@@ -326,7 +326,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 
 			            <p>4 Bedroom / 2 Bathroom<br/>
 				            2004 sq.ft. Living / 2680 sq. ft. Total<br/>
-				            Priced at $232,990
+				            Priced at $234,990
 			            </p>
 
 		            </section>
@@ -345,7 +345,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 
 			            <p>4 Bedroom / 2 Bathroom<br/>
 				            2020 sq.ft. Living / 2680 sq. ft. Total<br/>
-				            Priced at $234,990
+				            Priced at $236,990
 			            </p>
 
 		            </section>
@@ -364,7 +364,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 
 			            <p>3 Bedroom / 2 Bathroom<br/>
 				            2300 sq.ft. Living / 3150 sq. ft. Total<br/>
-				            Priced at $252,990
+				            Priced at $254,990
 			            </p>
 
 		            </section>
@@ -382,7 +382,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 
 			            <p>4 Bedroom / 2 Bathroom<br/>
 				            2426 sq.ft. Living / 3254 sq. ft. Total<br/>
-				            Priced at $262,990
+				            Priced at $264,990
 			            </p>
 
 		            </section>
@@ -400,7 +400,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 
 			            <p>4 Bedroom / 3 Bathroom<br/>
                             3247 sq.ft. Living / 4110 sq. ft. Total<br/>
-                            Priced at $294,990
+                            Priced at $296,990
 			            </p>
 
 		            </section>
