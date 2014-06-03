@@ -188,29 +188,36 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 
 
 
-		        <section>
-			        <img src="/assets/images/site-images/floorplan/desert-ridge-townhomes.jpg">
+		        <section class="">
+			        <img width="566" src="/assets/images/site-images/Savannah-A-Rendering.jpg">
+
 
 		        </section>
 
-                <h2>New Townhomes from the $150s</h2>
+                <h2>New Single Family Homes from the $180s</h2>
 
-                <p class="entry">Situated near Odessa's premier shopping zone, this beautiful community offers
-                    luxurious single story and two story townhomes with low maintenance living for less than
-                    rent!</p>
+                <p class="entry">Situated near Odessa's premier shopping zone, this beautiful community offers luxurious single family homes with low maintenance living for less than rent!</p>
 
-                <aside class="clearfix">
-                    <h3 style="margin-bottom: 0; padding-bottom: 0;">Sales Center</h3>
+                <section class="clearfix" style="width: 100%; display: block">
+                    <aside class="floatleft clearfix">
+                        <h3 style="margin-bottom: 0; padding-bottom: 0;">Sales Center</h3>
 
-                    <p style="margin-top: 5px; ">
-                        <a target="_blank" href="http://l.jshultz.co/1edt7Yy">1201 Canyon Drive,<br/> Odessa, TX</a>
-                    </p>
+                        <p style="margin-top: 5px; ">
+                            <a target="_blank" href="http://l.jshultz.co/1edt7Yy">1201 Canyon Drive,<br/> Odessa, TX</a>
+                        </p>
 
-                    <p>Sales Center Open Monday &ndash; Saturday 10-6pm, Closed Sunday</p>
-                    <div class="clearfix" style="margin-top: 5px">
-                        <a target="_blank" class="map" href="http://l.jshultz.co/1edt7Yy"><img src="/assets/images/site-images/desert-ridge-map.png"></a>
+                        <p>Sales Center Open Monday &ndash; Saturday 10-6pm, Closed Sunday</p>
+                        <div class="clearfix" style="margin-top: 5px">
+                            <a target="_blank" class="map" href="http://l.jshultz.co/1edt7Yy"><img src="/assets/images/site-images/desert-ridge-map.png"></a>
+                        </div>
+                    </aside>
+
+                    <div class="floatright clearfix">
+                        <a class="button" target="_blank" href="/assets/pdfs/DesertRidgeIllustration-24x36.pdf">Download
+                            Site Plan</a>
                     </div>
-                </aside>
+                </section>
+
 
 		        <section class="clearfix" style="width: 100%; display: block">
 			        <img class="center" src="/assets/images/site-images/coming-soon.jpg">

@@ -28,10 +28,10 @@
                     </li>
                     <li>
                         <a href="/real_estate/#tabs-1">
-                            <img src="/assets/images/site-images/Model-Pictures-079.v01.JPG">
+                            <img width="" src="/assets/images/site-images/Savannah-A-Rendering.jpg">
                             <span class="property">Desert Ridge</span> |
                             <span class="town">Odessa</span> |
-                            <span class="price">$150s</span>
+                            <span class="price">$180s</span>
                         </a>
                     </li>
 
@@ -263,9 +263,9 @@
     <div id="home-widget-flickr" class="home-widget">
         <h2><a href="http://permianhomes.com/blog/">In The News</a> </h2>
 
-        <p><strong><a target="_blank" href="http://www.newswest9.com/story/24792349/companies-volunteers-help-give-amputee-a-repaired-home">Companies, Volunteers Help Give Amputee a Repaired Home</a> </strong></p>
+        <p><strong><a target="_blank" href="http://permianhomes.com/blog/meet-justin-and-monica-proud-permian-home-owners/">Meet Justin and Monica, Proud Permian Home Owners</a> </strong></p>
 
-        <p><strong><a target="_blank" href="http://permianhomes.com/blog/looking-forward-to-2014/">Looking forward to 2014...</a></strong></p>
+        <p><strong><a target="_blank" href="http://www.newswest9.com/story/24792349/companies-volunteers-help-give-amputee-a-repaired-home">Companies, Volunteers Help Give Amputee a Repaired Home</a> </strong></p>
 
         <p><strong><a target="_blank" href="http://permianhomes.com/blog/permian-homes-and-operation-finally-home-welcome-home-the-busby-family/">Welcome Home Busby Family!</a></strong></p>
 
