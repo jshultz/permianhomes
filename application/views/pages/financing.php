@@ -73,6 +73,9 @@
 				<a style="display: block; background-color: #808080; width: 418px" href="http://buildersfinancial.com" target="_blank"><img src="/assets/images/site-images/builders-financial-logo.png"></a>
 
                 <p>&nbsp;</p>
+                <p><a style="background-color: red; color: white; border-color: #000000; text-align: center" class="clearfix button red" target="_blank" href="/assets/pdfs/Permian_Homes_Builders_Financial%20Flyer_web_060214.pdf">Big Savings on<br/>Closing Costs!</a>
+
+                </p>
                 </p>
 
 	            <h2>Use Our Mortgage Calculator</h2>
@@ -122,8 +125,8 @@
 						            <option label="2010" value="2010">2010</option>
 						            <option label="2011" value="2011">2011</option>
 						            <option label="2012" value="2012">2012</option>
-						            <option label="2013" value="2013" selected="selected">2013</option>
-						            <option label="2014" value="2014">2014</option>
+						            <option label="2013" value="2013">2013</option>
+						            <option label="2014" value="2014" selected="selected">2014</option>
 						            <option label="2015" value="2015">2015</option>
 					            </select>
 				            </div>
