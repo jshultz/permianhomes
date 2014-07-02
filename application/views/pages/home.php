@@ -23,7 +23,7 @@
                             <img src="/assets/images/site-images/IMG_5443a.png">
                             <span class="property">Old Course</span> |
                             <span class="town">Odessa</span> |
-                            <span class="price">$170s</span>
+                            <span class="price">$180s</span>
                         </a>
                     </li>
                     <li>
@@ -31,7 +31,7 @@
                             <img width="" src="/assets/images/site-images/Savannah-A-Rendering.jpg">
                             <span class="property">Desert Ridge</span> |
                             <span class="town">Odessa</span> |
-                            <span class="price">$180s</span>
+                            <span class="price">$190s</span>
                         </a>
                     </li>
 

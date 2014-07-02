@@ -146,6 +146,7 @@
                             Manual. This manual contains information on specific components of your home, the
                             occurrences that Permian will warrant, and supplemental details on maintenance and homeowner
                             responsibility.</p>
+                          <p><strong>For Emergencies after hours, please call 432-362-3436</strong></p>
 
                         <h3>Warranty Request</h3>
 
@@ -200,5 +201,3 @@
 </div> <!-- end: insideContentWrapper -->
 
 </div> <!-- end: wrapper -->
-
-
