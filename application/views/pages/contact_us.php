@@ -127,6 +127,10 @@
                         <?= form_submit('mysubmit', 'Submit', 'class="blue button radius"'); ?>
                         <?= form_fieldset_close(); ?>
                         <?= form_close(); ?>
+                        <br/>
+                        <h3>Contractors</h3>
+
+                        <p> If you are a trade contractor looking to submit a bid, please email us at <a href="mailto:bids@permianhomes.com">bids@permianhomes.com</a> </p>
 
 
                     </div>
@@ -186,6 +190,7 @@
                         <?= form_submit('mysubmit', 'Submit', 'class="blue button radius"'); ?>
                         <?= form_fieldset_close(); ?>
                         <?= form_close(); ?>
+
 
                     </div>
 
