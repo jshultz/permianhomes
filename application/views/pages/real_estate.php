@@ -237,7 +237,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 
                       <p>3 Bedroom / 2 Bathrooms<br/>
                           1,709 sq.ft. Living / 2,323 sq. ft. Total<br/>
-                          Priced at $194,990</p>
+                          Priced at $196,990</p>
 
                   </section>
               </section>
@@ -257,7 +257,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 
                         <p>3 Bedroom / 2 Bathrooms<br/>
                             1,798 sq.ft. Living / 2,491 sq. ft. Total<br/>
-                            Priced at $200,990</p>
+                            Priced at $202,990</p>
 
                     </section>
                 </section>
@@ -276,7 +276,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 
                       <p>3 Bedroom / 2 Bathrooms<br/>
                           1,897 sq.ft. Living / 2,668 sq. ft. Total<br/>
-                          Priced at $208,990</p>
+                          Priced at $210,990</p>
 
                   </section>
               </section>
@@ -295,7 +295,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 
                       <p>4 Bedroom / 2 Bathrooms<br/>
                           1,998 sq.ft. Living / 2,771 sq. ft. Total<br/>
-                          Priced at $216,990</p>
+                          Priced at $218,990</p>
 
                   </section>
               </section>
@@ -314,7 +314,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 
                       <p>4 Bedroom / 2 Bathrooms<br/>
                           2,200 sq.ft. Living / 2,993 sq. ft. Total<br/>
-                          Priced at $230,990</p>
+                          Priced at $232,990</p>
 
                   </section>
               </section>
@@ -333,7 +333,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 
                       <p>5 Bedroom / 2.5 Bathrooms<br/>
                           2,624 sq.ft. Living / 3,662 sq. ft. Total<br/>
-                          Priced at $270,990</p>
+                          Priced at $272,990</p>
 
                   </section>
               </section>
