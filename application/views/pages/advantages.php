@@ -65,7 +65,7 @@
                 the overall amount of energy consumption, continually saving you money! Just to list a few:</p>
             <ul>
                 <li>
-                    Dual pane, Low-E, 366-Coated, insulated windows that keep heat in during the winter and out during the
+                    Dual pane, Low-E, insulated windows that keep heat in during the winter and out during the
                     summer
                 </li>
                 <li>
@@ -183,5 +183,3 @@
 </div> <!-- end: insideContentWrapper -->
 
 </div> <!-- end: wrapper -->
-
-
