@@ -257,7 +257,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 
                         <p>3 Bedroom / 2 Bathrooms<br/>
                             1,798 sq.ft. Living / 2,491 sq. ft. Total<br/>
-                            Priced at $202,990</p>
+                            Priced at $204,990</p>
 
                     </section>
                 </section>
@@ -276,7 +276,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 
                       <p>3 Bedroom / 2 Bathrooms<br/>
                           1,897 sq.ft. Living / 2,668 sq. ft. Total<br/>
-                          Priced at $210,990</p>
+                          Priced at $212,990</p>
 
                   </section>
               </section>
@@ -295,7 +295,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 
                       <p>4 Bedroom / 2 Bathrooms<br/>
                           1,998 sq.ft. Living / 2,771 sq. ft. Total<br/>
-                          Priced at $218,990</p>
+                          Priced at $220,990</p>
 
                   </section>
               </section>
