@@ -11,7 +11,7 @@
 
                     <li>
                         <a href="/real_estate/#tabs-4">
-                            <img src="/assets/images/site-images/DSC_0003.png">
+                            <img src="/assets/images/site-images/daybreak.png">
                             <span class="propety">Daybreak</span> |
                             <span class="town">Midland</span> |
                             <span class="price">$200s</span>
@@ -32,6 +32,22 @@
                             <span class="property">Desert Ridge</span> |
                             <span class="town">Odessa</span> |
                             <span class="price">$190s</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/real_estate/#tabs-5">
+                            <img width="" src="/assets/images/site-images/enclave.png">
+                            <span class="property">Enclave</span> |
+                            <span class="town">Odessa</span> |
+                            <span class="price">$250s</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/real_estate/#tabs-6">
+                            <img width="" src="/assets/images/site-images/devon-court.png">
+                            <span class="property">Devon Court</span> |
+                            <span class="town">Odessa</span> |
+                            <span class="price">$200s</span>
                         </a>
                     </li>
 

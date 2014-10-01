@@ -35,17 +35,45 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
         </ul>
 
         <div id="odessa" class="pane">
-        <ul class="tabs clearfix">
-	        <li><a href="#tabs-2">Old Course Estates</a></li>
-	        <li><a href="#tabs-1">Desert Ridge</a></li>
+          <ul class="tabs clearfix">
+            <li><a href="#tabs-1">Desert Ridge</a></li>
+  	        <li><a href="#tabs-2">Old Course Estates</a></li>
+            <li><a href="#tabs-5">Enclave</a></li>
+            <li><a href="#tabs-6">Devon</a></li>
 
-        </ul>
+
+          </ul>
 
 	        <!-- Old Course Estates -->
 	        <div id="tabs-2" class="pane">
 		        <h1>Old Course Estates &ndash; Affordable Luxury</h1>
 		        <section>
-			        <img src="/assets/images/site-images/IMG_5443a.png">
+              <div id="featureHolder">
+                <div id="featureMask">
+                  <div id="featureSlide">
+
+                        <div class="scrollable" id="old-course-slides">
+
+                            <div class="items">
+                              <img src="/assets/images/slides/old-course-slides/IMG_6485.JPG">
+                              <img src="/assets/images/slides/old-course-slides/IMG_6493.JPG">
+                              <img src="/assets/images/slides/old-course-slides/IMG_6494.JPG">
+                              <img src="/assets/images/slides/old-course-slides/IMG_6495.JPG">
+                              <img src="/assets/images/slides/old-course-slides/IMG_6501.JPG">
+                              <img src="/assets/images/slides/old-course-slides/IMG_6502.JPG">
+                              <img src="/assets/images/slides/old-course-slides/IMG_6505.JPG">
+                              <img src="/assets/images/slides/old-course-slides/IMG_6520.JPG">
+                              <img src="/assets/images/slides/old-course-slides/IMG_6523.JPG">
+                              <img src="/assets/images/slides/old-course-slides/IMG_6531.JPG">
+                              <img src="/assets/images/slides/old-course-slides/IMG_6544.JPG">
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                  </div>
+              </div>
 
 			        <h2>New Townhomes from the $180s</h2>
 		        </section>
@@ -65,7 +93,9 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
                             <a target="_blank" class="map" href="http://l.jshultz.co/1mehMfC">1405 Old Course Road,<br/> Odessa, TX 79765</a>
                         </p>
 
-				        <p>Sales Center Open Monday &ndash; Saturday 10-6pm, Closed Sunday</p>
+				        <p>Sales Center <br/>
+                Open Monday &ndash; Saturday 10-6pm,<br/>
+                 Closed Sunday</p>
 
                         <div class="clearfix" style="margin-top: 5px">
                             <a target="_blank" href="http://l.jshultz.co/1mehMfC"><img src="/assets/images/site-images/old-course-map.png"></a>
@@ -206,7 +236,9 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
                             <a target="_blank" href="http://l.jshultz.co/1edt7Yy">1201 Boise Drive,<br/> Odessa, TX</a>
                         </p>
 
-                        <p>Sales Center Open Monday &ndash; Saturday 10-6pm, Closed Sunday</p>
+                        <p>Sales Center <br/>
+                        Open Monday &ndash; Saturday 10-6pm, <br/>
+                        Closed Sunday</p>
                         <div class="clearfix" style="margin-top: 5px">
                             <a target="_blank" class="map" href="http://l.jshultz.co/1edt7Yy"><img src="/assets/images/site-images/desert-ridge-map.png"></a>
                         </div>
@@ -342,6 +374,195 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 
 	        </div>
 
+          <!-- Enclave Estates -->
+            <div id="tabs-5" class="pane ">
+
+                <h1>Enclave &ndash; Now You're Living!</h1>
+
+                <section>
+                    <img src="/assets/images/site-images/enclave.png">
+
+                </section>
+
+              <h2>New Single Family Homes from the $250's</h2>
+
+                <p class="entry">Welcome to Enclave at Mission Ranch, Odessa's premier community.  
+                Located next to Mission Estates and the Odessa Country Club Golf Course, these homes offer 
+                many amenities and upgrades, all next to shopping, dining, movie theaters, and so much more!</p>
+
+              <section class="clearfix" style="width: 100%; display: block">
+
+                <aside class="floatleft clearfix">
+                  <h3 style="margin-bottom: 0; padding-bottom: 0;">Sales Center</h3>
+
+                  <p style="margin-top: 5px; ">
+                            <a target="_blank" href="http://l.jshultz.co/1DE1mEq" class="map">
+                            8001 Berkshire Circle, <br/>
+                            Odessa TX 79765</p>
+                        </a>
+
+                  <p>Sales Center <br/>
+                  Open Monday &ndash; Saturday 10-6pm, 
+                  <br/>Closed Sunday</p>
+
+                        <div style="margin-top: 5px;" class="clearfix">
+                            <a target="_blank" href="http://l.jshultz.co/1DE1mEq">
+                                <img width="150" src="/assets/images/site-images/devon-enclave-map.png">
+                            </a>
+                        </div>
+                </aside>
+                <div class="floatright clearfix">
+                  <a class=" button" href="/assets/pdfs/Enclave-Phase-1-Sales-Rendering.pdf" target="_blank">
+                    Download Site Plan</a>
+                  <br>
+                  <a class="button" target="_blank" href="#">Download
+                    Brochure</a>
+                </div>
+
+              </section>
+
+              <!-- Mirella -->
+              <section class="floorplan clearfix">
+                <section class="floatleft photo">
+                  <img src="/assets/images/site-images/floorplan/MirellaB.jpg" width="399">
+                  <a style="margin-left: 35px" class="clearfix button" target="_blank" href="/assets/pdfs/Permian_Homes_Daybreak_Brochure_FINALweb_6.pdf">Download
+                    Floor
+                    Plan</a>
+                </section>
+                <section class="details">
+                  <h3>The Mirella</h3>
+
+                  <p>4 Bedroom / 2 Bathroom<br/>
+                    2004 sq.ft. Living / 2680 sq. ft. Total<br/>
+                  </p>
+
+                </section>
+              </section>
+              <!-- Erminia -->
+              <section class="floorplan clearfix">
+                <section class="floatleft photo">
+                  <img src="/assets/images/site-images/floorplan/Erminia_B.jpg" width="399">
+                  <a style="margin-left: 35px" class="clearfix button" target="_blank" href="/assets/pdfs/Permian_Homes_Daybreak_Brochure_FINALweb_7.pdf">Download
+                    Floor
+                    Plan</a>
+                </section>
+                <section class="details">
+
+                  <h3>The Erminia</h3>
+
+                  <p>4 Bedroom / 2 Bathroom<br/>
+                    2020 sq.ft. Living / 2680 sq. ft. Total<br/>
+                  </p>
+
+                </section>
+              </section>
+              <!-- Fabiana -->
+              <section class="floorplan clearfix">
+                <section class="floatleft photo">
+                  <img src="/assets/images/site-images/floorplan/Fabiana_Rendering_400.jpg">
+                  <a style="margin-left: 35px" class="clearfix button" target="_blank" href="/assets/pdfs/Permian_Homes_Daybreak_Brochure_FINALweb_8.pdf">Download
+                    Floor
+                    Plan</a>
+                </section>
+                <section class="details">
+
+                  <h3>The Fabiana</h3>
+
+                  <p>3 Bedroom / 2 Bathroom<br/>
+                    2300 sq.ft. Living / 3150 sq. ft. Total<br/>
+                  </p>
+
+                </section>
+              </section>
+              <!-- Francesca -->
+              <section class="floorplan clearfix">
+                <section class="floatleft photo">
+                  <img src="/assets/images/site-images/floorplan/Francesca_Elevation_B.jpg">
+                  <a style="margin-left: 35px" class="clearfix button" target="_blank" href="/assets/pdfs/Permian_Homes_Daybreak_Brochure_FINALweb_9.pdf">Download
+                    Floor
+                    Plan</a>
+                </section>
+                <section class="details">
+                  <h3>The Francesca</h3>
+
+                  <p>4 Bedroom / 2 Bathroom<br/>
+                    2426 sq.ft. Living / 3254 sq. ft. Total<br/>
+                  </p>
+
+                </section>
+              </section>
+              <!-- Gabriella -->
+              <section class="floorplan clearfix">
+                <section class="floatleft photo">
+                  <img src="/assets/images/site-images/floorplan/Gabriella_Rendering_400.JPG">
+                  <a style="margin-left: 35px" class="clearfix button" target="_blank" href="/assets/pdfs/Permian_Homes_Daybreak_Brochure_FINALweb_10.pdf">Download
+                    Floor
+                    Plan</a>
+                </section>
+                <section class="details">
+                  <h3>The Gabriella</h3>
+
+                  <p>4 Bedroom / 3 Bathroom<br/>
+                      3247 sq.ft. Living / 4110 sq. ft. Total<br/>
+                  </p>
+
+                </section>
+              </section>
+
+            </div>
+
+            <!-- Devon Court -->
+            <div id="tabs-6" class="pane ">
+
+                <h1>Devon Court &ndash; Now You're Living!</h1>
+
+                <section>
+                    <img src="/assets/images/site-images/devon-court.png">
+
+                </section>
+
+              <h2>New Single Story Townhomes from the $200's</h2>
+
+                <p class="entry">Devon Court in Mission Ranch is a private cul-de-sac community made up of luxury single story townhomes.  
+                Enjoy open concept floor plans, maintenance free living, all next to shopping, dining, movie theaters, and so much more!</p>
+
+              <section class="clearfix" style="width: 100%; display: block">
+
+                <aside class="floatleft clearfix">
+                  <h3 style="margin-bottom: 0; padding-bottom: 0;">Sales Center</h3>
+
+                  <p style="margin-top: 5px; ">
+                            <a target="_blank" href="http://l.jshultz.co/1DE1mEq" class="map">
+                            8001 Berkshire Circle, 
+                            Odessa TX 79765</p>
+                        </a>
+
+                  <p>Sales Center <br/>
+                  Open Monday &ndash; Saturday 10-6pm, 
+                  <br/>Closed Sunday</p>
+
+                        <div style="margin-top: 5px;" class="clearfix">
+                            <a target="_blank" href="http://l.jshultz.co/1DE1mEq">
+                                <img width="150" src="/assets/images/site-images/devon-enclave-map.png">
+                            </a>
+                        </div>
+                </aside>
+                <div class="floatright clearfix">
+                  <a class=" button" href="/assets/pdfs/Devon-Court.pdf" target="_blank">
+                    Download Site Plan</a>
+                  <br>
+                  <a class="button" target="_blank" href="#">Download
+                    Brochure</a>
+                </div>
+
+              </section>
+
+              <br/>
+                <img src="/assets/images/site-images/coming-soon.jpg">
+                <br/>
+
+            </div>
+
 
 
         </div>
@@ -349,6 +570,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
         <div id="midland" class="pane">
             <ul class="tabs clearfix">
                 <li><a href="#tabs-4">Daybreak Estates</a></li>
+                
             </ul>
 
             <!-- Daybreak Estates -->
@@ -357,7 +579,34 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
                 <h1>Daybreak Estates &ndash; A Place to Grow</h1>
 
                 <section>
-                    <img src="/assets/images/site-images/DSC_0003.png">
+                    <div id="featureHolder">
+                      <div id="featureMask">
+                        <div id="featureSlide">
+
+                            <div class="scrollable" id="daybreak-slides">
+
+                                <div class="items">
+                                  <img src="/assets/images/slides/daybreak-slides/IMG_6322.jpg">
+                                  <img src="/assets/images/slides/daybreak-slides/IMG_6347.jpg">
+                                  <img src="/assets/images/slides/daybreak-slides/IMG_6352.jpg">
+                                  <img src="/assets/images/slides/daybreak-slides/IMG_6360.jpg">
+                                  <img src="/assets/images/slides/daybreak-slides/IMG_6377.jpg">
+                                  <img src="/assets/images/slides/daybreak-slides/IMG_6386.jpg">
+                                  <img src="/assets/images/slides/daybreak-slides/IMG_6395.jpg">
+                                  <img src="/assets/images/slides/daybreak-slides/IMG_6415.jpg">
+                                  <img src="/assets/images/slides/daybreak-slides/IMG_6424.jpg">
+                                  <img src="/assets/images/slides/daybreak-slides/IMG_6439.jpg">
+                                  <img src="/assets/images/slides/daybreak-slides/IMG_6459.jpg">
+                                  <img src="/assets/images/slides/daybreak-slides/IMG_6467.jpg">
+                                  <img src="/assets/images/slides/daybreak-slides/IMG_6473.jpg">
+                                </div>
+
+                            </div>
+
+
+                          </div>
+                      </div>
+                    </div>
 
                 </section>
 
@@ -377,7 +626,9 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
                             Midland, TX 79707</p>
                         </a>
 
-			            <p>Sales Center Open Monday &ndash; Saturday 10-6pm, Closed Sunday</p>
+			            <p>Sales Center<br/>
+                   Open Monday &ndash; Saturday 10-6pm,<br/>
+                    Closed Sunday</p>
 
                         <div style="margin-top: 5px;" class="clearfix">
                             <a target="_blank" href="http://l.jshultz.co/1p5bLic">
@@ -531,6 +782,9 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 	            </section>
 
             </div>
+
+            
+
         </div>
     </div>
 </div>

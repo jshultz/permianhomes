@@ -29,10 +29,20 @@ $(document).ready(function(){
         interval: 5000
     });
 
+    $("#daybreak-slides").scrollable({circular: true, mousewheel: true}).autoscroll({
+        interval: 5000
+    });
+
+    $("#old-course-slides").scrollable({circular: true, mousewheel: true}).autoscroll({
+        interval: 5000
+    });
+
 
     $("ul.tabs").tabs("div.panes > div");
 
     $("#tabwrap > ul.tabs").tabs("> .pane");
+
+    $("#midland > ul.tabs").tabs("> .pane");
 
     $("#odessa > ul.tabs").tabs("> .pane");
 	
@@ -49,8 +59,6 @@ $(document).ready(function(){
 	}
 
     var href = window.location.hash;
-    console.log(href);
-
 
     if (href == '#tabs-4') {
         $('a.midland').click();
