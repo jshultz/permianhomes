@@ -44,6 +44,170 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 
           </ul>
 
+          <!-- Desert Ridge Townhomes -->
+          <div id="tabs-1" class="pane">
+
+            <h1>Desert Ridge &mdash; Maintenance Free Living</h1>
+
+
+
+
+            <section class="">
+              <img width="566" src="/assets/images/site-images/Savannah-A-Rendering.jpg">
+
+
+            </section>
+
+                <h2>New Single Family Homes from the $190's</h2>
+
+                <p class="entry">Situated near Odessa's premier shopping zone, this beautiful community offers luxurious single family homes with low maintenance living for less than rent!</p>
+
+                <section class="clearfix" style="width: 100%; display: block">
+                    <aside class="floatleft clearfix">
+                        <h3 style="margin-bottom: 0; padding-bottom: 0;">Sales Center</h3>
+
+                        <p style="margin-top: 5px; ">
+                            <a target="_blank" href="http://l.jshultz.co/1edt7Yy">1201 Boise Drive,<br/> Odessa, TX</a>
+                        </p>
+
+                        <p>Sales Center <br/>
+                        Open Monday &ndash; Saturday 10-6pm, <br/>
+                        Closed Sunday</p>
+                        <div class="clearfix" style="margin-top: 5px">
+                            <a target="_blank" class="map" href="http://l.jshultz.co/1edt7Yy"><img src="/assets/images/site-images/desert-ridge-map.png"></a>
+                        </div>
+                    </aside>
+
+                    <div class="floatright clearfix">
+                        <a class="button" target="_blank" href="/assets/pdfs/DesertRidgeIllustration-24x36.pdf">Download
+                            Site Plan</a><br/>
+                        <a class="button" target="_blank" href="/assets/pdfs/Permian_Homes_Desert_Ridge_Brochure.pdf">Download
+                            Brochure</a>
+                    </div>
+                </section>
+
+
+            <section class="clearfix" style="width: 100%; display: block">
+
+              <!-- Svannah -->
+              <section class="floorplan clearfix">
+                  <section class="floatleft photo">
+                      <img src="/assets/images/site-images/desertridge/savannah_a_rendering.jpg">
+                      <a style="margin-left: 35px" class="clearfix button" target="_blank" href="/assets/pdfs/desertridge/savannah_sales_plan.pdf">Download
+                          Floor
+                          Plan</a>
+                  </section>
+                  <section class="details">
+
+                      <h3>The Savannah</h3>
+
+                      <p>3 Bedroom / 2 Bathrooms<br/>
+                          1,709 sq.ft. Living / 2,323 sq. ft. Total<br/>
+                          Priced at $196,990</p>
+
+                  </section>
+              </section>
+
+
+                <!-- Keili -->
+                <section class="floorplan clearfix">
+                    <section class="floatleft photo">
+                        <img src="/assets/images/site-images/desertridge/keili_a_rendering.jpg">
+                        <a style="margin-left: 35px" class="clearfix button" target="_blank" href="/assets/pdfs/desertridge/keili_sales_plan.pdf">Download
+                            Floor
+                            Plan</a>
+                    </section>
+                    <section class="details">
+
+                        <h3>The Keili</h3>
+
+                        <p>3 Bedroom / 2 Bathrooms<br/>
+                            1,798 sq.ft. Living / 2,491 sq. ft. Total<br/>
+                            Priced at $204,990</p>
+
+                    </section>
+                </section>
+
+              <!-- Rylee -->
+              <section class="floorplan clearfix">
+                  <section class="floatleft photo">
+                      <img src="/assets/images/site-images/desertridge/rylee_a_rendering.jpg">
+                      <a style="margin-left: 35px" class="clearfix button" target="_blank" href="/assets/pdfs/desertridge/rylee_sales_plan.pdf">Download
+                          Floor
+                          Plan</a>
+                  </section>
+                  <section class="details">
+
+                      <h3>The Rylee</h3>
+
+                      <p>3 Bedroom / 2 Bathrooms<br/>
+                          1,897 sq.ft. Living / 2,668 sq. ft. Total<br/>
+                          Priced at $212,990</p>
+
+                  </section>
+              </section>
+
+              <!-- Samantha -->
+              <section class="floorplan clearfix">
+                  <section class="floatleft photo">
+                      <img src="/assets/images/site-images/desertridge/samantha_a_rendering.jpg">
+                      <a style="margin-left: 35px" class="clearfix button" target="_blank" href="/assets/pdfs/desertridge/samantha_sales_plan.pdf">Download
+                          Floor
+                          Plan</a>
+                  </section>
+                  <section class="details">
+
+                      <h3>The Samantha</h3>
+
+                      <p>4 Bedroom / 2 Bathrooms<br/>
+                          1,998 sq.ft. Living / 2,771 sq. ft. Total<br/>
+                          Priced at $220,990</p>
+
+                  </section>
+              </section>
+
+              <!-- McKenna -->
+              <section class="floorplan clearfix">
+                  <section class="floatleft photo">
+                      <img src="/assets/images/site-images/desertridge/mckenna_a_rendering.jpg">
+                      <a style="margin-left: 35px" class="clearfix button" target="_blank" href="/assets/pdfs/desertridge/mckenna_sales_plan.pdf">Download
+                          Floor
+                          Plan</a>
+                  </section>
+                  <section class="details">
+
+                      <h3>The McKenna</h3>
+
+                      <p>4 Bedroom / 2 Bathrooms<br/>
+                          2,200 sq.ft. Living / 2,993 sq. ft. Total<br/>
+                          Priced at $232,990</p>
+
+                  </section>
+              </section>
+
+              <!-- Mercedes -->
+              <section class="floorplan clearfix">
+                  <section class="floatleft photo">
+                      <img src="/assets/images/site-images/desertridge/mercedes_a_rendering.jpg">
+                      <a style="margin-left: 35px" class="clearfix button" target="_blank" href="/assets/pdfs/desertridge/mercedes_sales_plan.pdf">Download
+                          Floor
+                          Plan</a>
+                  </section>
+                  <section class="details">
+
+                      <h3>The Mercedes</h3>
+
+                      <p>5 Bedroom / 2.5 Bathrooms<br/>
+                          2,624 sq.ft. Living / 3,662 sq. ft. Total<br/>
+                          Priced at $272,990</p>
+
+                  </section>
+              </section>
+
+            </section>
+
+          </div>
+
 	        <!-- Old Course Estates -->
 	        <div id="tabs-2" class="pane">
 		        <h1>Old Course Estates &ndash; Affordable Luxury</h1>
@@ -75,7 +239,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
                   </div>
               </div>
 
-			        <h2>New Townhomes from the $180s</h2>
+			        <h2>New Townhomes from the $180's</h2>
 		        </section>
 
 		        <p class="entry">
@@ -210,169 +374,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 
 	        </div>
 
-	        <!-- Desert Ridge Townhomes -->
-	        <div id="tabs-1" class="pane">
-
-		        <h1>Desert Ridge &mdash; Maintenance Free Living</h1>
-
-
-
-
-		        <section class="">
-			        <img width="566" src="/assets/images/site-images/Savannah-A-Rendering.jpg">
-
-
-		        </section>
-
-                <h2>New Single Family Homes from the $190s</h2>
-
-                <p class="entry">Situated near Odessa's premier shopping zone, this beautiful community offers luxurious single family homes with low maintenance living for less than rent!</p>
-
-                <section class="clearfix" style="width: 100%; display: block">
-                    <aside class="floatleft clearfix">
-                        <h3 style="margin-bottom: 0; padding-bottom: 0;">Sales Center</h3>
-
-                        <p style="margin-top: 5px; ">
-                            <a target="_blank" href="http://l.jshultz.co/1edt7Yy">1201 Boise Drive,<br/> Odessa, TX</a>
-                        </p>
-
-                        <p>Sales Center <br/>
-                        Open Monday &ndash; Saturday 10-6pm, <br/>
-                        Closed Sunday</p>
-                        <div class="clearfix" style="margin-top: 5px">
-                            <a target="_blank" class="map" href="http://l.jshultz.co/1edt7Yy"><img src="/assets/images/site-images/desert-ridge-map.png"></a>
-                        </div>
-                    </aside>
-
-                    <div class="floatright clearfix">
-                        <a class="button" target="_blank" href="/assets/pdfs/DesertRidgeIllustration-24x36.pdf">Download
-                            Site Plan</a><br/>
-                        <a class="button" target="_blank" href="/assets/pdfs/Permian_Homes_Desert_Ridge_Brochure.pdf">Download
-                            Brochure</a>
-                    </div>
-                </section>
-
-
-		        <section class="clearfix" style="width: 100%; display: block">
-
-              <!-- Svannah -->
-              <section class="floorplan clearfix">
-                  <section class="floatleft photo">
-                      <img src="/assets/images/site-images/desertridge/savannah_a_rendering.jpg">
-                      <a style="margin-left: 35px" class="clearfix button" target="_blank" href="/assets/pdfs/desertridge/savannah_sales_plan.pdf">Download
-                          Floor
-                          Plan</a>
-                  </section>
-                  <section class="details">
-
-                      <h3>The Savannah</h3>
-
-                      <p>3 Bedroom / 2 Bathrooms<br/>
-                          1,709 sq.ft. Living / 2,323 sq. ft. Total<br/>
-                          Priced at $196,990</p>
-
-                  </section>
-              </section>
-
-
-                <!-- Keili -->
-                <section class="floorplan clearfix">
-                    <section class="floatleft photo">
-                        <img src="/assets/images/site-images/desertridge/keili_a_rendering.jpg">
-                        <a style="margin-left: 35px" class="clearfix button" target="_blank" href="/assets/pdfs/desertridge/keili_sales_plan.pdf">Download
-                            Floor
-                            Plan</a>
-                    </section>
-                    <section class="details">
-
-                        <h3>The Keili</h3>
-
-                        <p>3 Bedroom / 2 Bathrooms<br/>
-                            1,798 sq.ft. Living / 2,491 sq. ft. Total<br/>
-                            Priced at $204,990</p>
-
-                    </section>
-                </section>
-
-              <!-- Rylee -->
-              <section class="floorplan clearfix">
-                  <section class="floatleft photo">
-                      <img src="/assets/images/site-images/desertridge/rylee_a_rendering.jpg">
-                      <a style="margin-left: 35px" class="clearfix button" target="_blank" href="/assets/pdfs/desertridge/rylee_sales_plan.pdf">Download
-                          Floor
-                          Plan</a>
-                  </section>
-                  <section class="details">
-
-                      <h3>The Rylee</h3>
-
-                      <p>3 Bedroom / 2 Bathrooms<br/>
-                          1,897 sq.ft. Living / 2,668 sq. ft. Total<br/>
-                          Priced at $212,990</p>
-
-                  </section>
-              </section>
-
-              <!-- Samantha -->
-              <section class="floorplan clearfix">
-                  <section class="floatleft photo">
-                      <img src="/assets/images/site-images/desertridge/samantha_a_rendering.jpg">
-                      <a style="margin-left: 35px" class="clearfix button" target="_blank" href="/assets/pdfs/desertridge/samantha_sales_plan.pdf">Download
-                          Floor
-                          Plan</a>
-                  </section>
-                  <section class="details">
-
-                      <h3>The Samantha</h3>
-
-                      <p>4 Bedroom / 2 Bathrooms<br/>
-                          1,998 sq.ft. Living / 2,771 sq. ft. Total<br/>
-                          Priced at $220,990</p>
-
-                  </section>
-              </section>
-
-              <!-- McKenna -->
-              <section class="floorplan clearfix">
-                  <section class="floatleft photo">
-                      <img src="/assets/images/site-images/desertridge/mckenna_a_rendering.jpg">
-                      <a style="margin-left: 35px" class="clearfix button" target="_blank" href="/assets/pdfs/desertridge/mckenna_sales_plan.pdf">Download
-                          Floor
-                          Plan</a>
-                  </section>
-                  <section class="details">
-
-                      <h3>The McKenna</h3>
-
-                      <p>4 Bedroom / 2 Bathrooms<br/>
-                          2,200 sq.ft. Living / 2,993 sq. ft. Total<br/>
-                          Priced at $232,990</p>
-
-                  </section>
-              </section>
-
-              <!-- Mercedes -->
-              <section class="floorplan clearfix">
-                  <section class="floatleft photo">
-                      <img src="/assets/images/site-images/desertridge/mercedes_a_rendering.jpg">
-                      <a style="margin-left: 35px" class="clearfix button" target="_blank" href="/assets/pdfs/desertridge/mercedes_sales_plan.pdf">Download
-                          Floor
-                          Plan</a>
-                  </section>
-                  <section class="details">
-
-                      <h3>The Mercedes</h3>
-
-                      <p>5 Bedroom / 2.5 Bathrooms<br/>
-                          2,624 sq.ft. Living / 3,662 sq. ft. Total<br/>
-                          Priced at $272,990</p>
-
-                  </section>
-              </section>
-
-		        </section>
-
-	        </div>
+	        
 
           <!-- Enclave Estates -->
             <div id="tabs-5" class="pane ">
@@ -381,14 +383,14 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 
                 <section>
                     <img src="/assets/images/site-images/enclave.png">
-
                 </section>
 
               <h2>New Single Family Homes from the $250's</h2>
 
                 <p class="entry">Welcome to Enclave at Mission Ranch, Odessa's premier community.  
                 Located next to Mission Estates and the Odessa Country Club Golf Course, these homes offer 
-                many amenities and upgrades, all next to shopping, dining, movie theaters, and so much more!</p>
+                many amenities and upgrades, all next to shopping, dining, movie theaters, and so much more!
+                </p>
 
               <section class="clearfix" style="width: 100%; display: block">
 
@@ -514,7 +516,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
             <!-- Devon Court -->
             <div id="tabs-6" class="pane ">
 
-                <h1>Devon Court &ndash; Now You're Living!</h1>
+                <h1>Devon Court &ndash; Luxury Living!</h1>
 
                 <section>
                     <img src="/assets/images/site-images/devon-court.png">
@@ -533,7 +535,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 
                   <p style="margin-top: 5px; ">
                             <a target="_blank" href="http://l.jshultz.co/1DE1mEq" class="map">
-                            8001 Berkshire Circle, 
+                            8001 Berkshire Circle, <br/>
                             Odessa TX 79765</p>
                         </a>
 
@@ -570,7 +572,6 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
         <div id="midland" class="pane">
             <ul class="tabs clearfix">
                 <li><a href="#tabs-4">Daybreak Estates</a></li>
-                
             </ul>
 
             <!-- Daybreak Estates -->
