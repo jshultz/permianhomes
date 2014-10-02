@@ -14,7 +14,7 @@
                             <img src="/assets/images/site-images/daybreak.png">
                             <span class="propety">Daybreak</span> |
                             <span class="town">Midland</span> |
-                            <span class="price">$200s</span>
+                            <span class="price">$200's</span>
                         </a>
                     </li>
 
@@ -23,7 +23,7 @@
                             <img src="/assets/images/site-images/IMG_5443a.png">
                             <span class="property">Old Course</span> |
                             <span class="town">Odessa</span> |
-                            <span class="price">$180s</span>
+                            <span class="price">$180's</span>
                         </a>
                     </li>
                     <li>
@@ -31,7 +31,7 @@
                             <img width="" src="/assets/images/site-images/Savannah-A-Rendering.jpg">
                             <span class="property">Desert Ridge</span> |
                             <span class="town">Odessa</span> |
-                            <span class="price">$190s</span>
+                            <span class="price">$190's</span>
                         </a>
                     </li>
                     <li>
@@ -39,7 +39,7 @@
                             <img width="" src="/assets/images/site-images/enclave.png">
                             <span class="property">Enclave</span> |
                             <span class="town">Odessa</span> |
-                            <span class="price">$250s</span>
+                            <span class="price">$250's</span>
                         </a>
                     </li>
                     <li>
@@ -47,7 +47,7 @@
                             <img width="" src="/assets/images/site-images/devon-court.png">
                             <span class="property">Devon Court</span> |
                             <span class="town">Odessa</span> |
-                            <span class="price">$200s</span>
+                            <span class="price">$200's</span>
                         </a>
                     </li>
 
@@ -67,31 +67,31 @@
                 <div class="scrollable" id="scrollable">
 
                     <div class="items">
-	                    <img src="/assets/images/slides/Chris-House-5-Star-1.png">
 	                    <img src="/assets/images/slides/Chris-House-5-Star-2907.png">
-	                    <img src="/assets/images/slides/David-Internet-1535.png">
 	                    <img src="/assets/images/slides/Living-Room.png">
 	                    <img src="/assets/images/slides/Model-5---7929.png">
 	                    <img src="/assets/images/slides/Model-5---7936.png">
 	                    <img src="/assets/images/slides/Model-5---7943.png">
 	                    <img src="/assets/images/slides/Model-5---7947.png">
-                        <img src="/assets/images/site-images/162.jpg">
-                        <img src="/assets/images/slides/Model-Pictures-015.JPG">
                         <img src="/assets/images/slides/Model-Pictures-052.JPG">
                         <img src="/assets/images/slides/2.jpg">
-                        <img src="/assets/images/slides/3.jpg">
-                        <img src="/assets/images/slides/coffer-ceiling-7311-don.jpg">
-                        <img src="/assets/images/slides/IMG_5570.JPG">
                         <img src="/assets/images/slides/IMG_5615.JPG">
                         <img src="/assets/images/slides/Chris-House-5-Star-2885.jpg">
-                        <img src="/assets/images/slides/5.jpg">
-                        <img src="/assets/images/slides/7.jpg">
                         <img src="/assets/images/slides/8.jpg">
                         <img src="/assets/images/slides/DSC_0005.JPG">
-                        <img src="/assets/images/slides/Model_Pictures_003.JPG">
                         <img src="/assets/images/slides/Model_Pictures_013.JPG">
                         <img src="/assets/images/slides/Chris%20House-5-Star-2851.jpg">
-
+                        <img src="/assets/images/slides/old-course-slides/IMG_6531.JPG">
+                        <img src="/assets/images/slides/old-course-slides/IMG_6544.JPG">
+                        <img src="/assets/images/slides/old-course-slides/IMG_6495.JPG">
+                        <img src="/assets/images/slides/old-course-slides/IMG_6501.JPG">
+                        <img src="/assets/images/slides/old-course-slides/IMG_6531.JPG">
+                        <img src="/assets/images/slides/old-course-slides/IMG_6523.JPG">
+                        <img src="/assets/images/slides/daybreak-slides/IMG_6347.jpg">
+                        <img src="/assets/images/slides/daybreak-slides/IMG_6352.jpg">
+                        <img src="/assets/images/slides/daybreak-slides/IMG_6360.jpg">
+                        <img src="/assets/images/slides/daybreak-slides/IMG_6377.jpg">
+                        <img src="/assets/images/slides/daybreak-slides/IMG_6439.jpg">
                     </div>
 
                 </div>
