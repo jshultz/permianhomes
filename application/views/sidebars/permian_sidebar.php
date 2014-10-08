@@ -64,8 +64,8 @@
 
         </li>
         <li><div itemscope="" itemtype="http://schema.org/RealEstateAgent">
-            <meta itemprop="image" content="http://permianhomes.com/assets/images/site-images/cindy_winfrey.jpg">
-                <img src="/assets/images/site-images/cindy_winfrey.jpg">
+            <meta itemprop="image" content="http://permianhomes.com/assets/images/site-images/cindy_winfrey.png">
+                <img src="/assets/images/site-images/cindy_winfrey.png">
 
              <aside>
                  <strong><span itemprop="name">Cindy Winfrey</span></strong><br/>
@@ -75,8 +75,8 @@
             </div>
         </li>
         <li><div itemscope="" itemtype="http://schema.org/RealEstateAgent">
-            <meta itemprop="image" content="http://permianhomes.com/assets/images/site-images/kaete_hawkins.jpg">
-                <img src="/assets/images/site-images/kaete_hawkins.jpg">
+            <meta itemprop="image" content="http://permianhomes.com/assets/images/site-images/kaete_hawkins.png">
+                <img src="/assets/images/site-images/kaete_hawkins.png">
             <aside>
                 <strong><span itemprop="name">Kaete Hawkins</span></strong><br/>
                 Sales Manager<br/>
@@ -85,15 +85,37 @@
                 </div>
         </li>
         <li><div itemscope="" itemtype="http://schema.org/RealEstateAgent">
-                <meta itemprop="image" content="http://permianhomes.com/assets/images/site-images/angie_flores.jpg">
-                <img src="/assets/images/site-images/angie_flores.jpg" alt="" />
+                <meta itemprop="image" content="http://permianhomes.com/assets/images/site-images/angie_kraft.png">
+                <img src="/assets/images/site-images/angie_kraft.png" alt="" />
                 <aside>
-                    <strong><span itemprop="name">Angie Flores</span></strong><br/>
+                    <strong><span itemprop="name">Angie Kraft</span></strong><br/>
                     Assistant Sales Representative<br/>
-                    Cell: 432.631.5580<br/> <a href="mailto:angie@permianhomes.com">angie@permianhomes.com</a>
+                    432.631.5580<br/> <a href="mailto:angie@permianhomes.com">angie@permianhomes.com</a>
                 </aside>
             </div>
         </li>
+        <li><div itemscope="" itemtype="http://schema.org/RealEstateAgent">
+                <meta itemprop="image" content="http://permianhomes.com/assets/images/site-images/laurel_king.png">
+                <img src="/assets/images/site-images/laurel_king.png" alt="" />
+                <aside>
+                    <strong><span itemprop="name">Laurel King</span></strong><br/>
+                    Assistant Sales Representative<br/>
+                    432.210.6589<br/> <a href="mailto:laurel@permianhomes.com">laurel@permianhomes.com</a>
+                </aside>
+            </div>
+        </li>
+        <li><div itemscope="" itemtype="http://schema.org/RealEstateAgent">
+                <meta itemprop="image" content="http://permianhomes.com/assets/images/site-images/nicole_rocha.png">
+                <img src="/assets/images/site-images/nicole_rocha.png" alt="" />
+                <aside>
+                    <strong><span itemprop="name">Nicole Rocha</span></strong><br/>
+                    Assistant Sales Representative<br/>
+                    432.853.4530<br/> <a href="mailto:nicole@permianhomes.com">nicole@permianhomes.com</a>
+                </aside>
+            </div>
+        </li>
+
+
 
     </ul>
     </li>

@@ -67,7 +67,6 @@
                 <div class="scrollable" id="scrollable">
 
                     <div class="items">
-	                    <img src="/assets/images/slides/Chris-House-5-Star-2907.png">
 	                    <img src="/assets/images/slides/Living-Room.png">
 	                    <img src="/assets/images/slides/Model-5---7929.png">
 	                    <img src="/assets/images/slides/Model-5---7936.png">
@@ -75,7 +74,6 @@
 	                    <img src="/assets/images/slides/Model-5---7947.png">
                         <img src="/assets/images/slides/Model-Pictures-052.JPG">
                         <img src="/assets/images/slides/2.jpg">
-                        <img src="/assets/images/slides/IMG_5615.JPG">
                         <img src="/assets/images/slides/Chris-House-5-Star-2885.jpg">
                         <img src="/assets/images/slides/8.jpg">
                         <img src="/assets/images/slides/DSC_0005.JPG">
@@ -92,6 +90,7 @@
                         <img src="/assets/images/slides/daybreak-slides/IMG_6360.jpg">
                         <img src="/assets/images/slides/daybreak-slides/IMG_6377.jpg">
                         <img src="/assets/images/slides/daybreak-slides/IMG_6439.jpg">
+                        <img src="/assets/images/slides/Chris-House-5-Star-1.png">
                     </div>
 
                 </div>
