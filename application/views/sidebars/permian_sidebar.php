@@ -89,6 +89,7 @@
                 <img src="/assets/images/site-images/angie_kraft.png" alt="" />
                 <aside>
                     <strong><span itemprop="name">Angie Kraft</span></strong><br/>
+                    Se habla espanol<br/>
                     Assistant Sales Representative<br/>
                     432.631.5580<br/> <a href="mailto:angie@permianhomes.com">angie@permianhomes.com</a>
                 </aside>
@@ -110,7 +111,7 @@
                 <aside>
                     <strong><span itemprop="name">Nicole Rocha</span></strong><br/>
                     Assistant Sales Representative<br/>
-                    432.853.4530<br/> <a href="mailto:nicole@permianhomes.com">nicole@permianhomes.com</a>
+                    432.853.4530<br/> <a href="mailto:nrocha@permianhomes.com">nrocha@permianhomes.com</a>
                 </aside>
             </div>
         </li>
