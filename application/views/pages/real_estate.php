@@ -403,9 +403,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
                             Odessa TX 79765</p>
                         </a>
 
-                  <p>Sales Center <br/>
-                  Open Monday &ndash; Saturday 10-6pm, 
-                  <br/>Closed Sunday</p>
+                  <p>Sales Center <br/></p>
 
                         <div style="margin-top: 5px;" class="clearfix">
                             <a target="_blank" href="http://l.jshultz.co/1DE1mEq">
@@ -413,12 +411,14 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
                             </a>
                         </div>
                 </aside>
-                <div class="floatright clearfix">
+                <div class="floatright clearfix" style="margin-left:20px;">
                   <a class=" button" href="/assets/pdfs/Enclave-Phase-1-Sales-Rendering.pdf" target="_blank">
                     Download Site Plan</a>
                   <br>
                   <a class="button" target="_blank" href="/assets/pdfs/enclave/Permian-Homes-Enclave-Brochure_web.pdf">Download
                     Brochure</a>
+                    </br>
+                    <img src="/assets/images/site-images/coming-soon.jpg">
                 </div>
 
               </section>
@@ -436,6 +436,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 
                   <p>4 Bedroom / 2 Bathroom<br/>
                     2004 sq.ft. Living / 2680 sq. ft. Total<br/>
+                    Priced at $254,990
                   </p>
 
                 </section>
@@ -454,6 +455,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 
                   <p>4 Bedroom / 2 Bathroom<br/>
                     2020 sq.ft. Living / 2680 sq. ft. Total<br/>
+                    Priced at $256,990
                   </p>
 
                 </section>
@@ -472,6 +474,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 
                   <p>3 Bedroom / 2 Bathroom<br/>
                     2300 sq.ft. Living / 3150 sq. ft. Total<br/>
+                    Priced at $274,990
                   </p>
 
                 </section>
@@ -489,6 +492,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 
                   <p>4 Bedroom / 2 Bathroom<br/>
                     2426 sq.ft. Living / 3254 sq. ft. Total<br/>
+                    Priced at $284,990
                   </p>
 
                 </section>
@@ -506,6 +510,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 
                   <p>4 Bedroom / 3 Bathroom<br/>
                       3247 sq.ft. Living / 4110 sq. ft. Total<br/>
+                      Priced at $324,990
                   </p>
 
                 </section>
@@ -519,7 +524,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
                 <h1>Devon Court &ndash; Luxury Living!</h1>
 
                 <section>
-                    <img src="/assets/images/site-images/devon-court.png">
+                    <img src="/assets/images/site-images/devon-court-banner.png">
 
                 </section>
 
@@ -539,9 +544,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
                             Odessa TX 79765</p>
                         </a>
 
-                  <p>Sales Center <br/>
-                  Open Monday &ndash; Saturday 10-6pm, 
-                  <br/>Closed Sunday</p>
+                  <p>Sales Center <br/></p>
 
                         <div style="margin-top: 5px;" class="clearfix">
                             <a target="_blank" href="http://l.jshultz.co/1DE1mEq">
@@ -549,18 +552,20 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
                             </a>
                         </div>
                 </aside>
-                <div class="floatright clearfix">
+                <div class="floatright clearfix" style="margin-left:20px;">
                   <a class=" button" href="/assets/pdfs/Devon-Court.pdf" target="_blank">
                     Download Site Plan</a>
                   <br>
                   <a class="button" target="_blank" href="#">Download
                     Brochure</a>
+                    </br>
+                    <img src="/assets/images/site-images/coming-soon.jpg">
                 </div>
 
               </section>
 
               <br/>
-                <img src="/assets/images/site-images/coming-soon.jpg">
+                
                 <br/>
 
             </div>

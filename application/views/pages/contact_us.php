@@ -65,7 +65,7 @@
                                 <aside>
                                     <p><strong><span itemprop="name">Angie Kraft</span></strong><br/>
                                         Se habla espanol<br/>
-                                        Assistant Sales Representative<br/>
+                                        Assistant Sales Representative / Daybreak<br/>
                                         432.631.5580<br/> <a href="mailto:angie@permianhomes.com">angie@permianhomes.com</a>
                                     </p>
                                 </aside>

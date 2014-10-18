@@ -44,7 +44,7 @@
                     </li>
                     <li>
                         <a href="/real_estate/#tabs-6">
-                            <img width="" src="/assets/images/site-images/devon-court.png">
+                            <img width="" src="/assets/images/site-images/devon-court-banner.png">
                             <span class="property">Devon Court</span> |
                             <span class="town">Odessa</span> |
                             <span class="price">$200's</span>
