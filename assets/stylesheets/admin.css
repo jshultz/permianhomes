@@ -10,6 +10,7 @@
 :: Home Page
 :: Project Page
 :: Projects Page
+:: Locations
 */
 
 
@@ -296,7 +297,6 @@ div#placemainmenu li:hover ul, div#placemainmenu li li:hover ul {
     box-shadow: none;
 }
 
-
 /* -----------------------------------------
    Gallery
 ----------------------------------------- */
@@ -344,3 +344,20 @@ img {
     list-style-type: none;
 }
 
+/* -----------------------------------------
+   Locations Page
+----------------------------------------- */
+#add_photo {
+    margin: 5px;
+}
+.loc-photo-none {
+    margin: 5px 5px 10px 5px;
+}
+.loc-photo {
+    border: 1px solid gray;
+    padding: 5px;
+    margin: 5px;
+}
+.loc-photo .clear {
+    clear: both;
+}

@@ -250,6 +250,21 @@ h1#logo a
     margin-bottom: 20px;
 }
 
+#featureHolder.property-slideshow {
+	width: 572px;
+	height: 383px;
+}
+
+#featureHolder.property-slideshow #featureMask {
+	height: 377px;
+	width: 566px;
+}
+
+#featureHolder.property-slideshow .scrollable {
+	width: 566px;
+	height: 377px;
+}
+
 #featureHolder
 {
 	position: relative;
@@ -390,7 +405,14 @@ h1#logo a
     height:20px;
 }
 
-
+#featureHolder.property-slideshow {
+    margin-top: 10px;
+    float: left;
+}
+.slideshow-spacer {
+    clear: both;
+    padding-bottom: 10px;
+}
 /*End: Feature Slider*/
 
 /*Begin: Hompage Left Container*/

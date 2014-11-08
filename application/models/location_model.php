@@ -1,6 +1,8 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
 class Location_model extends CI_Model {
+    
+        protected $_photosByLocation = array();
 
 	function __construct() {
 	}
@@ -127,8 +129,75 @@ class Location_model extends CI_Model {
 			}
 
 	}
+        
+        function getLocationPhotos($idlocation, $refresh = false) 
+        {
+            if($refresh || !array_key_exists($idlocation, $this->_photosByLocation)) {
+                $this->db->select('*')  
+                        ->from('location_photos')
+                        ->join('photos', 'location_photos.photo_id = photos.photo_id')
+                        ->where('location_photos.idlocation', $idlocation);
+                $query = $this->db->get();
+                $data = $query->result_array();
+                $this->_photosByLocation[$idlocation] = $data;
+            }
+            
+            if (count($this->_photosByLocation[$idlocation]) < 1) {
+                return NULL;
+            } else {
+                return $this->_photosByLocation[$idlocation];
+            }
+        }
+        
+        function getAjaxLocationPhotos($idlocation) 
+        {
+            $data = $this->getLocationPhotos($idlocation);
+            if (count($data) < 1) {
+                return NULL;
+            } else {
+                echo json_encode($data);
+            }
+        }
+        
+        function getLocationPhotoCount($idlocation)
+        {
+            return count($this->getLocationPhotos($idlocation));
+        }
+        
+        function addLocationPhoto($idlocation, $photoId) 
+        {
+             $this->db->select('*')
+                    ->from('location_photos')
+                    ->where('idlocation', $idlocation)
+                    ->where('photo_id', $photoId);
+            $query = $this->db->get();
+            $num = $query->num_rows();
+             
+            if($num < 1) {
+                $this->db->insert('location_photos', array('idlocation' => $idlocation, 'photo_id' => $photoId));
+                echo json_encode(array('success' => true));
+            } else {
+                echo json_encode(array('success' => true, 'allready_inserted' => true));
+            }
+        }
+        
+        function deleteLocationPhoto($idlocation, $photoId)
+        {
+            $this->db->where( 'idlocation', $idlocation );
+            $this->db->where( 'photo_id', $photoId );
+            $this->db->delete( 'location_photos' );
+            if($this->db->affected_rows() > 0) {
+                echo json_encode(array('success' => true));
+            }
+        }
+        function updatePrimaryLocationPhoto($idlocation, $photoId)
+        {
+            $data = array('photo_id' => $photoId);
+            $this->db->where('idlocation', $idlocation);
+            $this->db->update('locations', $data);
+        }
 
-	function updateLocation($idlocation, $locationname, $locationstreet, $locationcity, $locationstate, $locationzip, $saleprice, $rentprice, $bedrooms, $bathrooms, $squarefeet, $locationdescription, $photo_id, $lat, $lng, $tags, $featured, $reduced, $rented, $sold, $uid)
+    function updateLocation($idlocation, $locationname, $locationstreet, $locationcity, $locationstate, $locationzip, $saleprice, $rentprice, $bedrooms, $bathrooms, $squarefeet, $locationdescription, $photo_id, $lat, $lng, $tags, $featured, $reduced, $rented, $sold, $uid)
 	{
 		$today = date("Y-m-d H:i:s");
 

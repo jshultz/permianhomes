@@ -513,6 +513,7 @@ jQuery(document).ready(function ($) {
 				$('table#locations').append(items.join(''));
 				$("table#locations").tablesorter();
 				$('table#locations').trigger("update");
+                      
 
 
 			},
@@ -521,6 +522,105 @@ jQuery(document).ready(function ($) {
 			}
 		});
 	}
+        
+        function addLocationPhoto()
+        {
+            
+            
+        }
+        
+        function getLocationPhotos()
+        {
+            var location = $('#locationid').val();
+            if (location === "") {
+                alert('Failed to load photos');
+                return;
+            }
+            var data = 'csrf_test_name=' + $.cookie('csrf_cookie_name') + '&';
+            data += 'location=' + location;
+            $.ajax({
+			url: "/client2/getLocationPhotos/",
+                        "data": data,
+			type: "POST",
+			success: function (feedback) {
+				data = $.parseJSON(feedback);
+				if (feedback.length > 0) {
+                                        $('.loc-photo').remove();
+					$.each(data, function () {
+                                            var location = $('#locationid').val();
+                                            var newRow = $('<div class="loc-photo"><span class="photo-filename">' + this.photoname + '</span><div class="deleteimage"><a class="delete-link" href="#" location="' + location + '" photo="' + this.photo_id + '"><img src="/assets/images/icons/delete-icon-32.png" alt="Delete Image" /></a></div><div class="clear"></div></div>');
+                                            $('#location_photos').append(newRow);
+					});
+                                        if (data.length > 0) { 
+                                            $('.loc-photo-none').hide();
+                                        } else {
+                                           $('.loc-photo-none').show();    
+                                        }
+				}
+			},
+			failure: function (data) {
+				console.log('getLocationPhotos Failed');
+			}
+		});
+            
+        }
+        
+        $('#add_photo').on('click', function(e) { 
+            e.preventDefault();
+            var location = $('#locationid').val();
+            if (location === "") {
+                alert('Please select or save a location before adding photos.');
+                return;
+            }
+            
+            var photo = $('#location_photo').val();
+            if (photo === "") {
+                alert('Please select a photo.');
+                return;
+            }
+             var data = 'csrf_test_name=' + $.cookie('csrf_cookie_name') + '&';
+            data += 'location=' + location + '&photo=' + photo;
+            
+            $.ajax({
+			url: "/client2/addLocationPhoto/",
+                        "data": data,
+			type: "POST",
+			success: function (feedback) {
+				data = $.parseJSON(feedback);
+				if (data.success) {
+                                    getLocationPhotos();
+                                }
+			},
+			failure: function (data) {
+				console.log('addLocationPhotos Failed');
+			}
+		});
+        });
+        
+        $('#location_photos').on('click','a.delete-link', function(e) { 
+            
+            e.preventDefault();
+            var location = $(this).attr('location');
+            var photo = $(this).attr('photo');
+            var data = 'csrf_test_name=' + $.cookie('csrf_cookie_name') + '&';
+            data += 'location=' + location + '&photo=' + photo;
+            $.ajax({
+			
+                        url: "/client2/deleteLocationPhoto/",
+			type: "POST",
+                        "data": data,
+			success: function (feedback) {
+				data = $.parseJSON(feedback);
+                                console.log(data);
+				if (data.success) {
+                                    getLocationPhotos();
+                                }
+			},
+			failure: function (data) {
+				console.log('addLocationPhotos Failed');
+			}
+		});
+        });
 
 	/* Create a New Location or update an existing one */
 	$('form#locationForm').submit(function (e) {
@@ -584,6 +684,7 @@ jQuery(document).ready(function ($) {
 				dataType: 'json',
 				success: function(data) {
 					populateLocationForm(data);
+                                        getLocationPhotos();
 
 				}
 			})

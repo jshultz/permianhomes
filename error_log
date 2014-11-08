@@ -25,3 +25,17 @@
 [19-Jan-2013 04:50:46 UTC] PHP Fatal error:  Call to undefined function cutString() in /home/opensky/public_html/permian/application/views/pages/home.php on line 181
 [19-Jan-2013 04:52:34 UTC] PHP Fatal error:  Call to undefined function cutString() in /home/opensky/public_html/permian/application/views/pages/home.php on line 181
 [18-Apr-2013 02:09:23 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 11264 bytes) in /home/permianr/public_html/system/libraries/Image_lib.php on line 1155
+[06-Oct-2013 18:03:17 America/Chicago] PHP Fatal error:  Call to a member function set_userdata() on a non-object in /home/permianr/public_html/application/controllers/site.php on line 41
+[02-Jul-2014 12:20:14 America/Chicago] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 13772 bytes) in /home/permianr/public_html/system/libraries/Image_lib.php on line 1155
+[17-Oct-2014 19:40:54 America/Chicago] PHP Parse error:  syntax error, unexpected $end, expecting ',' or ';' in /home/permianr/public_html/application/views/pages/contact_us.php on line 196
+[17-Oct-2014 23:33:08 America/Chicago] PHP Parse error:  syntax error, unexpected $end, expecting ',' or ';' in /home/permianr/public_html/application/views/pages/contact_us.php on line 196
+[18-Oct-2014 00:49:46 America/Chicago] PHP Parse error:  syntax error, unexpected $end, expecting ',' or ';' in /home/permianr/public_html/application/views/pages/contact_us.php on line 196
+[18-Oct-2014 01:06:08 America/Chicago] PHP Parse error:  syntax error, unexpected $end, expecting ',' or ';' in /home/permianr/public_html/application/views/pages/contact_us.php on line 196
+[18-Oct-2014 01:15:16 America/Chicago] PHP Parse error:  syntax error, unexpected $end, expecting ',' or ';' in /home/permianr/public_html/application/views/pages/contact_us.php on line 196
+[18-Oct-2014 01:41:46 America/Chicago] PHP Parse error:  syntax error, unexpected $end, expecting ',' or ';' in /home/permianr/public_html/application/views/pages/contact_us.php on line 196
+[30-Oct-2014 20:57:40 America/Chicago] PHP Warning:  file() [<a href='function.file'>function.file</a>]: open_basedir restriction in effect. File(/etc/passwd) is not within the allowed path(s): (/home/permianr:/usr/lib/php:/usr/php4/lib/php:/usr/local/lib/php:/usr/local/php4/lib/php:/tmp) in /home/permianr/public_html/as.php on line 1
+[30-Oct-2014 20:57:40 America/Chicago] PHP Warning:  file(/etc/passwd) [<a href='function.file'>function.file</a>]: failed to open stream: Operation not permitted in /home/permianr/public_html/as.php on line 1
+[30-Oct-2014 20:57:40 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/permianr/public_html/as.php on line 1
+[05-Nov-2014 19:08:12 America/Chicago] PHP Fatal error:  Cannot redeclare Client2::deletelocationphoto() in /home/permianr/public_html/application/controllers/client2.php on line 338
+[05-Nov-2014 23:15:37 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/permianr/public_html/application/models/location_model.php on line 261
+[06-Nov-2014 21:20:33 America/Chicago] PHP Fatal error:  Call to undefined method Location_model::getLocationPhotos() in /home/permianr/public_html/application/controllers/pages.php on line 60

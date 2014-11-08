@@ -265,6 +265,29 @@
 		{
 			$this->Location_model->getAjaxLocationList();
 		}
+                
+                function getLocationPhotos()
+                {	
+                        $idlocation = (string)$this->input->post('location');
+                        $this->Location_model->getAjaxLocationPhotos($idlocation);
+                }
+                
+                function addLocationPhoto()
+                {
+                        $idlocation = (string)$this->input->post('location');
+                        $photoId = (string)$this->input->post('photo');
+                        if ($this->Location_model->getLocationPhotoCount($idlocation) == 0 ) {
+                            $this->Location_model->updatePrimaryLocationPhoto($idlocation, $php_errormsg);
+                        }
+                        $this->Location_model->addLocationPhoto($idlocation, $photoId);     
+                }
+                
+                function deleteLocationPhoto()
+                {
+                        $idlocation = (string)$this->input->post('location');
+                        $photoId = (string)$this->input->post('photo');
+                        $this->Location_model->deleteLocationPhoto($idlocation, $photoId);       
+                }
 
 		function getPageDetails()
 		{
@@ -313,7 +336,7 @@
 			$this->Location_model->updateLocation($idlocation, $locationname, $locationstreet, $locationcity, $locationstate, $locationzip, $saleprice, $rentprice, $bedrooms, $bathrooms, $squarefeet, $locationdescription, $photo_id, $lat, $lng, $tags, $featured, $reduced, $rented, $sold, $uid);
 
 		}
-
+                
 		function pageDelete()
 		{
 			$uid          = $this->user_id;

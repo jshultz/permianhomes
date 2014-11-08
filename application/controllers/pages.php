@@ -51,20 +51,20 @@
 
 			}
 
-			$data['login']         = $this->login;
-			$data['user_id']       = $this->user_id;
-			$data['username']      = $this->user_name;
-			$data['navigation']     = $this->treeview->buildmenu();
-			$data['locations']		= $this->Location_model->getLocationsWithPhotos();
-			$data['location']		= $this->Location_model->getLocationById($houseid);
-			$data['pagelist']      = $this->Pages_model->getPageList($this->siteid);
-			$data['page_title']    = $this->domain_model->getSiteTitle($this->siteid);
-			$data['page_desc']     = $this->domain_model->getPageMetaDesc($this->siteid);
-			$data['page_keywords'] = $this->domain_model->getPageMetaKeywords($this->siteid);
-			$data['page_content']  = $this->Pages_model->getPageContent($this->siteid, $sectionid, $pageid);
-			$data['sidebar']       = 'sidebars/permian_sidebar';
-
-            $data['error'] = $this->session->userdata('form_error');
+			$data['login']              = $this->login;
+			$data['user_id']            = $this->user_id;
+			$data['username']           = $this->user_name;
+			$data['navigation']         = $this->treeview->buildmenu();
+			$data['locations']          = $this->Location_model->getLocationsWithPhotos();
+			$data['location']           = $this->Location_model->getLocationById($houseid);
+                        $data['location_photos']    = $this->Location_model->getLocationPhotos($houseid);
+			$data['pagelist']           = $this->Pages_model->getPageList($this->siteid);
+			$data['page_title']         = $this->domain_model->getSiteTitle($this->siteid);
+			$data['page_desc']          = $this->domain_model->getPageMetaDesc($this->siteid);
+			$data['page_keywords']      = $this->domain_model->getPageMetaKeywords($this->siteid);
+			$data['page_content']       = $this->Pages_model->getPageContent($this->siteid, $sectionid, $pageid);
+			$data['sidebar']            = 'sidebars/permian_sidebar';
+                        $data['error']              = $this->session->userdata('form_error');
 
 			$this->load->view('container', $data);
 		}

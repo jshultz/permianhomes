@@ -25,8 +25,8 @@ class Gallery_model extends CI_Model {
             $this->user_id      = $user->id;
             $this->user_name    = $user->username;
             $this->login      = 'true';
-            $this->thumb_size_width = '500';
-            $this->thumb_size_height = '300';
+            $this->thumb_size_width = '566';
+            $this->thumb_size_height = '258';
             $this->max_image_size = '1000';
             $this->gallery_path      = realpath(APPPATH . '../assets/upload/images');
             $this->gallery_path_url  = base_url() . 'assets/upload/images/';

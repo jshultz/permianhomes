@@ -434,7 +434,7 @@
     echo form_open('', $attributes);
     ?>
 
-	<input type="hidden" name="locationid" value=""/>
+	<input type="hidden" id="locationid" name="locationid" value=""/>
 	<input type="hidden" name="userid" value="<?= $user_id;?>"/>
 	<input type="hidden" name="tbxlat" id="tbxlat" >
 	<input type="hidden" name="tbxlng" id="tbxlng">
@@ -545,7 +545,7 @@
     </div>
     <div class="row">
     	<div class="twelve columns">
-    		<?=form_label('Property Photo', 'location_photo');?>
+    		<?=form_label('Property Photos', 'location_photo');?>
     		<select id="location_photo" name="location_photo">
 				<option value="">None</option>
 				<?php
@@ -557,16 +557,26 @@
 					<tr>No Photos Added</tr>
 					<?php endif; ?>
     		</select>
+                <?=form_button(array('id' => 'add_photo', 'content' => 'Add Photo')); ?>
 		</div>
 	</div>
-	<div class="row">
-		<div class="twelve columns">
-			<textarea name="location_description" id="locationeditor"></textarea>
-			<?php echo display_ckeditor($ckeditor2); ?>
-			<input type="hidden" name="userid" value="<?= $user_id;?>"/>
-		</div>
+    <div class="row">
+        <div class="twelve columns">
+            <div id="location_photos" class="location-photos">
+                <div class="loc-photo-none">
+                    <em>Please select a photo and click "Add Photo"</em>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+	<div class="twelve columns">
+            <textarea name="location_description" id="locationeditor"></textarea>
+            <?php echo display_ckeditor($ckeditor2); ?>
+            <input type="hidden" name="userid" value="<?= $user_id;?>"/>
 	</div>
-	<div class="row">
+    </div>
+    <div class="row">
         <div class="twelve columns">
             <?= form_submit('mysubmit', 'Submit Updates!'); ?>
         </div>

