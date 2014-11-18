@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en"> <!--<![endif]-->
+
+
+<head>
+
+	<meta content="charset=utf-8"/>
+
+<!-- Set the viewport width to device width for mobile -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+<title>Permian Homes: New Home Builder Construction in Midland and </title>
+<meta name="description"
+      content="Permian Homes New Custom Home Construction Builder in Odessa and Midland Texas."/>
+<meta name="keywords"
+      content="0"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+
+<link rel="stylesheet" type="text/css" href="http://www.permianhomes.com/assets/stylesheets/theme/normalize.css" />
+
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.9.1/themes/humanity/jquery-ui.css">
+<link rel="stylesheet" href="http://www.permianhomes.com/assets/stylesheets/theme/style.css" type="text/css" media="screen" />
+
+
+<link rel="stylesheet" type="text/css" href="http://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css" />
+
+
+
+<!--[if lte IE 6]>
+<link rel="stylesheet" type="text/css" href="http://www.permianhomes.com/assets/stylesheets/theme/ie6Fix.css" />
+
+<![endif]-->
+
+<!--[if IE 7]>
+<link rel="stylesheet" type="text/css" href="http://www.permianhomes.com/assets/stylesheets/theme/ie7Fix.css" />
+<![endif]-->
+
+<link href='http://fonts.googleapis.com/css?family=Eagle+Lake|Droid+Serif|Droid+Sans' rel='stylesheet' type='text/css'>
+
+<script type="text/javascript" src="http://www.permianhomes.com/assets/js/libs/modernizr.custom.30736.js"></script>
+
+<script>
+  (function() {
+    var cx = '007537890616340261172:hkx7ulsb-4y';
+    var gcse = document.createElement('script'); gcse.type = 'text/javascript'; gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+</head>
+
+
+<body class="home" accesskey="">
+<div id="wrapper"> <!-- begin: wrapper -->
+
+	<div id="header">  <!-- begin: header -->
+
+		<h1 id="logo"><a href="/"><span>Permian Homes - Odessa and Midland Texas</span></a></h1>
+
+		<nav id="navHolder">
+
+			<ul id="navWrapper">
+				<li class='page_item'><a href="/home/">
+                      Home</a></li>
+<li class='page_item'><a href="/about/">
+                      About</a></li>
+<li class='page_item'><a href="/design_center/">
+                      Design Center</a></li>
+<li class='page_item'><a href="/advantages/">
+                      Advantages</a></li>
+<li class='page_item'><a href="/real_estate/">
+                      Real Estate</a></li>
+				<li><a href="http://permianhomes.com/blog">Blog</a> </li>
+			</ul>
+		</nav>
+
+	</div>  <!-- end: header -->
+
+
+
+<div id="subHeader" class="clearFix"> <!-- begin: subheader -->
+
+    <div id="bannerLeftWrapper">  <!-- begin: bannerLeftWrapper -->
+        <h2><a href="#">Welcome to Permian Homes</a></h2>
+
+        <p>&nbsp;</p>
+
+        <div id="subBannerLeft">
+            <h2><a href="/advantages/">The Advantage</a></h2>
+
+            <p><strong>Permian Homes</strong> is dedicated to offering quality homes and lasting value for our
+                customers. Our philosophy is simple: <em><a href="/advantages/">We focus on each customer to build one
+                    dream at a time.</a></em></p>
+        </div>
+    </div>
+    <!-- end: bannerLeftWrapper -->
+
+    <div id="featureHolder"> <!-- begin: featureHolder -->
+
+        <div id="featureMask">
+            <div id="featureSlide">
+
+                <div class="scrollable" id="scrollable">
+
+                    <div class="items">
+                        <img src="/assets/images/slides/Chris%20House-5-Star-2776.jpg">
+                        <img src="/assets/images/slides/2.jpg">
+                        <img src="/assets/images/slides/3.jpg">
+                        <img src="/assets/images/slides/DSC_0013.jpg">
+                        <img src="/assets/images/slides/Chris-House-5-Star-2805.jpg">
+                        <img src="/assets/images/slides/Chris-House-5-Star-2885.jpg">
+                        <img src="/assets/images/slides/5.jpg">
+                        <img src="/assets/images/slides/7.jpg">
+                        <img src="/assets/images/slides/8.jpg">
+                        <img src="/assets/images/slides/DSC_0005.JPG">
+                        <img src="/assets/images/slides/Model_Pictures_003.JPG">
+                        <img src="/assets/images/slides/Model_Pictures_013.JPG">
+                        <img src="/assets/images/slides/Chris%20House-5-Star-2851.jpg">
+
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+
+
+    </div>
+    <!-- end: featureHolder -->
+
+</div>
+<!-- end: subheader -->
+
+<div id="homeContentWrapper" class="clearFix"> <!-- begin: homeContentWrapper -->
+
+    <div id="homeContentLeft" class="clearFix"> <!-- begin: homeContentLeft -->
+
+        <div id="postColumnLeft"> <!-- begin: postColumnLeft -->
+            <h2>Current Communities</h2>
+
+            <div id="homeTabs"> <!-- begin: homeTabs -->
+
+                <ul class="tabs clearFix">
+                    <li>
+                        <a href="#firstTab"><span>Renaissance Estates</span></a>
+                    </li>
+                    <li>
+                        <a href="#thirdTab"><span>Old Course Estates</span></a>
+                    </li>
+                    <li>
+                        <a href="#secondTab"><span>Desert Ridge</span></a>
+                    </li>
+
+                </ul>
+
+                <div class="panes">
+
+                    <!-- Renaissance Estates -->
+                    <div id="firstTab" class="tabcontainer">
+                        <h3><a href="/real_estate/#tabs-3">Welcome to Renaissance Estates - A Place to Grow </a></h3>
+                        <img src="/assets/images/site-images/floorplan/Daniela_20Rendering_20A_ezr.jpg">
+
+                        <p class="center"><strong>New Single Family Homes from the $200's</strong></p>
+
+                        <p class="entry">Renaissance Estates, by Permian Homes, is a planned community nestled near
+                            Mission
+                            Golf Course and Odessa Country Club. This attractive community offers many included
+                            upgrades, large spacious lots, and lavish amenities! These beautiful homes offer
+                            large lots and plenty of space for room to grow!</p>
+
+                        <p class="readMoreHolder">
+                            <a href="/real_estate/#tabs-3"><span>Read More</span></a>
+                        </p>
+                    </div>
+
+                    <!-- Old Course Estates -->
+                    <div id="thirdTab" class="tabcontainer">
+                        <h3><a href="/real_estate/#tabs-2">Welcome to Old Course Estates &ndash; Affordable Luxury</a></h3>
+                        <img src="/assets/images/site-images/OldCourseEstates.jpg">
+
+                        <p class="center"><strong>New Townhomes from the $180's</strong></p>
+
+                        <p class="entry"> Old Course Estates is a master planned community located by Odessa Country Club and the 18th hole of the golf course!  These luxurious townhomes include many upgrades and amenities to bring you maintenance free living and affordable luxury.</p>
+
+                        <p class="readMoreHolder">
+                            <a href="/real_estate/#tabs-2"><span>Read More</span></a>
+                        </p>
+                    </div>
+
+                    <!-- Desert Ridge -->
+                    <div id="secondTab" class="tabcontainer">
+                        <h3><a href="/real_estate/#tabs-1">Welcome to Desert Ridge Townhomes</a></h3>
+                        <img src="/assets/images/site-images/floorplan/desert-ridge-townhomes.jpg">
+
+                        <p class="center"><strong>New Townhomes from the $140's</strong></p>
+
+                        <p class="entry">Situated near Odessa's premier shopping zone, this beautiful community offers
+                            luxurious single story and two story townhomes with low maintenance living for less than
+                            rent!</p>
+
+                        <p class="readMoreHolder">
+                            <a href="/real_estate/#tabs-1"><span>Read More</span></a>
+                        </p>
+                    </div>
+
+
+
+                </div>
+
+            </div>
+            <!-- end: homeTabs -->
+
+
+
+
+        </div>
+        <!-- end: postColumnLeft -->
+
+    </div>
+    <!-- end: homeContentLeft -->
+
+    <div id="homeContentRight">
+        <!-- begin: homeContentRight -->
+
+        <div id="homeSearchSection">
+            <gcse:searchbox-only></gcse:searchbox-only>
+        </div>
+
+        <h2>Featured Homes</h2>
+
+        
+                    <div class="homePostContainer">
+                        <h3>
+                            <a href="/pages/index/1/18/16">1405 Old Course Rd</a>
+                        </h3>
+
+                        <p class="postInfo">
+                            <span class="postInfoDate">2013-06-05 14:51:52</span>
+
+                        </p>
+
+                        <div class="postThumb">
+                            <a href="/pages/index/1/18/16"><img width="208px"
+                                                                                             height="101px;"
+                                                                                             src="http://permianhomes.com/assets/upload/images/thumbs/Model_Pictures_079.jpg"
+                                                                                             alt=""
+                                                                                             class="imgPostThumb"/></a>
+                                                    </div>
+                        <p class="unitAndPrice">
+                                <span class="unitInfo">4 Bed, 3                                    Bath, 2006 Sq Ft</span>
+                            <span class="unitPrice"><strong>Price : </strong>
+
+                                $219,515</span>                        </p>
+
+                        <p><p>
+ Old Course Estates is located by Odessa Country Club and the 18th hole of the golf course! These luxurious townhomes include...</p>
+                    </div>
+
+                    
+                    <div class="homePostContainer">
+                        <h3>
+                            <a href="/pages/index/1/18/18">1503 Cedar Lane</a>
+                        </h3>
+
+                        <p class="postInfo">
+                            <span class="postInfoDate">2013-06-06 20:04:48</span>
+
+                        </p>
+
+                        <div class="postThumb">
+                            <a href="/pages/index/1/18/18"><img width="208px"
+                                                                                             height="101px;"
+                                                                                             src="http://permianhomes.com/assets/upload/images/thumbs/10036-Render.jpg"
+                                                                                             alt=""
+                                                                                             class="imgPostThumb"/></a>
+                                                    </div>
+                        <p class="unitAndPrice">
+                                <span class="unitInfo">3 Bed, 2                                    Bath, 2106 Sq Ft</span>
+                            <span class="unitPrice"><strong>Price : </strong>
+
+                                $258,990</span>                        </p>
+
+                        <p><p>
+ This stunning home is nestled in Andrewâ€™s premier community, Heritage Oaks. Decked out with Brazilian Granite, upgraded...</p>
+                    </div>
+
+                    
+
+        <!--        <p class="viewAllHolder"><a href="/pages/index/1/17/"><span>View All</span></a></p>-->
+    </div>
+    <!-- end: homeContentRight -->
+
+</div> <!-- end: homeContentWrapper -->
+
+<div id="homeWidgetContainer" class="clearFix">  <!-- begin: homeWidgetContainer -->
+    <!-- Social Media -->
+    <div id="home-widget-about" class="home-widget">
+        <h2><a href="#">Follow Us</a></h2>
+
+        <p>We're available on the following social media networks.</p>
+
+        <ul class="social">
+            <li><a href="https://www.facebook.com/pages/Permian-Homes/227849413954947"><img
+                    src="/assets/images/icons/faceBook_48x48.png"></a></li>
+            <li><a href="https://twitter.com/PermianHomes"><img src="/assets/images/icons/twitter_box_blue.png"></a></li>
+            <li><a href="http://pinterest.com/permianhomes/"><img src="/assets/images/icons/pinterest-icon.png"></a></li>
+        </ul>
+
+
+    </div>
+
+    <div id="home-widget-twitter" class="home-widget">
+        <h2><a href="#">Operation Finally Home</a></h2>
+
+        <a href="/about/finally_home/"><img src="/assets/images/site-images/Ross_Cox_logo_ezr.jpg"></a>
+
+        <p class="readmore"><a href="/about/finally_home/"><span>Read More</span></a></p>
+    </div>
+    <!-- Testimonials -->
+    <div id="home-widget-flickr" class="home-widget">
+        <h2><a href="/advantages/">Testimonials</a> </h2>
+
+        <div id="quotes">
+            <div class="textItem">
+                <div class="client-say">
+                    <p>"We love the design of our new home. From the open floor plan to the high ceilings, Permian does
+                        it&nbsp;right.&nbsp;Now we're living the life we always&nbsp;dreamed about!&nbsp;" </p>
+                </div>
+                <img src="/assets/images/testimonials/9.jpg">
+
+                <div class="client-name">
+                    <p>STEVE AND LAUREL</p>
+                </div>
+            </div>
+            <div class="textItem">
+                <div class="client-say">
+                    <p>"Permian made buying a home a&nbsp;wonderful experience.&nbsp;&nbsp;We love our new home and
+                        community and could not be happier!"</p>
+                </div>
+                <img src="/assets/images/testimonials/10.jpg">
+
+                <div class="client-name">
+                    <p>CHRIS AND ANGELIQUE</p>
+                </div>
+            </div>
+            <div class="textItem">
+                <div class="client-say">
+                    <p>"I appreciate Permian's constant support and communication while building my dream home.&nbsp;
+                        They answered my thousand questions and I am so happy in my new home!"</p>
+                </div>
+                <img src="/assets/images/testimonials/13.jpg">
+
+                <div class="client-name">
+                    <p>MABEL</p>
+                </div>
+            </div>
+            <div class="textItem">
+                <div class="client-say">
+                    <p>"I loved that I was able to design my closets exactly how I wanted them!&nbsp; What a great
+                        experience I had!"</p>
+                </div>
+                <img src="/assets/images/testimonials/12.jpg">
+
+                <div class="client-name">
+                    <p>BOBBIE</p>
+                </div>
+            </div>
+            <div class="textItem">
+                <div class="client-say">
+                    <p>"We have had a wonderful experience working with Permian Homes! They have built such a beautiful
+                        home for us and we are so excited and pleased to live in it!"</p>
+                </div>
+                <img src="/assets/images/testimonials/15.jpg">
+
+                <div class="client-name">
+                    <p>JEFF AND NANCY</p>
+                </div>
+            </div>
+            <div class="textItem">
+                <div class="client-say">
+                    <p>"We have built several homes in the past but have never had such a great time than with Permian
+                        Homes! With their experience and focus on quality, we got our dream home!&nbsp; We would
+                        recommend Permian Homes to anyone!"</p>
+                </div>
+                <img src="/assets/images/testimonials/14.jpg">
+
+                <div class="client-name">
+                    <p>RONALD AND TRISH</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div> <!-- end: homeWidgetContainer -->
+
+</div> <!-- end: wrapper -->
+
+<div id="footerWrapper"> <!-- begin: footerWrapper -->
+
+	<div id="footerBg"> <!-- begin: footerBg -->
+
+		<div id="footerContent"> <!-- begin: footerContent -->
+
+			<p id="copyRight"><a href="http://www.hud.gov/offices/fheo/"><img src="/assets/images/theme/equal_housing_logo.gif"></a> Permian real Estate | All Rights Reserved | <a href="http://openskymedia.com">Website Design by Open Sky Media, LLC.</a> </p>
+
+			<h2 id="footerLogo"><a href="#"><span>Permian Homes</span></a></h2>
+
+			<ul id="footerNav">
+
+				<li class='page_item'><a href="/home/">
+                      Home</a></li>
+<li class='page_item'><a href="/about/">
+                      About</a></li>
+<li class='page_item'><a href="/design_center/">
+                      Design Center</a></li>
+<li class='page_item'><a href="/advantages/">
+                      Advantages</a></li>
+<li class='page_item'><a href="/real_estate/">
+                      Real Estate</a></li>
+
+			</ul>
+
+
+		</div>  <!-- end: footerContent -->
+
+	</div>
+	<!-- end: footerBg -->
+
+</div> <!-- end: footerWrapper --><script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<!--<script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>-->
+<script src="http://cdn.jquerytools.org/1.2.7/full/jquery.tools.min.js"></script>
+
+<script language="javascript" type="text/javascript" src="http://www.permianhomes.com/assets/js/pngfix.js"></script>
+<script language="javascript" type="text/javascript" src="http://www.permianhomes.com/assets/js/jquery.tweet.js"></script>
+<script language="javascript" type="text/javascript" src="http://www.permianhomes.com/assets/js/jqueryScripts.js"></script>
+<script language="javascript" type="text/javascript" src="http://www.permianhomes.com/assets/js/placeholder.min.js"></script>
+<script language="javascript" type="text/javascript" src="http://www.permianhomes.com/assets/js/app.js"></script>
+
+<script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-136438-80']);
+    _gaq.push(['_setDomainName', 'permianhomes.com']);
+    _gaq.push(['_setAllowLinker', true]);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+</script>
+
+
+</body>
+
+
+</html>
