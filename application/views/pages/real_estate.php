@@ -418,7 +418,6 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
                   <a class="button" target="_blank" href="/assets/pdfs/enclave/Permian-Homes-Enclave-Brochure_web.pdf">Download
                     Brochure</a>
                     </br>
-                    <img width="150" style="margin-top:20px;" src="/assets/images/site-images/coming-soon.jpg">
                 </div>
 
               </section>

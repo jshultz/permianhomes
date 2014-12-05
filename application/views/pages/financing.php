@@ -73,7 +73,6 @@
 				<a style="display: block; background-color: #808080; width: 418px" href="http://buildersfinancial.com" target="_blank"><img src="/assets/images/site-images/builders-financial-logo.png"></a>
 
                 <p>&nbsp;</p>
-                <p><a style="background-color: red; color: white; border-color: #000000; text-align: center; margin-left:130px;" class="clearfix button red" target="_blank" href="/assets/pdfs/Permian_Homes_Builders_Financial%20Flyer_web_060214.pdf">Big Savings on<br/>Closing Costs!</a>
 
                 </p>
                 </p>
