@@ -539,7 +539,7 @@ jQuery(document).ready(function ($) {
             var data = 'csrf_test_name=' + $.cookie('csrf_cookie_name') + '&';
             data += 'location=' + location;
             $.ajax({
-			url: "/client2/getLocationPhotos/",
+			url: "/client/getLocationPhotos/",
                         "data": data,
 			type: "POST",
 			success: function (feedback) {
@@ -582,7 +582,7 @@ jQuery(document).ready(function ($) {
             data += 'location=' + location + '&photo=' + photo;
             
             $.ajax({
-			url: "/client2/addLocationPhoto/",
+			url: "/client/addLocationPhoto/",
                         "data": data,
 			type: "POST",
 			success: function (feedback) {
@@ -606,7 +606,7 @@ jQuery(document).ready(function ($) {
             data += 'location=' + location + '&photo=' + photo;
             $.ajax({
 			
-                        url: "/client2/deleteLocationPhoto/",
+                        url: "/client/deleteLocationPhoto/",
 			type: "POST",
                         "data": data,
 			success: function (feedback) {
