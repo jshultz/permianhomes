@@ -1881,6 +1881,10 @@ section .floorplan .photo {
 body.real_estate #tabwrap > ul > li > a {
     padding: 0 40px;
 }
+
+body.real_estate ul.tabs {
+	height: auto !important;
+}
 /* -----------------------------------------
    Clearfix
 ----------------------------------------- */
