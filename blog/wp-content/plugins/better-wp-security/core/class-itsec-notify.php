@@ -19,16 +19,31 @@ class ITSEC_Notify {
 
 		if ( isset( $itsec_globals['settings']['digest_email'] ) && $itsec_globals['settings']['digest_email'] === true ) {
 
-			//Send digest if it has been 24 hours
-			if (
-				$this->queue === false ||
-				(
-					is_array( $this->queue ) &&
-					isset( $this->queue['last_sent'] ) &&
-					$this->queue['last_sent'] < ( $itsec_globals['current_time_gmt'] - 86400 )
-				)
-			) {
-				add_action( 'init', array( $this, 'init' ) );
+			if ( defined( 'ITSEC_NOTIFY_USE_CRON' ) && true === ITSEC_NOTIFY_USE_CRON ) {
+
+				add_action( 'itsec_digest_email', array( $this, 'init' ) ); //Action to execute during a cron run.
+
+				//schedule digest email
+				if ( false === wp_next_scheduled( 'itsec_digest_email' ) ) {
+					wp_schedule_event( time(), 'daily', 'itsec_digest_email' );
+				}
+
+			} else {
+
+				//Send digest if it has been 24 hours
+				if (
+					get_site_transient( 'itsec_notification_running' ) === false && (
+						$this->queue === false ||
+						(
+							is_array( $this->queue ) &&
+							isset( $this->queue['last_sent'] ) &&
+							$this->queue['last_sent'] < ( $itsec_globals['current_time_gmt'] - 86400 )
+						)
+					)
+				) {
+					add_action( 'init', array( $this, 'init' ) );
+				}
+
 			}
 
 		}
@@ -44,7 +59,15 @@ class ITSEC_Notify {
 	 */
 	public function init() {
 
-		global $itsec_globals, $wpdb;
+		global $itsec_globals, $itsec_lockout;
+
+		if ( is_404() || ( ( ! defined( 'ITSEC_NOTIFY_USE_CRON' ) || false === ITSEC_NOTIFY_USE_CRON ) && get_site_transient( 'itsec_notification_running' ) !== false ) ) {
+			return;
+		}
+
+		if ( ( ! defined( 'ITSEC_NOTIFY_USE_CRON' ) || false === ITSEC_NOTIFY_USE_CRON ) ) {
+			set_site_transient( 'itsec_notification_running', true, 3600 );
+		}
 
 		$messages     = false;
 		$has_lockouts = true; //assume a lockout has occured by default
@@ -53,19 +76,8 @@ class ITSEC_Notify {
 			$messages = $this->queue['messages'];
 		}
 
-		$host_count = absint( $wpdb->get_var(
-		                           $wpdb->prepare(
-		                                "SELECT COUNT(*) FROM `" . $wpdb->base_prefix . "itsec_lockouts` WHERE `lockout_start_gmt` > '%s' AND `lockout_host`!='';",
-		                                date( 'Y-m-d H:i:s', $this->queue['last_sent'] )
-		                           )
-		                      ) );
-
-		$user_count = absint( $wpdb->get_var(
-		                           $wpdb->prepare(
-		                                "SELECT COUNT(*) FROM `" . $wpdb->base_prefix . "itsec_lockouts` WHERE `lockout_start_gmt` > '%s' AND ( `lockout_user`!=0 OR `lockout_username` ) is not NULL;",
-		                                date( 'Y-m-d H:i:s', $this->queue['last_sent'] )
-		                           )
-		                      ) );
+		$host_count = sizeof( $itsec_lockout->get_lockouts( 'host', true ) );
+		$user_count = sizeof( $itsec_lockout->get_lockouts( 'user', true ) );
 
 		if ( $host_count == 0 && $user_count == 0 ) {
 
@@ -131,7 +143,9 @@ class ITSEC_Notify {
 
 				foreach ( $messages as $message ) {
 
-					$module_message .= '<p>' . $message . '</p>';
+					if ( is_string( $message ) ) {
+						$module_message .= '<p>' . $message . '</p>';
+					}
 
 				}
 
@@ -207,13 +221,17 @@ class ITSEC_Notify {
 
 		if ( isset( $itsec_globals['settings']['digest_email'] ) && $itsec_globals['settings']['digest_email'] === true ) {
 
-			$this->queue['messages'][] = wp_kses( $body, $allowed_tags );
+			if ( ! in_array( wp_kses( $body, $allowed_tags ), $this->queue['messages'] ) ) {
 
-			update_site_option( 'itsec_message_queue', $this->queue );
+				$this->queue['messages'][] = wp_kses( $body, $allowed_tags );
+
+				update_site_option( 'itsec_message_queue', $this->queue );
+
+			}
 
 			return true;
 
-		} else {
+		} elseif ( isset( $itsec_globals['settings']['email_notifications'] ) && $itsec_globals['settings']['email_notifications'] === true ) {
 
 			$subject = trim( sanitize_text_field( $body['subject'] ) );
 			$message = wp_kses( $body['message'], $allowed_tags );
@@ -233,6 +251,8 @@ class ITSEC_Notify {
 			return $this->send_mail( $subject, $message, $headers, $attachments );
 
 		}
+
+		return true;
 
 	}
 
@@ -261,7 +281,11 @@ class ITSEC_Notify {
 
 			if ( is_email( trim( $recipient ) ) ) {
 
-				$success = wp_mail( trim( $recipient ), $subject, $message, $headers );
+				if ( defined( 'ITSEC_DEBUG' ) && ITSEC_DEBUG === true ) {
+					$message .= '<p>' . __( 'Debug info (source page): ' . esc_url( $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"] ) ) . '</p>';
+				}
+
+				$success = wp_mail( trim( $recipient ), $subject, '<html>' . $message . '</html>', $headers );
 
 				if ( $all_success === true && $success === false ) {
 					$all_success = false;

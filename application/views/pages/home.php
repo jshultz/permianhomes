@@ -276,13 +276,14 @@
     <div id="home-widget-flickr" class="home-widget">
         <h2><a href="http://permianhomes.com/blog/">In The News</a> </h2>
 
+        <p><strong><a target="_blank" href="http://permianhomes.com/blog/contractor-spotlight-jeff-mccurdy-with-jb-plumbing/">Contractor Spotlight: Jeff McCurdy with J&B Plumbing</a></strong></p>
+
         <p><strong><a target="_blank" href="http://permianhomes.com/blog/meet-justin-and-monica-proud-permian-home-owners/">Meet Justin and Monica, Proud Permian Home Owners</a> </strong></p>
 
         <p><strong><a target="_blank" href="http://www.newswest9.com/story/24792349/companies-volunteers-help-give-amputee-a-repaired-home">Companies, Volunteers Help Give Amputee a Repaired Home</a> </strong></p>
 
         <p><strong><a target="_blank" href="http://permianhomes.com/blog/permian-homes-and-operation-finally-home-welcome-home-the-busby-family/">Welcome Home Busby Family!</a></strong></p>
 
-	    <p><strong><a target="_blank" href="http://permianhomes.com/blog/homeowners-michael-and-mel/">Meet Homeowners Michael and Mel</a></strong></p>
 
     </div>
 

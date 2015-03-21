@@ -141,11 +141,11 @@ class ITSEC_Hide_Backend_Admin {
 
 			if ( $server_type == 'nginx' ) {
 
-				$rules .= "\t# " . __( 'Rules to hide the dashboard', 'it-l10n-better-wp-security' ) . PHP_EOL . "\trewrite ^" . $home_root . $input['slug'] . "/?$ " . $home_root . "wp-login.php?\$query_string break;" . PHP_EOL;
+				$rules .= "\t# " . __( 'Rules to hide the dashboard', 'it-l10n-better-wp-security' ) . PHP_EOL . "\trewrite ^(" . $home_root . ")?" . $input['slug'] . "/?$ " . $home_root . "wp-login.php?\$query_string break;" . PHP_EOL;
 
 			} else {
 
-				$rules .= "\t# " . __( 'Rules to hide the dashboard', 'it-l10n-better-wp-security' ) . PHP_EOL . "\tRewriteRule ^" . $home_root . $input['slug'] . "/?$ " . $home_root . "wp-login.php [QSA,L]" . PHP_EOL;
+				$rules .= "\t# " . __( 'Rules to hide the dashboard', 'it-l10n-better-wp-security' ) . PHP_EOL . "\tRewriteRule ^(" . $home_root . ")?" . $input['slug'] . "/?$ " . $home_root . "wp-login.php [QSA,L]" . PHP_EOL;
 
 			}
 
@@ -153,11 +153,11 @@ class ITSEC_Hide_Backend_Admin {
 
 				if ( $server_type == 'nginx' ) {
 
-					$rules .= "\trewrite ^" . $home_root . $input['register'] . "/?$ " . $home_root . $input['slug'] . "?action=register break;" . PHP_EOL;
+					$rules .= "\trewrite ^(" . $home_root . ")?" . $input['register'] . "/?$ " . $home_root . $input['slug'] . "?action=register break;" . PHP_EOL;
 
 				} else {
 
-					$rules .= "\tRewriteRule ^" . $home_root . $input['register'] . "/?$ /wplogin?action=register [QSA,L]" . PHP_EOL;
+					$rules .= "\tRewriteRule ^(" . $home_root .")?" .  $input['register'] . "/?$ /wplogin?action=register [QSA,L]" . PHP_EOL;
 
 				}
 
@@ -723,7 +723,13 @@ class ITSEC_Hide_Backend_Admin {
 		foreach ( $recipients as $recipient ) {
 
 			if ( is_email( trim( $recipient ) ) ) {
-				wp_mail( trim( $recipient ), $subject, $body, $headers );
+
+				if ( defined( 'ITSEC_DEBUG' ) && ITSEC_DEBUG === true ) {
+					$body .= '<p>' . __( 'Debug info (source page): ' . esc_url( $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"] ) ) . '</p>';
+				}
+
+				wp_mail( trim( $recipient ), $subject, '<html>' . $body . '</html>', $headers );
+
 			}
 
 		}

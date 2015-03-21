@@ -28,8 +28,8 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
         var map;
         function init() {
             var mapOptions = {
-                center: new google.maps.LatLng(31.998765,-102.211706),
-                zoom: 10,
+                center: new google.maps.LatLng(31.983035,-102.323457),
+                zoom: 11,
                 zoomControl: true,
                 zoomControlOptions: {
                     style: google.maps.ZoomControlStyle.DEFAULT,
@@ -62,7 +62,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
             var mapElement = document.getElementById('permian_estates');
             var map = new google.maps.Map(mapElement, mapOptions);
             var locations = [
-                ['Desert Ridge', 'Situated near Odessa\'s premier shopping zone, this beautiful community offers luxurious single family homes with low maintenance living for less than rent!', 'undefined', 'undefined', 'undefined', 31.906416, -102.355843, 'https://mapbuildr.com/assets/img/markers/default.png'],['Old Course Estates', 'Old Course Estates is a master planned community located by Odessa Country Club and the 18th hole of the golf course! These luxurious townhomes include many upgrades and amenities to bring you maintenance free living and affordable luxury.', 'undefined', 'undefined', 'undefined', 31.8927224, -102.2905824, 'https://mapbuildr.com/assets/img/markers/default.png'],['Enclave and Devon Court', 'Welcome to Enclave at Mission Ranch, Odessa\'s premier community. Located next to Mission Estates and the Odessa Country Club Golf Course, these homes offer many amenities and upgrades, all next to shopping, dining, movie theaters, and so much more!<br /><br />Welcome to Enclave at Mission Ranch, Odessa\'s premier community. Located next to Mission Estates and the Odessa Country Club Golf Course, these homes offer many amenities and upgrades, all next to shopping, dining, movie theaters, and so much more!', 'undefined', 'undefined', 'undefined', 31.9186867, -102.2743335, 'https://mapbuildr.com/assets/img/markers/default.png'],['Daybreak Estates', 'Situated across the street from the Midland Country Club, Daybreak Estates is Permian\'s newest development. This attractive community offers many included upgrades, large spacious lots, lavish amenities, and community parks all with plenty of space for room to grow!', 'undefined', 'undefined', 'undefined', 32.0636434, -102.0856454, 'https://mapbuildr.com/assets/img/markers/default.png']
+                ['Desert Ridge', 'Homes from the $190s', 'undefined', 'undefined', 'undefined', 31.906416, -102.355843, 'https://mapbuildr.com/assets/img/markers/default.png'],['Old Course Estates', 'Homes from the $180s', 'undefined', 'undefined', 'undefined', 31.8927224, -102.2905824, 'https://mapbuildr.com/assets/img/markers/default.png'],['Enclave and Devon Court', 'Homes from the $250s', 'undefined', 'undefined', 'undefined', 31.9186867, -102.2743335, 'https://mapbuildr.com/assets/img/markers/default.png'],['Daybreak Estates', 'Homes from the $200s', 'undefined', 'undefined', 'undefined', 32.0636434, -102.0856454, 'https://mapbuildr.com/assets/img/markers/default.png']
             ];
             for (i = 0; i < locations.length; i++) {
                 if (locations[i][1] =='undefined'){ description ='';} else { description = locations[i][1];}
@@ -98,7 +98,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
                         iw.close();
                         infoWindowVisible(false);
                     } else {
-                        var html= "<div style='color:#000;background-color:#fff;padding:5px;width:150px;'><h4>"+title+"</h4></div>";
+                        var html= "<div style='color:#000;background-color:#fff;padding:5px;width:150px;'><h4>"+title+"</h4><p>"+desc+"<p></div>";
                         iw = new google.maps.InfoWindow({content:html});
                         iw.open(map,marker);
                         infoWindowVisible(true);
@@ -113,7 +113,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
     <style>
         #permian_estates {
             height:400px;
-            width:1024px;
+            width:800px;
         }
         .gm-style-iw * {
             display: block;
@@ -147,7 +147,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
             <li><a href="#tabs-1">Desert Ridge</a></li>
             <li><a href="#tabs-2">Old Course Estates</a></li>
             <li><a href="#tabs-5">Enclave at Mission</a></li>
-            <li><a href="#tabs-6">Devon</a></li>
+            <li><a href="#tabs-6">Devon Court</a></li>
         </ul>
         <div class="clearfix"></div>
 
@@ -703,11 +703,13 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 
                     <p style="margin-top: 5px; ">
                         <a target="_blank" href="http://l.jshultz.co/1DE1mEq" class="map">
-                            8001 Berkshire Circle, <br/>
+                            76 Berkshire Circle, <br/>
                             Odessa TX 79765</p>
                     </a>
 
-                    <p>Sales Center <br/></p>
+                    <p>Sales Center<br/>
+                        Open Monday &ndash; Saturday 10-6pm,<br/>
+                        Closed Sunday</p>
 
                 </aside>
                 <div class="floatright clearfix" style="margin-left:20px;">
@@ -838,18 +840,20 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 
                     <p style="margin-top: 5px; ">
                         <a target="_blank" href="http://l.jshultz.co/1DE1mEq" class="map">
-                            8001 Berkshire Circle, <br/>
+                            76 Berkshire Circle, <br/>
                             Odessa TX 79765</p>
                     </a>
 
-                    <p>Sales Center <br/></p>
+                    <p>Sales Center<br/>
+                        Open Monday &ndash; Saturday 10-6pm,<br/>
+                        Closed Sunday</p>
 
                 </aside>
                 <div class="floatright clearfix" style="margin-left:20px;">
                     <a class=" button" href="/assets/pdfs/Devon-Court.pdf" target="_blank">
                         Download Site Plan</a>
                     <br>
-                    <a class="button" target="_blank" href="/assets/pdfs/devon/Permian_Homes_Devon_Court_Shari_brochure.pdff">Download
+                    <a class="button" target="_blank" href="/assets/pdfs/devon/Permian_Homes_Devon_Court_Shari_brochure.pdf">Download
                         Brochure</a>
                     </br>
                 </div>
@@ -869,7 +873,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 
                     <p>3 Bedroom / 2 Bathroom<br/>
                         1599 sq.ft. Living / 2179 sq. ft. Total<br/>
-                        Priced at $229,990
+                        Priced at $209,990
                     </p>
 
                 </section>
