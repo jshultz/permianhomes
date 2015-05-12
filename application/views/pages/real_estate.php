@@ -62,7 +62,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
             var mapElement = document.getElementById('permian_estates');
             var map = new google.maps.Map(mapElement, mapOptions);
             var locations = [
-                ['Desert Ridge', 'Homes from the $190s', 'undefined', 'undefined', 'undefined', 31.906416, -102.355843, 'https://mapbuildr.com/assets/img/markers/default.png'],['Old Course Estates', 'Homes from the $180s', 'undefined', 'undefined', 'undefined', 31.8927224, -102.2905824, 'https://mapbuildr.com/assets/img/markers/default.png'],['Enclave and Devon Court', 'Homes from the $250s', 'undefined', 'undefined', 'undefined', 31.9186867, -102.2743335, 'https://mapbuildr.com/assets/img/markers/default.png'],['Daybreak Estates', 'Homes from the $200s', 'undefined', 'undefined', 'undefined', 32.0636434, -102.0856454, 'https://mapbuildr.com/assets/img/markers/default.png']
+                ['Desert Ridge', 'Homes from the $190s', 'undefined', 'undefined', 'undefined', 31.906416, -102.358543, 'https://mapbuildr.com/assets/img/markers/default.png'],['Old Course Estates', 'Homes from the $180s', 'undefined', 'undefined', 'undefined', 31.8927224, -102.2905824, 'https://mapbuildr.com/assets/img/markers/default.png'],['Enclave and Devon Court', 'Homes from the $250s', 'undefined', 'undefined', 'undefined', 31.9186867, -102.2743335, 'https://mapbuildr.com/assets/img/markers/default.png'],['Daybreak Estates', 'Homes from the $200s', 'undefined', 'undefined', 'undefined', 32.0636434, -102.0856454, 'https://mapbuildr.com/assets/img/markers/default.png']
             ];
             for (i = 0; i < locations.length; i++) {
                 if (locations[i][1] =='undefined'){ description ='';} else { description = locations[i][1];}
@@ -234,7 +234,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 
                     <p>3 Bedroom / 2 Bathroom<br/>
                         1750 sq.ft. Living / 2460 sq. ft. Total<br/>
-                        Priced at $219,990
+                        Priced at $221,990
                     </p>
 
                 </section>
@@ -256,7 +256,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 
                     <p>3 Bedroom / 2 Bathroom<br/>
                         1894 sq.ft. Living / 2584 sq. ft. Total<br/>
-                        Priced at $229,990
+                        Priced at $231,990
                     </p>
 
                 </section>
@@ -274,7 +274,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 
                     <p>4 Bedroom / 2 Bathroom<br/>
                         2004 sq.ft. Living / 2680 sq. ft. Total<br/>
-                        Priced at $239,990
+                        Priced at $241,990
                     </p>
 
                 </section>
@@ -293,7 +293,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 
                     <p>4 Bedroom / 2 Bathroom<br/>
                         2020 sq.ft. Living / 2680 sq. ft. Total<br/>
-                        Priced at $242,990
+                        Priced at $244,990
                     </p>
 
                 </section>
@@ -312,7 +312,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 
                     <p>3 Bedroom / 2 Bathroom<br/>
                         2300 sq.ft. Living / 3150 sq. ft. Total<br/>
-                        Priced at $259,990
+                        Priced at $261,990
                     </p>
 
                 </section>
@@ -330,7 +330,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 
                     <p>4 Bedroom / 2 Bathroom<br/>
                         2426 sq.ft. Living / 3254 sq. ft. Total<br/>
-                        Priced at $269,990
+                        Priced at $271,990
                     </p>
 
                 </section>
@@ -348,7 +348,24 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 
                     <p>4 Bedroom / 3 Bathroom<br/>
                         3247 sq.ft. Living / 4110 sq. ft. Total<br/>
-                        Priced at $306,990
+                        Priced at $308,990
+                    </p>
+
+                </section>
+            </section>
+
+            <!-- Chiara -->
+            <section class="floorplan clearfix">
+                <section class="floatleft photo">
+                    <img src="/assets/images/site-images/floorplan/Chiara-Rendering.png">
+                    <a style="margin-left: 35px" class="clearfix button" target="_blank" href="#">Floorplan Coming Soon.</a>
+                </section>
+                <section class="details">
+                    <h3>The Chiara</h3>
+
+                    <p>5 Bedroom / 3 Bathroom<br/>
+                        3406 sq.ft. Living / 4393 sq. ft. Total<br/>
+                        Priced at $341,990
                     </p>
 
                 </section>

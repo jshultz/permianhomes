@@ -70,7 +70,7 @@
 
 	            <h2>Permian's Preferred Lender</h2>
 
-				<a style="display: block; background-color: #808080; width: 418px" href="http://buildersfinancial.com" target="_blank"><img src="/assets/images/site-images/builders-financial-logo.png"></a>
+				<a style="display: block; background-color: #FFF; border:3px solid #808080; padding:4px" href="https://lo.primelending.com/bworthen" target="_blank"><img width='500' src="/assets/images/site-images/PrLnd_1L_2C.png"></a>
 
                 <p>&nbsp;</p>
 
