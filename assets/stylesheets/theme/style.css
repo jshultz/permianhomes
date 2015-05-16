@@ -265,22 +265,30 @@ h1#logo a
 	height: 377px;
 }
 
+#subHeader #featureHolder {
+    height: 555px;
+}
+
 #featureHolder
 {
 	position: relative;
 	z-index: 3;
-	margin-top: 110px;
+	margin-top: 65px;
 	float: right;
 	width: 530px;
     height: 255px;
 	background-color: #FFFFFF;
 	padding: 8px 0px 0px 7px;
-    box-shadow: 4px 4px 7px #888888;
+}
+
+#featureHolder #promoBox a {
+    text-decoration: none;
 }
 #featureHolder #featureMask
 {
 	overflow: hidden;
 	height: 258px;
+    box-shadow: 4px 4px 7px #888888; }
 }
 #featureHolder .imageExcerpt
 {
@@ -1498,7 +1506,7 @@ li.has-flyout.hover ul {
 	cursor: pointer;
 }*/
 #contactForm {
-	
+
 }
 #contactForm p label {
 	float: left;
@@ -1700,7 +1708,7 @@ li.has-flyout.hover ul {
     margin: 0px;
     position: absolute;
     top: 0px;
-    right: 5px;
+    right: 0px;
 }
 .nextAndPrevNav
 {

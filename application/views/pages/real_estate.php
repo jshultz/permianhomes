@@ -358,7 +358,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
             <section class="floorplan clearfix">
                 <section class="floatleft photo">
                     <img src="/assets/images/site-images/floorplan/Chiara-Rendering.png">
-                    <a style="margin-left: 35px" class="clearfix button" target="_blank" href="#">Floorplan Coming Soon.</a>
+                    <a style="margin-left: 35px" class="clearfix button" target="_blank"  href="/assets/pdfs/Chiara.pdf">Download Floor Plan</a>
                 </section>
                 <section class="details">
                     <h3>The Chiara</h3>

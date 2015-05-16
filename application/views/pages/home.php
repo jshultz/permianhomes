@@ -98,6 +98,14 @@
 
             </div>
         </div>
+        <div id="promoBox">
+        <a href="http://permianhomes.com/contact_us/">
+            <h2>...Water You Waiting For??</h2>
+            <p>For a Limited Time Only, enjoy a FREE RO Water System with the Purchase of a Permian Home!</p>
+            <p>Contact a Sales Representative for Details!</p>
+        </a>
+
+        </div>
 
 
     </div>
