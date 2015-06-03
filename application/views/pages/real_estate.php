@@ -348,7 +348,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
 
                     <p>4 Bedroom / 3 Bathroom<br/>
                         3247 sq.ft. Living / 4110 sq. ft. Total<br/>
-                        Priced at $308,990
+                        Priced at $315,990
                     </p>
 
                 </section>
