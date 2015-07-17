@@ -132,14 +132,14 @@ table tr td { padding: 2px; }
 body { background: #FFFFFF; 	border-top: 2px solid #406E7B; }
 #wrapper
 {
-	background: #FFFFFF url(/assets/images/theme/bodyBg.jpg) repeat-x center top;
+	/*background: #FFFFFF url(/assets/images/theme/bodyBg.jpg) repeat-x center top;*/
 	min-width: 960px;
 }
 #header
 {
 	position: relative;
 	width: 960px;
-	height: 99px;
+	height: 130px;
 	margin: 0pt auto;
 	z-index: 2;
 }
@@ -157,9 +157,10 @@ h1#logo
 {
     width: 297px;
     height: 84px;
-    margin: 0px;
+    margin: 0px auto;
     padding: 0px;
-    position: absolute;
+    position: relative;
+
 
     top: 6px;
     left: 18px;
@@ -175,6 +176,10 @@ h1#logo a
     height: 73px;
     background: url(/assets/images/theme/Permian-Homes-Texas-Real-Estate.jpg) no-repeat left top;
     margin: 5px;
+}
+#header p.telephone {
+	width: 117px;
+	margin: 0 auto;
 }
 #subHeader
 {
@@ -242,6 +247,25 @@ h1#logo a
 .finally_home #featureHolder .scrollable,
 .panes #featureSlide .scrollable {
     width: 400px;
+}
+
+body.home #featureHolder {
+	width: 960px;
+	height: 500px;
+}
+
+body.home #featureHolder #featureMask {
+	height: 500px;
+}
+
+body.home #featureHolder .scrollable, 
+body.home .panes #featureSlide .scrollable {
+	width: 955px;
+	height: 495px;
+}
+
+body.home #featureHolder #featureMask img {
+	width: 960px;
 }
 
 #tabwrap #featureHolder {
@@ -1322,12 +1346,16 @@ h2.archiveTitle
 /*End: Comment Design */
 
 /*Begin: Navigation */
+
+#navigation {
+	height: 40px;
+	background-color: #eee;
+}
 #navHolder
 {
-	position: absolute;
-	top: 0px;
-	right: 0px;
-	width: auto;
+	position: relative;
+	width: 850px;
+	margin: 0 auto;
 }
 #navWrapper
 {
@@ -1338,20 +1366,20 @@ h2.archiveTitle
 #navWrapper li
 {
 	float: left;
-	background: url(/assets/images/theme/navBgLeft.gif) no-repeat -40px top;
+	/*background: url(/assets/images/theme/navBgLeft.gif) no-repeat -40px top;*/
 	height: 40px;
 }
 #navWrapper li.navFirstLi {
-	background: url(/assets/images/theme/navBgLeft.gif) no-repeat left top;
+	/*background: url(/assets/images/theme/navBgLeft.gif) no-repeat left top;*/
 }
 #navWrapper li.navFirstLi {
-	padding-left: 55px;
+	padding-left: 15px;
 }
 #navWrapper li.navLastLi {
-	background: url(/assets/images/theme/navBgRight.gif) no-repeat right top;
+	/*background: url(/assets/images/theme/navBgRight.gif) no-repeat right top;*/
 }
 #navWrapper li.navLastLi {
-	padding-right: 55px;
+	padding-right: 15px;
 }
 #navWrapper li a
 {
@@ -1359,12 +1387,12 @@ h2.archiveTitle
 	font: bold 12px/35px Verdana, Arial, Helvetica, sans-serif;
 	padding: 0px 15px;
 	height: 40px;
-	color: #eeeeee;
+	color: #ababab;
 	text-decoration: none;
 }
 #navWrapper li a:hover, #navWrapper li.current_page_item a {
-	background: url(/assets/images/theme/navBgHover.gif) no-repeat center top;
-	color: #eeeeee !important;
+	/*background: url(/assets/images/theme/navBgHover.gif) no-repeat center top;*/
+	color: #DDDDDD !important;
 }
 
 li.has-flyout {

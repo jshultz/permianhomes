@@ -1,62 +1,4 @@
 <div id="subHeader" class="clearFix"> <!-- begin: subheader -->
-
-    <div id="bannerLeftWrapper">  <!-- begin: bannerLeftWrapper -->
-
-        <div id="subBannerLeft">
-
-            <h2>Current Communities</h2>
-            <div id="homeTabs"> <!-- begin: homeTabs -->
-
-                <ul class="communities clearFix">
-
-                    <li>
-                        <a href="/real_estate/#tabs-4">
-                            <img src="/assets/images/site-images/daybreak.png">
-                            <span class="propety">Daybreak</span> |
-                            <span class="town">Midland</span> |
-                            <span class="price">$200's</span>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="/real_estate/#tabs-2">
-                            <img src="/assets/images/site-images/IMG_5443a.png">
-                            <span class="property">Old Course</span> |
-                            <span class="town">Odessa</span> |
-                            <span class="price">$180's</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="/real_estate/#tabs-1">
-                            <img width="" src="/assets/images/site-images/Savannah-A-Rendering.jpg">
-                            <span class="property">Desert Ridge</span> |
-                            <span class="town">Odessa</span> |
-                            <span class="price">$190's</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="/real_estate/#tabs-5">
-                            <img width="" src="/assets/images/site-images/enclave.png">
-                            <span class="property">Enclave</span> |
-                            <span class="town">Odessa</span> |
-                            <span class="price">$250's</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="/real_estate/#tabs-6">
-                            <img width="" src="/assets/images/site-images/devon-court-banner.png">
-                            <span class="property">Devon Court</span> |
-                            <span class="town">Odessa</span> |
-                            <span class="price">$200's</span>
-                        </a>
-                    </li>
-
-                </ul>
-
-            </div>
-            <!-- end: homeTabs -->
-        </div>
-    </div>
     <!-- end: bannerLeftWrapper -->
 
     <div id="featureHolder"> <!-- begin: featureHolder -->
@@ -67,30 +9,9 @@
                 <div class="scrollable" id="scrollable">
 
                     <div class="items">
-	                    <img src="/assets/images/slides/Living-Room.png">
-	                    <img src="/assets/images/slides/Model-5---7929.png">
-	                    <img src="/assets/images/slides/Model-5---7936.png">
-	                    <img src="/assets/images/slides/Model-5---7943.png">
-	                    <img src="/assets/images/slides/Model-5---7947.png">
-                        <img src="/assets/images/slides/Model-Pictures-052.JPG">
-                        <img src="/assets/images/slides/2.jpg">
-                        <img src="/assets/images/slides/Chris-House-5-Star-2885.jpg">
-                        <img src="/assets/images/slides/8.jpg">
-                        <img src="/assets/images/slides/DSC_0005.JPG">
-                        <img src="/assets/images/slides/Model_Pictures_013.JPG">
-                        <img src="/assets/images/slides/Chris%20House-5-Star-2851.jpg">
-                        <img src="/assets/images/slides/old-course-slides/IMG_6531.JPG">
-                        <img src="/assets/images/slides/old-course-slides/IMG_6544.JPG">
-                        <img src="/assets/images/slides/old-course-slides/IMG_6495.JPG">
-                        <img src="/assets/images/slides/old-course-slides/IMG_6501.JPG">
-                        <img src="/assets/images/slides/old-course-slides/IMG_6531.JPG">
-                        <img src="/assets/images/slides/old-course-slides/IMG_6523.JPG">
-                        <img src="/assets/images/slides/daybreak-slides/IMG_6347.jpg">
-                        <img src="/assets/images/slides/daybreak-slides/IMG_6352.jpg">
-                        <img src="/assets/images/slides/daybreak-slides/IMG_6360.jpg">
-                        <img src="/assets/images/slides/daybreak-slides/IMG_6377.jpg">
-                        <img src="/assets/images/slides/daybreak-slides/IMG_6439.jpg">
-                        <img src="/assets/images/slides/Chris-House-5-Star-1.png">
+	                    <img src="/assets/images/slides/home/IMG_6322-1280x720.jpg">
+	                    <img src="/assets/images/slides/home/IMG_6352-1280x720.jpg">
+	                    <img src="/assets/images/slides/home/IMG_6965-1280x720.jpg">
                     </div>
 
                 </div>
@@ -109,12 +30,29 @@
 
 <div id="homeContentWrapper" class="clearFix"> <!-- begin: homeContentWrapper -->
 
+<div id="homeContentCenter">
+    <h2>Welcome to Permian Homes.</h2>
 
+    <p>
+        Permian Homes is a local builder that provides quality, well-built homes at fair and competitive prices. Our homes meet not only our high expectations, but those of our discerning home buyers, as well. Our philosophy is simple:  We want you to be proud of your home.
+    </p>
+
+    <p>
+        At Permian Homes, we want to stand out as the builder of choice, for those building their first home as well as their dream home.  Our attractively designed communities in Midland and Odessa offer amenities and options that will both meet and exceed our customers’ expectations.  Our knowledgeable team will be on hand to assist you throughout the entire building process to ensure your home is tailored to fit your needs, with personalized features and thoughtful design elements.
+    </p>
+
+    <p>
+        We strive to attain the level of excellence that our customers expect, then go a step above. This is what sets us apart.  We invite you to visit us at any of our communities’ Model Homes or our Design Center to learn more about our homes and how we can serve you.
+    </p>
+
+    <hr/>
+    <img src="/assets/images/site-images/permian-homes-property-map-home-page.jpg" width="960">
+</div>
 
     <div id="homeContentRight">
         <!-- begin: homeContentRight -->
 
-        <h2>Featured Homes</h2>
+        <h2><a name="featured"></a>Featured Homes</h2>
 
         <?php
 
