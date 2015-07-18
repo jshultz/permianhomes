@@ -3,7 +3,7 @@
 	<div id="header">  <!-- begin: header -->
 
 		<h1 id="logo"><a href="/"><span>Permian Homes - Odessa and Midland Texas</span></a></h1>
-		<p class="telephone">877-267-3482</p>
+		<p class="telephone">432-362-3436</p>
 
 	</div>  <!-- end: header -->
 	<div id="navigation">
