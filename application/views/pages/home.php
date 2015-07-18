@@ -38,11 +38,11 @@
     </p>
 
     <p>
-        At Permian Homes, we want to stand out as the builder of choice, for those building their first home as well as their dream home.  Our attractively designed communities in Midland and Odessa offer amenities and options that will both meet and exceed our customers’ expectations.  Our knowledgeable team will be on hand to assist you throughout the entire building process to ensure your home is tailored to fit your needs, with personalized features and thoughtful design elements.
+        At Permian Homes, we want to stand out as the builder of choice, for those building their first home as well as their dream home.  Our attractively designed communities in Midland and Odessa offer amenities and options that will both meet and exceed our customers' expectations.  Our knowledgeable team will be on hand to assist you throughout the entire building process to ensure your home is tailored to fit your needs, with personalized features and thoughtful design elements.
     </p>
 
     <p>
-        We strive to attain the level of excellence that our customers expect, then go a step above. This is what sets us apart.  We invite you to visit us at any of our communities’ Model Homes or our Design Center to learn more about our homes and how we can serve you.
+        We strive to attain the level of excellence that our customers expect, then go a step above. This is what sets us apart.  We invite you to visit us at any of our communities' Model Homes or our Design Center to learn more about our homes and how we can serve you.
     </p>
 
     <hr/>
