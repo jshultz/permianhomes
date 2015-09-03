@@ -329,7 +329,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
                     <h3>The Francesca</h3>
 
                     <p>4 Bedroom / 2 Bathroom<br/>
-                        2426 sq.ft. Living / 3254 sq. ft. Total<br/>
+                        2426 sq.ft. Living / 3161 sq. ft. Total<br/>
                         Priced at $271,990
                     </p>
 
@@ -808,7 +808,7 @@ echo '<h2 class="postTitle">' . $page_content->page_headline . '</h2>';
                     <h3>The Francesca</h3>
 
                     <p>4 Bedroom / 2 Bathroom<br/>
-                        2426 sq.ft. Living / 3254 sq. ft. Total<br/>
+                        2426 sq.ft. Living / 3161 sq. ft. Total<br/>
                         Priced at $284,990
                     </p>
 
